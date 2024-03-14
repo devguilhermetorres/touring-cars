@@ -571,7 +571,7 @@ nav ul li a {
         background-color: none;
         justify-content: flex-end;
         display: block;
-        border-radius: 10px;
+        border-radius: 15px;
     }
     
     #arrowrightmodelos{
@@ -596,7 +596,7 @@ nav ul li a {
         height: 50vw;
         width: 100%;
         position: relative;
-        border-radius: 10px;
+        border-radius: 15px;
         transition: all 0.4s;
     }
 
@@ -626,7 +626,7 @@ nav ul li a {
         width: 100%;
         position: relative;
         background-color: rgb(255, 255, 255);
-        border-radius: 10px;
+        border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
     }
@@ -660,7 +660,7 @@ nav ul li a {
         width: 100%;
         position: relative;
         background-color: rgb(255, 255, 255);
-        border-radius: 10px;
+        border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
     }
@@ -765,7 +765,7 @@ fieldset {
     border: solid 1px black;
     padding-top: 70px;
     padding-bottom: 70px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding-left: 1vw;
     padding-right: 1vw;
 }
@@ -1177,7 +1177,7 @@ input::placeholder {
         background-color: none;
         justify-content: flex-end;
         display: block;
-        border-radius: 10px;
+        border-radius: 15px;
     }
     
     .venda1 {
@@ -1187,7 +1187,7 @@ input::placeholder {
         height: 50vw;
         width: 100%;
         position: relative;
-        border-radius: 10px;
+        border-radius: 15px;
         transition: all 0.4s;
     }
 
@@ -1217,7 +1217,7 @@ input::placeholder {
         width: 100%;
         position: relative;
         background-color: rgb(255, 255, 255);
-        border-radius: 10px;
+        border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
     }
@@ -1250,7 +1250,7 @@ input::placeholder {
         width: 100%;
         position: relative;
         background-color: rgb(255, 255, 255);
-        border-radius: 10px;
+        border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
     }
