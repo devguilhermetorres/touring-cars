@@ -112,27 +112,35 @@ nav ul li a {
 
     .acessarestoque2 {
         display: block;
+        background-image: url(imgs/arrowright.png);
+        background-size: 13px;
+        background-position: 85% 55%;
         background-color: rgb(0, 0, 0);
         color: white;
-        padding: 0px 10px 5px 5px;
+        z-index: 1;
+        padding: 0px 17px 5px 0px;
         background-repeat: no-repeat;
-        background-position: center;
         width: 85px;
         float: right;
         transition: all 0.3s;
         border-radius: 15px;
-        animation: pulse 2.5s ease infinite;
+        cursor: pointer;
+        box-shadow:0px 0px 0px 1.5px black inset;
     }
     
     .acessarestoque2 p{
         display: inline;
         font-weight: 600;
         font-size: 14px;
-        transition: all 0.6s;
     }
     
     .acessarestoque2:hover {
-        background-color: #656565;
+        background-image: url(imgs/arrowrightpreto.png);
+        background-size: 13.5px;
+        background-position: 90% 55%;
+        background-color: #fbfbfb;
+        color: rgb(0, 0, 0);
+        box-shadow:0px 0px 0px 1.5px black inset;
     }
 
     .arrowrightestoque2{
@@ -178,36 +186,34 @@ nav ul li a {
 }
 
 .acessarestoque {
+    background-image: url(imgs/arrowright.png);
+    background-size: 13.5px;
+    background-position: 90% 50%;
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 0px 10px 5px 10px;
+    padding: 0px 5px 5px 20px;
     background-repeat: no-repeat;
-    background-position: center;
     width: 145px;
+    text-align: left;
     float: right;
-    transition: all 0.3s;
     border-radius: 15px;
-    animation: pulse 2.5s ease infinite;
+    box-shadow:0px 0px 0px 1.5px black inset;
+    transition: all 0.3s;
 }
 
 .acessarestoque p{
     display: inline;
     font-weight: 600;
     font-size: 15px;
-    transition: all 0.6s;
 }
 
 .acessarestoque:hover {
-    background-color: rgb(54, 54, 54);
-}
-
-.arrowrightestoque{
-    max-width: 13px;
-    margin-right: 5px;
-    margin-top: 7px;
-    transition: all 0.3s;
-    float: right;
-    box-sizing: border-box;
+    background-image: url(imgs/arrowrightpreto.png);
+    background-size: 13.5px;
+    background-position: 95% 50%;
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    box-shadow:0px 0px 0px 1.5px black inset;
 }
 
 .principal{
