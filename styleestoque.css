@@ -526,7 +526,6 @@ nav ul li a {
 
 .vendas{
     width: 75%;
-    height: 1177px;
     margin-left: 25%;
     box-sizing: border-box;
 }
@@ -534,9 +533,8 @@ nav ul li a {
 
 .modelos {
     padding: 0px;
-    width: 1020px;
+    width: 90%;
     margin: auto;
-    border-radius: 10px;
     box-sizing: border-box;
     position: relative;
     display: flex;
