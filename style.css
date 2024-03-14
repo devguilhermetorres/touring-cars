@@ -229,7 +229,7 @@ nav ul li a {
 
 #arrowbottom{
     position: relative;
-    max-height: 22px;
+    max-height: 20px;
     display: flex;
     margin: auto;
     margin-top: 620px;
@@ -339,7 +339,7 @@ nav ul li a {
         height: 710px;
     }
     
-    .arrowbottom2{
+    .arrowbottomcentralizadora{
         position: absolute;
         background-color: none;
         width: 100%;
@@ -350,10 +350,10 @@ nav ul li a {
     
     #arrowbottom{
         position: relative;
-        max-height: 22px;
+        max-height: 20px;
         display: flex;
         margin: auto;
-        margin-top: 625px;
+        margin-top: 620px;
         z-index: 4000;
      
     }
@@ -584,7 +584,8 @@ nav ul li a {
     
     .combustao {
         background-image: url(imgs/rs62.jpg);
-        background-size: cover;
+        background-size: 73vw;
+        background-repeat: no-repeat;
         background-position: 40% 80%;
         height: 50vw;
         width: 100%;
@@ -594,7 +595,7 @@ nav ul li a {
     }
 
     .combustao:hover {
-        background-size: cover;
+        background-size: 74vw;
     }
     
     .textcombustao {
@@ -646,8 +647,9 @@ nav ul li a {
     
     .eletrico {
         background-image: url(imgs/seal2.jpg);
-        background-size: cover;
+        background-size: 73vw;
         background-position: 80% 50%;
+        background-repeat: no-repeat;
         height: 50vw;
         width: 100%;
         position: relative;
@@ -658,7 +660,7 @@ nav ul li a {
     }
     
     .eletrico:hover {
-        background-size: cover;
+        background-size: 74vw;
     }
     
     .texteletrico {
@@ -1003,6 +1005,7 @@ input::placeholder {
         padding-top: 1vw;
         background-image: url(imgs/interiormacan2.jpg);
         background-size: 85vw;
+        background-position: center;
         background-repeat: no-repeat;
         height: 50%;
         width: 100%;
@@ -1012,11 +1015,11 @@ input::placeholder {
     }
     
     .texto1:hover {
-        background-size: 715px;
+        background-size: 86vw;
     }
     
     .texto1 h1 {
-        letter-spacing: 3px;
+        letter-spacing: .65vh;
         font-size: 2.5vw;
         color: white;
         padding: 0;
