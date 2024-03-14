@@ -525,20 +525,23 @@ nav ul li a {
 
 
 .vendas{
-    display: inline-block;
     width: 75%;
     height: 1177px;
     margin-left: 25%;
+    box-sizing: border-box;
 }
 
 
 .modelos {
     padding: 0px;
     width: 1020px;
-    height: 1177px;
     margin: auto;
     border-radius: 10px;
-    margin-top: 0px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .venda1 {
@@ -548,11 +551,10 @@ nav ul li a {
     height: 350px;
     width: 310px;
     align-items: top;
-    position: relative;
-    display: inline-block;
     border-radius: 10px;
     border: 1.5px solid #cccccc;
     transition: all 0.5s;
+    box-sizing: border-box;
 }
 
 .venda1:hover {
@@ -610,12 +612,12 @@ nav ul li a {
     width: 20px;
     margin-top: 15px;
     margin-left: 20px;
-    color: #7f7f7f;
+    opacity: .5;
     transition: all 0.3s;
 }
 
 .arrowright:hover {
-    color: #000000;
+    opacity: 1;
     cursor: pointer;
 }
 
@@ -628,16 +630,15 @@ nav ul li a {
 }
 
 .venda2 {
-    background-color: #f7f7f7;
-    margin-left: 42.5px;
-    margin-right: 42.5px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
     height: 350px;
     width: 310px;
-    align-items: top;
-    position: relative;
-    display: inline-block;
     border-radius: 10px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
+    box-sizing: border-box;
 }
 
 .venda2:hover {
@@ -674,7 +675,7 @@ nav ul li a {
     border-radius: 10px;
     position: relative;
     transition: all 0.5s;
-    float: right;
+    box-sizing: border-box;
 }
 
 .venda3:hover {
@@ -713,10 +714,10 @@ nav ul li a {
     height: 350px;
     width: 310px;
     position: relative;
-    display: inline-block;
     border-radius: 10px;
     transition: all 0.5s;
     margin-top: 60px;
+    box-sizing: border-box;
 }
 
 .venda4:hover {
@@ -751,13 +752,10 @@ nav ul li a {
     background-color: #f7f7f7;
     height: 350px;
     width: 310px;
-    margin-left: 42.5px;
-    margin-right: 42.5px;
-    position: relative;
-    display: inline-block;
     border-radius: 10px;
     transition: all 0.5s;
     margin-top: 60px;
+    box-sizing: border-box;
 }
 
 .venda5:hover {
@@ -794,9 +792,8 @@ nav ul li a {
     width: 310px;
     border-radius: 10px;
     margin-top: 60px;
-    position: relative;
     transition: all 0.5s;
-    float: right;
+    box-sizing: border-box;
 }
 
 .venda6:hover {
@@ -831,11 +828,10 @@ nav ul li a {
     background-color: #f7f7f7;
     height: 350px;
     width: 310px;
-    position: relative;
-    display: inline-block;
     border-radius: 10px;
     transition: all 0.5s;
     margin-top: 60px;
+    box-sizing: border-box;
 }
 
 .venda7:hover {
@@ -870,13 +866,10 @@ nav ul li a {
     background-color: #f7f7f7;
     height: 350px;
     width: 310px;
-    margin-left: 42.5px;
-    margin-right: 42.5px;
-    position: relative;
-    display: inline-block;
     border-radius: 10px;
     transition: all 0.5s;
     margin-top: 60px;
+    box-sizing: border-box;
 }
 
 .venda8:hover {
@@ -913,9 +906,8 @@ nav ul li a {
     width: 310px;
     border-radius: 10px;
     margin-top: 60px;
-    position: relative;
     transition: all 0.5s;
-    float: right;
+    box-sizing: border-box;
 }
 
 .venda9:hover {
