@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque | Torres Cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleestoque.css">
+    <link rel="shortcut icon" href="imgs/tcicon.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+                <ul class="nav-list">
+                    <li><a href=""><img src="imgs/menupreto.png" alt="Menu" style="max-height: 23px;"></a></li> 
+                </ul>
+            </div>
+            <a href="index.html">
+                <div class="logooficial">
+                </div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="principaltext">
+                <p>Modelos disponíveis.</p>
+              
+            </div>
+        </div>
+        <div class="full">
+            <div class="filtrocar" id="filtrocar">
+                <div class="filtromarcas">
+                    <label for="marcas">MARCAS</label><br>
+                    <input type="text" name="marcas" id="marcas" placeholder="Todas" onfocus="dropDown(0)" onblur="dropDown(1)" readonly>
+                    <div class="dropDown">
+                        <div class="listDropDown">
+                            <div class="item" id="item-1" onmousedown="category(1)">Audi</div>
+                            <div class="item" id="item-2" onmousedown="category(2)">BMW</div>
+                            <div class="item" id="item-3" onmousedown="category(3)">Porsche</div>
+                            <div class="item" id="item-4" onmousedown="category(4)">Volkswagen</div>
+                            <div class="item" id="item-5" onmousedown="category(5)">Land Rover</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filtroblindado">
+                    <label for="blindado">BLINDADO</label><br>
+                    <input type="text" name="blindado" id="blindado" placeholder="Todos" onfocus="dropDown2(0)" onblur="dropDown2(1)" readonly>
+                    <div class="dropDown2">
+                        <div class="listDropDown2">
+                            <div class="item" id="iitem-1" onmousedown="category1(1)">Sim</div>
+                            <div class="item" id="iitem-2" onmousedown="category1(2)">Não</div>
+                            <div class="item" id="iitem-3" onmousedown="category1(3)">Todos</div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="filtroanoinicial">
+                <label for="ano">ANO</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="2020">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtroanofinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="2024">
+            </div>
+
+            <div class="filtrovalorinicial">
+                <label for="ano">VALOR</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="100.000">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtrovalorfinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="3.000.000">
+            </div>
+
+            <div class="filtrokminicial">
+                <label for="ano">QUILOMETRAGEM</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="0">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtrokmfinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="50.000">
+            </div>
+            <div class="buttonfiltrar">
+                <input type="submit" class="filtrar" value="Filtrar">
+            </div>
+        </div>
+       
+            
+
+            <script>
+
+                function category(c){
+                    var item = document.getElementById('item-'+c).innerHTML;
+                    document.getElementsByTagName('input')[0].value = item;
+                }
+
+                function dropDown(p){
+                    var e = document.getElementsByClassName('dropDown')[0];
+                    var d = ['block', 'none'];
+
+                    e.style.display = d[p];   
+                }
+            </script>
+            
+            <script>
+
+                function category1(c){
+                    var item = document.getElementById('iitem-'+c).innerHTML;
+                    document.getElementsByTagName('input')[1].value = item;
+                }
+
+                function dropDown2(p){
+                    var e = document.getElementsByClassName('dropDown2')[0];
+                    var d = ['block', 'none'];
+
+                    e.style.display = d[p];   
+                }
+            </script>
+
+            
+            
+               
+        </div>
+        <div class="vendas">
+                <div class="modelos">
+                    <div class="venda1">
+                        <div class="fotovenda1"></div>
+                        <div class="textvenda1">
+                            <p id="titulocar">AUDI RS6 Avant 4.0 TFSI Quattro</p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.280.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda2">
+                        <div class="fotovenda2"></div>
+                        <div class="textvenda2">
+                            <p id="titulocar">VW Golf GTI MK8 2.0T 250TSI</p>
+                            <p id="anokm">2023 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">450.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda3">
+                        <div class="fotovenda3"></div>
+                        <div class="textvenda3">
+                            <p id="titulocar">Range Rover SPORT Hybrid</p>
+                            <p id="anokm">2024 | 571km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.150.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="venda4">
+                        <div class="fotovenda4"></div>
+                        <div class="textvenda4">
+                            <p id="titulocar">BMW M3 Competition Twinturbo</p>
+                            <p id="anokm">2023 | 1.211km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">550.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda5">
+                        <div class="fotovenda5"></div>
+                        <div class="textvenda5">
+                            <p id="titulocar">PORSCHE 911 GT3 500cv</p>
+                            <p id="anokm">2023 | 211km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">2.550.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda6">
+                        <div class="fotovenda6"></div>
+                        <div class="textvenda6">
+                            <p id="titulocar">BYD Seal Elétrico </p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">299.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda7">
+                        <div class="fotovenda7"></div>
+                        <div class="textvenda7">
+                            <p id="titulocar">PORSCHE Macan GTS 2.9 V6</p>
+                            <p id="anokm">2023 | 732km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">649.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda8">
+                        <div class="fotovenda8"></div>
+                        <div class="textvenda8">
+                            <p id="titulocar">AUDI RS6 Avant 4.0 TFSI Quattro</p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.280.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="venda9">
+                        <div class="fotovenda9"></div>
+                        <div class="textvenda9">
+                            <p id="titulocar">PORSCHE Macan GTS 2.9 V6</p>
+                            <p id="anokm">2023 | 732km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">649.000,00</p>
+                            <div class="arrowright">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>    
+                        </div>
+                    </div>
+                    
+            
+        </div>
+        </div>
+      
+        <div class="formulario">
+            <div class="textformulario">
+                <h1>Está procurando algum modelo<br> em específico e não encontrou?</h1>
+                <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
+            </div>
+            <div class="form">
+                <fieldset>
+                    <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo procurado">
+                    <input type="text" id="name" name="name" class="field" placeholder="Nome">
+                    <input type="email" class="field" id="email" name="email" placeholder="E-mail">
+                    <input type="tel" class="field" id="number" name="number" placeholder="Número/WhatsApp">
+                    <input type="submit" class="enviarform" value="Enviar">
+                    <br><br>
+                    <input type="checkbox" id="lgpd" class="check">
+                    <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
+                </fieldset>
+                
+            </div>
+
+            <hr style="margin: 0px 50px 10px 50px;">
+
+        <footer>
+            
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <img src="imgs/torrescars.png" alt="Torres Cars" style="max-width: 150px; margin-bottom: 15px;">
+                    <p>Qualidade, Segurança, Transparência. </p>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+    
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+    
+                        <a href="#" class="footer-link" id="youtube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                
+                
+                <ul class="footer-list">
+                    <li>
+                        <h3>Contato</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">contato@torrescars.com.br</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">(XX) 98729-8191</a>
+                    </li>
+                </ul>
+    
+                <div id="footer_subscribe">
+                    <h3>Inscreva-se</h3>
+    
+                    <p>
+                        Informe seu email para receber as últimas novidades da Torres Cars.
+                    </p>
+    
+                    <div id="input_group">
+                        <input type="email" id="email" placeholder="Digite seu email">
+                        <button>
+                            <p>Enviar</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="footer_copyright">
+                &#169
+                2024 Todos os direitos reservados.
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script>
+    $(function(){   
+        var nav = $('#filtrocar');   
+        $(window).scroll(function () { 
+            if ($(this).scrollTop() > 310) { 
+                nav.addClass("filtro-fixo");
+
+                if ($(this).scrollTop() > 1065) {
+                nav.removeClass("filtro-fixo");
+                nav.addClass("filtro-fixo2");
+                }
+                else {
+                    nav.removeClass("filtro-fixo2");
+                    nav.addClass("filtro-fixo");
+                }
+            }
+
+            else {
+                nav.removeClass("filtro-fixo");
+                nav.addClass("filtrocar");
+            }
+        });  
+    });
+</script>
+
+
+</html>
