@@ -711,7 +711,6 @@ nav ul li a {
 
 .form {
     display: flex;
-    
     width: 70%;
     margin: auto;
     padding: 10px;
@@ -773,7 +772,7 @@ fieldset {
 
 input::placeholder {
     color: #000000;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -789,6 +788,8 @@ input::placeholder {
     border-top: 0 none;
     border-left: 0 none;
     border-right: 0 none;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -894,6 +895,7 @@ input::placeholder {
         border-top: 0 none;
         border-left: 0 none;
         border-right: 0 none;
+        font-weight: 600;
     }
 }
 
@@ -1382,11 +1384,14 @@ footer {
     border-top: 0 none;
     border-left: 0 none;
     border-right: 0 none;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 #input_group input::placeholder {
-    color: #8f8f8f;
-    font-size: 15px;
+    color: #000000;
+    font-size: 14px;
+    font-size: 400;
 }
 
 #input_group button {
