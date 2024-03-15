@@ -23,6 +23,7 @@ h1 {
 
 body { 
     background-color: #fbfbfb;
+    overflow-x: hidden;
 }
 
 /* BARRA NAV */
@@ -543,9 +544,6 @@ nav ul li a {
 }
 
 .venda1 {
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
     height: 350px;
     width: 310px;
     align-items: top;
@@ -628,9 +626,6 @@ nav ul li a {
 }
 
 .venda2 {
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
     height: 350px;
     width: 310px;
     border-radius: 10px;
@@ -644,6 +639,7 @@ nav ul li a {
 }
 
 .fotovenda2 {
+    background-image: url(imgs/golfvenda.jpg);
     background-color: #3c3c3c;
     background-size: cover;
     background-position: top;
@@ -667,11 +663,11 @@ nav ul li a {
 }
 
 .venda3 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
-    position: relative;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
     box-sizing: border-box;
 }
@@ -681,9 +677,10 @@ nav ul li a {
 }
 
 .fotovenda3 {
+    background-image: url(imgs/rangerovervenda.jpg);
     background-color: #3c3c3c;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -708,14 +705,14 @@ nav ul li a {
 }
 
 .venda4 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
-    position: relative;
+    align-items: top;
     border-radius: 10px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
-    margin-top: 60px;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda4:hover {
@@ -747,13 +744,14 @@ nav ul li a {
 }
 
 .venda5 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
-    margin-top: 60px;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda5:hover {
@@ -785,13 +783,14 @@ nav ul li a {
 }
 
 .venda6 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
-    margin-top: 60px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda6:hover {
@@ -823,13 +822,14 @@ nav ul li a {
 }
 
 .venda7 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
-    margin-top: 60px;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda7:hover {
@@ -861,13 +861,14 @@ nav ul li a {
 }
 
 .venda8 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
-    margin-top: 60px;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda8:hover {
@@ -899,13 +900,14 @@ nav ul li a {
 }
 
 .venda9 {
-    background-color: #f7f7f7;
     height: 350px;
     width: 310px;
+    align-items: top;
     border-radius: 10px;
-    margin-top: 60px;
+    border: 1.5px solid #cccccc;
     transition: all 0.5s;
     box-sizing: border-box;
+    margin-top: 60px;
 }
 
 .venda9:hover {
@@ -938,16 +940,18 @@ nav ul li a {
 
 .formulario {
     background-color: #f7f7f7;
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: bottom left;
     width: 100%;
-    height: 850px;
-    margin-top: 150px;
-    padding-top: 100px;
 }
 
 .textformulario {
     width: 70%;
     margin: auto;
     height: 150px;
+    margin-top: 120px;
+    padding-top: 100px;
 }
 
 .textformulario h2 {
@@ -959,19 +963,19 @@ nav ul li a {
 }
 
 .form {
+    display: flex;
     width: 70%;
     margin: auto;
-    height: 360px;
     padding: 10px;
-    position: relative;
 }
 
 .enviarform {
-    margin-left: 15px;
+    float: right;
+    margin-right: 4%;
     font-size: 14px;
     font-weight: 500;
-    width: 120px;
-    height: 40px;
+    width: 15%;
+    height: 35px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: solid 2px black;
@@ -982,14 +986,14 @@ nav ul li a {
 .enviarform:hover {
     font-weight: 600;
     color: rgb(0, 0, 0);
-    background-color: #f7f7f7;
+    background-color: rgb(255, 255, 255);
     border: solid 2px black;
 }
 
 input[type=checkbox] {
     position: relative;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 0px;
     transform: translate(0, 16%);
   }
   
@@ -1000,31 +1004,46 @@ label {
     letter-spacing: -0.9px;
 }
 
+.checklgpd {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 3%;
+    width: 93%;
+}
+
 fieldset {
+    display: block;
     width: 100%;
     border: solid 1px black;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 15px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 100px;
 }
 
 input::placeholder {
     color: #000000;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 14px;
 }
 
 .field{
-    all: unset;
     background-color: transparent;
-    width: 150px;
-    margin: 25px;
-    margin-left: 30px;
-    padding: 5px;
+    width: 13%;
+    padding: 3px;
+    margin-top: 10px;
+    margin-right: 1vw;
+    margin-left: 4%;
+    justify-content: space-around;
     border: solid 2px black;
     border-top: 0 none;
     border-left: 0 none;
     border-right: 0 none;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 footer {
