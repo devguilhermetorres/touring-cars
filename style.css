@@ -751,6 +751,7 @@ label {
 }
 
 .checklgpd {
+    background-color: none;
     display: inline-block;
     position: relative;
     margin-top: 20px;

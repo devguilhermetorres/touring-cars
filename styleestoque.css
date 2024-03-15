@@ -157,12 +157,13 @@ nav ul li a {
 .full {
     position: absolute;
     width: 100%;
-    height: 1177px;
+    height: 1170px;
 }
 
 
 .filtrocar {
-    position: absolute;
+    position: sticky;
+    top: 15px;
     width: 22%;
     height: 420px;
     margin-left: 40px;
@@ -608,13 +609,14 @@ nav ul li a {
     width: 20px;
     margin-top: 15px;
     margin-left: 20px;
-    opacity: .5;
+    opacity: .6;
     transition: all 0.3s;
 }
 
 .arrowright:hover {
     opacity: 1;
     cursor: pointer;
+    transform: translate(5%, 0%);
 }
 
 .textvenda1 p {
@@ -678,7 +680,6 @@ nav ul li a {
 
 .fotovenda3 {
     background-image: url(imgs/rangerovervenda.jpg);
-    background-color: #3c3c3c;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -720,6 +721,7 @@ nav ul li a {
 }
 
 .fotovenda4 {
+    background-image: url(imgs/m33.jpg);
     background-color: #3c3c3c;
     background-size: cover;
     background-position: top;
@@ -759,9 +761,10 @@ nav ul li a {
 }
 
 .fotovenda5 {
+    background-image: url(imgs/porsche6.jpg);
     background-color: #3c3c3c;
-    background-size: cover;
-    background-position: top;
+    background-size: 500px;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -798,7 +801,7 @@ nav ul li a {
 }
 
 .fotovenda6 {
-    background-color: #3c3c3c;
+    background-image: url(imgs/seal2.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -837,7 +840,7 @@ nav ul li a {
 }
 
 .fotovenda7 {
-    background-color: #3c3c3c;
+    background-image: url(imgs/macangts.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -876,9 +879,9 @@ nav ul li a {
 }
 
 .fotovenda8 {
-    background-color: #3c3c3c;
+    background-image: url(imgs/sw43.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -915,9 +918,9 @@ nav ul li a {
 }
 
 .fotovenda9 {
-    background-color: #3c3c3c;
-    background-size: cover;
-    background-position: top;
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -1061,11 +1064,15 @@ footer {
     background-color: #f7f7f7;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    box-sizing: border-box;
 }
 
 #footer_contacts h1 {
     margin-bottom: 0.75rem;
+}
+
+#footer_contacts p {
+    font-weight: 600;
+    font-size: 15px;
 }
 
 #footer_social_media {
@@ -1090,13 +1097,13 @@ footer {
 }
 
 #footer_social_media .footer-link:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .footer-list {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 1.2rem;
     list-style: none;
     font-weight: 600;
 }
@@ -1107,6 +1114,10 @@ footer {
     font-weight: 400;
 }
 
+.footer-list a {
+    font-size: 15px;
+}
+
 #footer_subscribe h3 {
     font-size: 15px;
     letter-spacing: 1px;
@@ -1115,6 +1126,7 @@ footer {
 
 #footer_subscribe p {
     font-weight: 600;
+    font-size: 15px;
 }
 
 .footer-list .footer-link {
@@ -1123,7 +1135,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #footer_subscribe {
@@ -1145,30 +1157,38 @@ footer {
     border-top: 0 none;
     border-left: 0 none;
     border-right: 0 none;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 #input_group input::placeholder {
     color: #000000;
+    font-size: 14px;
+    font-size: 400;
 }
 
 #input_group button {
-    background-color: #000000;
+    color: white;
     margin-left: 25px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: #000000;
     padding: 0px 1.25rem;
-    font-size: 14px;
+    font-size: 1px;
     height: 100%;
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
 }
 
+#input_group button p {
+    font-size: 15px;
+}
+
 #input_group button:hover {
     font-weight: 600;
-    color: black;
-    background-color: #f7f7f7;
+    color: rgb(0, 0, 0);
+    background-color: #fbfbfb;
     border: solid 2px rgb(0, 0, 0);
 }
 
@@ -1181,17 +1201,9 @@ footer {
     font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     #footer_content {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
     }
 }
-
-@media screen and (max-width: 426px) {
-    #footer_content {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
-    }
-}
-
