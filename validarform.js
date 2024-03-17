@@ -1,5 +1,5 @@
 function validarCadastrar(){
-    var button = document.getElementsByClassName("enviarform");
+    var button = document.getElementsByClassName(".button");
     var modeloVazio = modelo.value;
     var nomeVazio = nome.value; 
     var emailVazio = email.value;
@@ -7,13 +7,15 @@ function validarCadastrar(){
     
     if( !(modeloVazio == "") && !(nomeVazio == "") && !(emailVazio == "") &&     !(numeroVazio == "") ){
     document.cadastrar.idButton.disabled=false;
-    button.style.background = "red";
+    document.cadastrar.idButton.classList.remove("button");
+    document.cadastrar.idButton.classList.add("buttonactive");
 }
     
     
     else{
         document.cadastrar.idButton.disabled=true;
-        button.style.background = "black";
+        document.cadastrar.idButton.classList.remove("buttonactive");
+        document.cadastrar.idButton.classList.add("button");
     }
     
     }

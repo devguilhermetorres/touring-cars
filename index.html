@@ -132,15 +132,13 @@
 
                         <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
 
-                        <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
 
-                        <input type="text" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000"onchange="validarCadastrar()">
+                        <input type="tel" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000" onchange="validarCadastrar()">
 
-                        <button id="idButton" type="submit"  disabled >Enviar</button>
+                        <button id="idButton"
+                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
 
-                        <!-- <button>
-                            <input type="submit" class="enviarform" value="Enviar">
-                        </button> -->
                         <script src="validarform.js"></script>
                     </form>
                     
@@ -234,7 +232,7 @@
                     <h3>Inscreva-se</h3>
     
                     <p>
-                        Informe seu email para receber as últimas novidades da Torres Cars.
+                        Informe seu email para receber as <br> últimas novidades da Torres Cars.
                     </p>
     
                     <div id="input_group">
