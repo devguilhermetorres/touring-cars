@@ -252,6 +252,86 @@
                             </div>    
                         </div>
                     </div>
+
+                    <div class="venda10">
+                        <div class="fotovenda10"></div>
+                        <div class="textvenda10">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="venda11">
+                        <div class="fotovenda11"></div>
+                        <div class="textvenda11">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="venda12">
+                        <div class="fotovenda12"></div>
+                        <div class="textvenda12">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="venda13">
+                        <div class="fotovenda13"></div>
+                        <div class="textvenda13">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="venda14">
+                        <div class="fotovenda14"></div>
+                        <div class="textvenda14">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="venda15">
+                        <div class="fotovenda15"></div>
+                        <div class="textvenda15">
+                            <p id="titulocar">AUDI RS E-TRON GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="arrowright">
+                                <img src="imgs/arrowrightpreto.png" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    
                     
             
         </div>
@@ -259,26 +339,41 @@
       
         <div class="formulario">
             <div class="textformulario">
-                <h1>Está procurando algum modelo<br> em específico e não encontrou?</h1>
+                <h1>Você está procurando<br> algum modelo em específico?</h1>
                 <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
             </div>
             <div class="form">
                 <fieldset>
-                    <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo">
-                    <input type="text" id="name" name="name" class="field" placeholder="Nome">
-                    <input type="email" class="field" id="email" name="email" placeholder="E-mail">
-                    <input type="tel" class="field" id="number" name="number" placeholder="Número">
-                    <input type="submit" class="enviarform" value="Enviar">
-                    <br><br>
+                    <form name="cadastrar">
+                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarCadastrar()">
+
+                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
+
+                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+
+                        <input type="tel" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000" onchange="validarCadastrar()">
+
+                        <button id="idButton"
+                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+
+                        <script src="validarform.js"></script>
+                    </form>
+                    
+
                     <div class="checklgpd">
                         <input type="checkbox" id="lgpd" class="check">
                         <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
                     </div>
+                    
                 </fieldset>
                 
             </div>
+            
+            
 
-            <hr style="margin: 0px 100px 10px 100px;">
+        </div>
+
+            <hr style="margin: 0px 100px 00px 100px;">
 
         <footer>
             

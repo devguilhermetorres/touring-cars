@@ -167,7 +167,7 @@ nav ul li a {
 .full {
     position: absolute;
     width: 100%;
-    height: 1170px;
+    height: 1990px;
 }
 
 
@@ -202,7 +202,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636
 }
 
 .filtromarcas input {
@@ -277,7 +277,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636;
 }
 
 .filtroblindado input {
@@ -335,7 +335,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636;
 }
 
 .filtroanoinicial input {
@@ -360,7 +360,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636;
     margin-left: 15px
 }
 
@@ -404,7 +404,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636;
 }
 
 .filtrovalorinicial input {
@@ -464,7 +464,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #7d7d7d;
+    color: #363636;
 }
 
 .filtrokminicial input {
@@ -521,8 +521,8 @@ nav ul li a {
     width: 100%;
     height: 40px;
     color: rgb(255, 255, 255);
-    background-color: #7d7d7d;
-    border: solid 2px #7d7d7d;
+    background-color: #363636;
+    border: solid 2px #363636;
     cursor: pointer;
     transition: all 0.3s;
     border-radius: 5px;
@@ -530,9 +530,9 @@ nav ul li a {
 
 .filtrar:hover {
     font-weight: 600;
-    color: #7d7d7d;
+    color: #363636;
     background-color: rgba(255, 255, 255, 0);
-    border: solid 2px #7d7d7d;
+    border: solid 2px #363636;
 }
 
 
@@ -577,11 +577,6 @@ nav ul li a {
     width: 280px;
     border-radius: 10px;
     margin: 15px 15px 25px 15px;
-}
-
-.textvenda1 {
-    position: absolute;
-    width: 100%;
 }
 
 #titulocar {
@@ -662,10 +657,6 @@ nav ul li a {
     margin: 15px 15px 25px 15px;
 }
 
-.textvenda2 {
-    position: absolute;
-}
-
 .textvenda2 p {
     letter-spacing: normal;
     text-align: left;
@@ -697,14 +688,6 @@ nav ul li a {
     width: 280px;
     border-radius: 10px;
     margin: 15px 15px 25px 15px;
-}
-
-
-.textvenda3 {
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    padding: 0;
 }
 
 .textvenda3 p {
@@ -742,11 +725,6 @@ nav ul li a {
     margin: 15px 15px 25px 15px;
 }
 
-
-.textvenda4 {
-    position: absolute;
-}
-
 .textvenda4 p {
     letter-spacing: normal;
     text-align: left;
@@ -780,11 +758,6 @@ nav ul li a {
     width: 280px;
     border-radius: 10px;
     margin: 15px 15px 25px 15px;
-}
-
-
-.textvenda5 {
-    position: absolute;
 }
 
 .textvenda5 p {
@@ -821,11 +794,6 @@ nav ul li a {
     margin: 15px 15px 25px 15px;
 }
 
-
-.textvenda6 {
-    position: absolute;
-}
-
 .textvenda6 p {
     letter-spacing: normal;
     text-align: left;
@@ -858,11 +826,6 @@ nav ul li a {
     width: 280px;
     border-radius: 10px;
     margin: 15px 15px 25px 15px;
-}
-
-
-.textvenda7 {
-    position: absolute;
 }
 
 .textvenda7 p {
@@ -899,11 +862,6 @@ nav ul li a {
     margin: 15px 15px 25px 15px;
 }
 
-
-.textvenda8 {
-    position: absolute;
-}
-
 .textvenda8 p {
     letter-spacing: normal;
     text-align: left;
@@ -938,11 +896,6 @@ nav ul li a {
     margin: 15px 15px 25px 15px;
 }
 
-
-.textvenda9 {
-    position: absolute;
-}
-
 .textvenda9 p {
     letter-spacing: normal;
     text-align: left;
@@ -950,6 +903,225 @@ nav ul li a {
     margin-left: 20px;
     margin-bottom: 0px;
 }
+
+.venda10 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda10:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda10 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda10 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.venda11 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda11:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda11 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda11 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.venda12 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda12:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda12 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda12 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.venda13 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda13:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda13 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda13 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+
+.venda14 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda14:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda14 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda14 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.venda15 {
+    height: 350px;
+    width: 310px;
+    align-items: top;
+    border-radius: 10px;
+    border: 1.5px solid #cccccc;
+    transition: all 0.5s;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+.venda15:hover {
+    transform: translate(0%, -3%);
+}
+
+.fotovenda15 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 370px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 15px 15px 25px 15px;
+}
+
+.textvenda15 p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMULARIO */
 
 .formulario {
     background-color: #f7f7f7;
@@ -982,24 +1154,37 @@ nav ul li a {
     padding: 10px;
 }
 
-.enviarform {
+.button {
     float: right;
     margin-right: 4%;
     font-size: 14px;
     font-weight: 500;
     width: 15%;
     height: 35px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    border: solid 2px black;
-    cursor: pointer;
+    color: rgb(189, 189, 189);
+    background-color: none;
+    border: solid 2px rgb(176, 176, 176);
     transition: all 0.3s;
 }
 
-.enviarform:hover {
+.buttonactive {
+    float: right;
+    margin-right: 4%;
+    font-size: 14px;
+    font-weight: 500;
+    width: 15%;
+    height: 35px;
+    color: #fbfbfb;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.buttonactive:hover {
     font-weight: 600;
     color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: #fbfbfb;
     border: solid 2px black;
 }
 
