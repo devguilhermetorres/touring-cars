@@ -715,9 +715,9 @@ nav ul li a {
     font-weight: 500;
     width: 15%;
     height: 35px;
-    color: rgb(189, 189, 189);
-    background-color: none;
-    border: solid 2px rgb(176, 176, 176);
+    color: rgb(68, 68, 68);
+    background-color: #000000;
+    border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
 }
 
@@ -839,9 +839,9 @@ input::placeholder {
         font-weight: 500;
         width: 57vw;
         height: 40px;
-        color: rgb(189, 189, 189);
-        background-color: none;
-        border: solid 2px rgb(176, 176, 176);
+        color: rgb(68, 68, 68);
+        background-color: #000000;
+        border: solid 2px rgb(0, 0, 0);
         transition: all 0.3s;
     }
 
@@ -1324,7 +1324,7 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 2rem;
+    gap: 3.8rem;
     margin-top: 1.5rem;
 } 
 

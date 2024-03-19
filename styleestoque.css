@@ -717,7 +717,7 @@ nav ul li a {
     background-image: url(imgs/m33.jpg);
     background-color: #3c3c3c;
     background-size: cover;
-    background-position: top;
+    background-position: 90% 50%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -749,10 +749,10 @@ nav ul li a {
 }
 
 .fotovenda5 {
-    background-image: url(imgs/porsche6.jpg);
+    background-image: url(imgs/911gt3.jpeg);
     background-color: #3c3c3c;
-    background-size: 500px;
-    background-position: center;
+    background-size: 450px;
+    background-position: 70% 50%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -886,9 +886,9 @@ nav ul li a {
 }
 
 .fotovenda9 {
-    background-image: url(imgs/etron.jpg);
+    background-image: url(imgs/typer7.jpg);
     background-size: 370px;
-    background-position: center;
+    background-position: 20% 60%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -920,8 +920,8 @@ nav ul li a {
 }
 
 .fotovenda10 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 370px;
+    background-image: url(imgs/raptor.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 175px;
@@ -955,8 +955,8 @@ nav ul li a {
 
 .fotovenda11 {
     background-image: url(imgs/etron.jpg);
-    background-size: 370px;
-    background-position: center;
+    background-size: 360px;
+    background-position: 35% 60%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -988,9 +988,9 @@ nav ul li a {
 }
 
 .fotovenda12 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 370px;
-    background-position: center;
+    background-image: url(imgs/m22.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -1022,8 +1022,8 @@ nav ul li a {
 }
 
 .fotovenda13 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 370px;
+    background-image: url(imgs/defender3.jpg);
+    background-size: 400px;
     background-position: center;
     background-repeat: no-repeat;
     height: 175px;
@@ -1057,9 +1057,9 @@ nav ul li a {
 }
 
 .fotovenda14 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 370px;
-    background-position: center;
+    background-image: url(imgs/turbogt.jpg);
+    background-size: 350px;
+    background-position: 20% 60%;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -1091,9 +1091,8 @@ nav ul li a {
 }
 
 .fotovenda15 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 370px;
-    background-position: center;
+    background-image: url(imgs/gr.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 175px;
     width: 280px;
@@ -1161,9 +1160,9 @@ nav ul li a {
     font-weight: 500;
     width: 15%;
     height: 35px;
-    color: rgb(189, 189, 189);
-    background-color: none;
-    border: solid 2px rgb(176, 176, 176);
+    color: rgb(0, 0, 0);
+    background-color: #fbfbfb;
+    border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
 }
 
@@ -1272,7 +1271,7 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: .7rem;
+    gap: 3.8rem;
     margin-top: 1.5rem;
 } 
 
