@@ -113,15 +113,14 @@ nav ul li a {
     .acessarestoque2 {
         display: block;
         background-image: url(imgs/arrowright.png);
-        background-size: 13px;
+        background-size: 12.5px;
         background-position: 85% 55%;
         background-color: rgb(0, 0, 0);
         color: white;
         z-index: 1;
-        padding: 0px 17px 5px 0px;
+        padding: 0px 20px 5px 0px;
         background-repeat: no-repeat;
-        width: 85px;
-        float: right;
+        width: 80px;
         transition: all 0.3s;
         border-radius: 15px;
         cursor: pointer;
@@ -131,12 +130,12 @@ nav ul li a {
     .acessarestoque2 p{
         display: inline;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 13.5px;
     }
     
     .acessarestoque2:hover {
         background-image: url(imgs/arrowrightpreto.png);
-        background-size: 13.5px;
+        background-size: 12.5px;
         background-position: 90% 55%;
         background-color: #fbfbfb;
         color: rgb(0, 0, 0);
@@ -224,6 +223,7 @@ nav ul li a {
     background-color: none;
     width: 100%;
     animation: pulse 2s ease infinite;
+    transition: all 0.5s
 }
 
 #arrowbottom{
@@ -232,6 +232,11 @@ nav ul li a {
     display: flex;
     margin: auto;
     margin-top: 620px;
+}
+
+.arrowbottomnone{
+    transition: all 0.5s;
+    display: none;
 }
 
 @keyframes pulse {
