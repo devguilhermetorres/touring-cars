@@ -1307,7 +1307,7 @@ footer {
 }
 
 #footer_content {
-    padding: 50px 100px 50px 100px;
+    padding: 50px 7.5vw 50px 7.5vw;
     background-color: #fbfbfb;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1429,7 +1429,7 @@ footer {
 }
 
 #input_group button p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #input_group button:hover {

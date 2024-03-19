@@ -1160,8 +1160,8 @@ nav ul li a {
     font-weight: 500;
     width: 15%;
     height: 35px;
-    color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
+    color: rgb(68, 68, 68);
+    background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
 }
@@ -1376,7 +1376,7 @@ footer {
 }
 
 #input_group button p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #input_group button:hover {
