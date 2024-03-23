@@ -30,6 +30,9 @@ h1 {
 body { 
     background-color: #fbfbfb;
     overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
 }
 
 nav {
@@ -49,6 +52,10 @@ nav ul {
     
 }
 
+.nav-list {
+    display: block;
+}
+
 .logo {
     margin-left: 10%;
     margin-top: 30px;
@@ -62,7 +69,6 @@ nav ul {
 
 nav ul li {
     display: inline-flex;
-
 }
 
 nav ul li a {
@@ -83,9 +89,25 @@ nav ul li a {
 
 .mobile-menu {
     display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+    top: 0;
+    z-index: 0;
+}
+
+.open{
+    display: block;
 }
 
 @media screen and (max-width: 1000px) {
+
+    body { 
+        background-color: #fbfbfb;
+        overflow-x: hidden;
+    }
+
     nav ul {
         display: flex;
         list-style-type: none; /* Remove os marcadores de lista */
@@ -106,7 +128,6 @@ nav ul li a {
     
     .nav-list {
         display: none;
-        position: absolute;
     }
 
     .logo2 {
@@ -165,36 +186,77 @@ nav ul li a {
     }
 
     .mobile-menu-icon {
+        width: 100px;
         display: block;
         position: relative;
-        z-index: 1001;
+        margin-left: 7%;
+        z-index: 7008;
+    }
+
+    .menu-open{
+        display: block;
+        position: fixed;
+        z-index: 7001;
+        margin-left: 7%;
     }
     
     .mobile-menu-icon button {
         background-color: transparent;
         margin-top: 30px;
-        margin-left: 7%;
         border: none;
         cursor: pointer;
     }
+
     .mobile-menu ul {
         width: 100%;
-        height: 100%;
+        max-width: 700px;
         position: fixed;
-        background-color: red;
+        background-color: transparent;
+        padding-top: 100px;
         flex-direction: column;
         text-align: center;
         margin: 0;
         top: 0;
-        z-index: 1000;
+        z-index: 7000;
     }
-
+    
     .mobile-menu .nav-item {
-        background-color: aquamarine;
-        display: block;
+        border-radius: 15px;
+        padding: 15px 30px 15px 30px;
+        display: flex;
+        margin: 10px 7% 10px 7%;
+        font-size: 17px;
+        justify-content: space-between;
+        transition: all 0.3s;
+        border: 1px solid #cccccc;
     }
+    
+    .mobile-menu .nav-item:hover {
+        border: 1px solid rgb(123, 123, 123);
+        cursor: pointer;
+        transform: translate(1%, 0%);
+        
+    }
+    
+    .mobile-menu .nav-item a{
+        font-weight: 600;
+    }
+    
+    
+    .mobile-menu .nav-item img{
+        max-height: 15px;
+        margin-right: 5px;
+        transform: translate(-0%, 20%);
+    }
+    
+    
     .open {
         display: block;
+        z-index: 7000;
+    }
+
+    .arrowbottomcentralizadora {
+        display: none;
     }
 }  
 
@@ -328,21 +390,15 @@ nav ul li a {
 }
 
 .imgcarprincipal {
+    background-image: url(imgs/porsche-model5.png);
+    background-size: 1200px;
+    background-position: 720px -25px;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 70%;
+    height: 100%;
     position: absolute;
     z-index: -1;
-    display: flex;
-    margin-left: 690px;
-    transform: translate(1.6%, -5%);
-}
-
-.imgcarprincipal img{
-    position: relative;
-    background-color: none;
-    height: 680px;
-    display: flex;
-    transition: all 0.4s;
+    top: 0;
 }
 
 .texturatc {
@@ -396,7 +452,7 @@ nav ul li a {
     .principal{
         background-size: cover;
         background-position: 50% 20%;
-        margin-top: 0px;
+        margin-top: -20px;
         margin-bottom: 0px;
         position: relative;
         width: 100%;
@@ -421,24 +477,17 @@ nav ul li a {
         z-index: 4000;
      
     }
-    
+
     .imgcarprincipal {
+        background-image: url(imgs/porsche-model5.png);
+        background-size: 1200px;
+        background-position: 30px 25px;
+        background-repeat: no-repeat;
         width: 100%;
-        height: 70%;
+        height: 100%;
+        position: absolute;
         z-index: -1;
-        display: flex;
-        margin-left: 20vw;
-        transform: translate(0%, 21%);
-    }
-    
-    .imgcarprincipal img{
-        position: relative;
-        background-color: none;
-        height: 150%;
-        display: flex;
-        transition: all 0.4s;
-        max-height: 620px;
-        transform: translate(0%, -6vw);
+        top: 0;
     }
     
     .texturatc {
@@ -467,7 +516,7 @@ nav ul li a {
     letter-spacing: -4px;
     line-height: 60px;
     z-index: -2;
-    font-size: 60px;
+    font-size: 55px;
     color: rgb(27, 27, 27);
     margin-left: 10%;
     margin-top: 40px;
@@ -480,7 +529,7 @@ nav ul li a {
         line-height: 20px;
         font-size: 16px;
         color: rgb(0, 0, 0);
-        margin-top: -260px;
+        margin-top: -270px;
         margin-left: 10.5%;
         font-weight: 400;
         height: 60px;
@@ -941,6 +990,7 @@ input::placeholder {
         position: relative;
         margin-left: 0;
         width: 93%;
+        line-height: 15px;
     }
     
     fieldset {
@@ -1285,8 +1335,7 @@ input::placeholder {
     }
     
     .venda2 {
-        background-image: url(imgs/defender2.png);
-        background-size: 73vw;
+        background-size: 95vw;
         background-position: center;
         background-repeat: no-repeat;
         height: 50vw;
@@ -1299,7 +1348,7 @@ input::placeholder {
     }
     
     .venda2:hover {
-        background-size: 74vw;
+        background-size: 96vw;
     }
     
     .textvenda2 {
@@ -1320,7 +1369,7 @@ input::placeholder {
     
     .venda3 {
         background-image: url(imgs/jet2.jpg);
-        background-size: cover;
+        background-size: 75vw;
         background-position: center;
         height: 50vw;
         width: 100%;
@@ -1332,7 +1381,7 @@ input::placeholder {
     }
     
     .venda3:hover {
-        background-size: cover;
+        background-size: 76vw;
     }
     
     .textvenda3 {
