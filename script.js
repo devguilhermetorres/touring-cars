@@ -22,6 +22,28 @@ function menuShow() {
     }
 };
 
+function menuShowFiltrar() {
+    let button = document.querySelector('.showfiltrar');
+    let arrow = document.querySelector('.iconarrow');
+    let filtro = document.querySelector('.full2');
+
+
+    if (button.classList.contains('open')) {
+        button.classList.remove('open');
+        filtro.style.display = "block";
+        document.querySelector('.iconarrow').src = "imgs/up-chevron.svg";
+        button.style.border = "1px solid #363636";
+        
+        
+    } else {
+        button.classList.add('open');
+        document.querySelector('.iconarrow').src = "imgs/down-chevron.svg";
+        filtro.style.display = "none";
+        button.style.border = "1px solid #ccc";
+    }
+};
+
+
 function validarCadastrar(){
     var button = document.getElementsByClassName(".button");
     var modeloVazio = modelo.value;

@@ -167,6 +167,17 @@ nav ul li a {
         font-size: 13.5px;
     }
     
+    
+    .acessarestoque2:hover {
+        background-image: url(imgs/arrowrightpreto.png);
+        background-size: 12.5px;
+        background-position: 90% 55%;
+        background-color: #fbfbfb;
+        color: rgb(0, 0, 0);
+        box-shadow:0px 0px 0px 1.5px black inset;
+    }
+
+
     .acessarestoque2:hover {
         background-image: url(imgs/arrowrightpreto.png);
         background-size: 12.5px;
@@ -229,13 +240,6 @@ nav ul li a {
         justify-content: space-between;
         transition: all 0.3s;
         border: 1px solid #cccccc;
-    }
-    
-    .mobile-menu .nav-item:hover {
-        border: 1px solid rgb(123, 123, 123);
-        cursor: pointer;
-        transform: translate(1%, 0%);
-        
     }
     
     .mobile-menu .nav-item a{
@@ -480,8 +484,8 @@ nav ul li a {
 
     .imgcarprincipal {
         background-image: url(imgs/porsche-model5.png);
-        background-size: 1200px;
-        background-position: 30px 25px;
+        background-size: 1100px;
+        background-position: 50px 45px;
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
@@ -525,15 +529,15 @@ nav ul li a {
     }
     
     .textprincipal p{
-        position: absolute;
-        line-height: 20px;
-        font-size: 16px;
-        color: rgb(0, 0, 0);
-        margin-top: -270px;
-        margin-left: 10.5%;
-        font-weight: 400;
-        height: 60px;
-        z-index: 4500;
+    position: absolute;
+    line-height: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-top: -270px;
+    margin-left: 10.5%;
+    font-weight: 400;
+    height: 60px;
+    z-index: 4500;
     }
 
 }
@@ -690,10 +694,6 @@ nav ul li a {
         transition: 0.5s;
     }
     
-    #arrowrightmodelos:hover{
-        cursor: pointer;
-        margin-right: 37px;
-    }
     
     .combustao {
         background-image: url(imgs/rs62.jpg);
@@ -737,7 +737,7 @@ nav ul li a {
         margin: auto;
         margin-top: 3vw;
     }
-    
+
     .hibrido:hover {
         background-size: 74vw;
     }
@@ -771,7 +771,7 @@ nav ul li a {
         margin: auto;
         margin-top: 3vw;
     }
-    
+
     .eletrico:hover {
         background-size: 74vw;
     }
@@ -973,13 +973,6 @@ input::placeholder {
         cursor: pointer;
     }
     
-    .buttonactive:hover {
-        font-weight: 600;
-        color: rgb(0, 0, 0);
-        background-color: rgb(255, 255, 255);
-        border: solid 2px black;
-    }
-    
     input[type=checkbox] {
         letter-spacing: 0px;
         cursor: pointer;
@@ -1129,6 +1122,7 @@ input::placeholder {
         border-radius: 15px;
         transition: all 0.4s;
     }
+
     
     .foto1:hover {
         background-size: 84vw;
@@ -1308,7 +1302,7 @@ input::placeholder {
     
     .venda1 {
         background-image: url(imgs/ram3.jpg);
-        background-size: cover;
+        background-size: 75vw;
         background-position: 40% 80%;
         height: 50vw;
         width: 100%;
@@ -1318,7 +1312,7 @@ input::placeholder {
     }
 
     .venda1:hover {
-        background-size: cover;
+        background-size: 76vw;
     }
     
     .textvenda1 {

@@ -23,7 +23,7 @@
                 <ul class="logo2">
                     <li>
                         <a href="index.html">
-                            <img src="imgs/tclogo.png" alt="" style="max-height: 28px;">
+                            <img src="imgs/tclogo.png" alt="" style="max-height: 32px;">
                         </a>
                     </li>
                 </ul>
@@ -92,11 +92,87 @@
     <main>
         <div class="principal">
             <div class="principaltext">
-                <p>Modelos disponíveis.</p>
-              
+                <p>Modelos <br>disponíveis.</p>
             </div>
         </div>
+        <div class="buttonabrirfiltrar">
+            <button class="showfiltrar open" onclick="menuShowFiltrar()" >Filtrar <img class="iconarrow" src="imgs/down-chevron.svg" alt="" style="max-width: 13px; margin-left: 5px;"></button>
+        </div>
+
         <div class="full">
+            <div class="filtrocar" id="filtrocar">
+                <div class="filtromarcas">
+                    <label for="marcas">MARCAS</label><br>
+                    <input type="text" name="marcas" id="marcas" placeholder="Todas" onfocus="dropDown(0)" onblur="dropDown(1)" readonly>
+                    <div class="dropDown">
+                        <div class="listDropDown">
+                            <div class="item" id="item-1" onmousedown="category(1)">Audi</div>
+                            <div class="item" id="item-2" onmousedown="category(2)">BMW</div>
+                            <div class="item" id="item-3" onmousedown="category(3)">Porsche</div>
+                            <div class="item" id="item-4" onmousedown="category(4)">Volkswagen</div>
+                            <div class="item" id="item-5" onmousedown="category(5)">Land Rover</div>
+                            <div class="item" id="item-6" onmousedown="category(6)">Toyota</div>
+                            <div class="item" id="item-7" onmousedown="category(7)">BYD</div>
+                            <div class="item" id="item-8" onmousedown="category(8)">Ford</div>
+                            <div class="item" id="item-9" onmousedown="category(9)">Mercedes</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filtroblindado">
+                    <label for="blindado">BLINDADO</label><br>
+                    <input type="text" name="blindado" id="blindado" placeholder="Todos" onfocus="dropDown2(0)" onblur="dropDown2(1)" readonly>
+                    <div class="dropDown2">
+                        <div class="listDropDown2">
+                            <div class="item" id="iitem-1" onmousedown="category1(1)">Sim</div>
+                            <div class="item" id="iitem-2" onmousedown="category1(2)">Não</div>
+                            <div class="item" id="iitem-3" onmousedown="category1(3)">Todos</div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="filtroanoinicial">
+                <label for="ano">ANO</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="2020">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtroanofinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="2024">
+            </div>
+
+            <div class="filtrovalorinicial">
+                <label for="ano">VALOR</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="100.000">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtrovalorfinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="3.000.000">
+            </div>
+
+            <div class="filtrokminicial">
+                <label for="ano">QUILOMETRAGEM</label><br>
+                <input type="text" name="anoinicial" id="anoinicial" placeholder="0">
+            </div>
+            <div class="ate"><p>ATÉ</p></div>
+            <div class="filtrokmfinal">
+                <label for="ano">‎ </label><br>
+                <input type="text" name="anofinal" id="anofinal" placeholder="50.000">
+            </div>
+            <div class="buttonfiltrar">
+                <input type="submit" class="filtrar" value="Filtrar">
+            </div>
+        </div>
+       
+            
+        <script src="filtro.js"></script>
+            
+            
+               
+        </div>
+
+        <div class="full2">
             <div class="filtrocar" id="filtrocar">
                 <div class="filtromarcas">
                     <label for="marcas">MARCAS</label><br>
@@ -395,15 +471,13 @@
                 
             </div>
             
-            
-
         </div>
-
-            <hr style="margin: 0px 7.5vw 0px 7.5vw;">
 
         
     </main>
     <footer>
+        <hr style="margin: 0px 7.5vw 0px 7.5vw;">
+
         <div id="footer_content">
             <div id="footer_contacts">
                 <img src="imgs/torrescars.png" alt="Torres Cars" style="max-width: 130px; margin-bottom: 15px;">
