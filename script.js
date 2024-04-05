@@ -10,12 +10,13 @@ function menuShow() {
         document.querySelector('.icon').src = "imgs/menublack.png";
         body.style.position = "relative";
         menuMobileicon.style.position= "relative";
+        body.style.overflow = "scroll";
         menuMobileicon.classList.remove('menu-open');
         
     } else {
         menuMobile.classList.add('open');
         document.querySelector('.icon').src = "imgs/closeblack.png";
-        body.style.overflowY = "scroll";
+        body.style.overflow = "hidden";
         menuMobileicon.style.position= "fixed";
 
         menuMobileicon.classList.add('menu-open');

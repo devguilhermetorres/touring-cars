@@ -94,27 +94,74 @@ nav ul li a {
     height: 100vh;
     background-color: #f1f1f1;
     top: 0;
-    z-index: 0;
 }
 
 .open{
     display: block;
 }
 
+.menu-open{
+    display: block;
+    position: fixed;
+    z-index: 7001;
+    margin-left: 7%;
+}
+
+.mobile-menu-icon button {
+    background-color: transparent;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    width: 100%;
+    max-width: 700px;
+    position: fixed;
+    background-color: transparent;
+    padding-top: 100px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    z-index: 7000;
+}
+
+.mobile-menu .nav-item {
+    border-radius: 15px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    margin: 10px 7% 10px 7%;
+    font-size: 17px;
+    justify-content: space-between;
+    transition: all 0.3s;
+    border: 1px solid #cccccc;
+}
+
+.mobile-menu .nav-item a{
+    font-weight: 600;
+}
+
+
+.mobile-menu .nav-item img{
+    max-height: 15px;
+    margin-right: 5px;
+    transform: translate(-0%, 20%);
+}
+
+
+.open {
+    display: block;
+    z-index: 7000;
+}
+
 @media screen and (max-width: 1000px) {
-
-    body { 
-        background-color: #fbfbfb;
-        overflow-x: hidden;
-    }
-
     nav ul {
         display: flex;
         list-style-type: none; /* Remove os marcadores de lista */
         justify-content: space-between;
         margin-right: 7%;
         margin-top: 30px;
-        
     }
 
     nav ul li {
@@ -264,6 +311,20 @@ nav ul li a {
     }
 }  
 
+@media screen and (min-width = 1000px) {
+    .open {
+        display: none;
+        z-index: 7000;
+    }
+
+    .menu-open{
+        display: none;
+        position: fixed;
+        z-index: 7001;
+        margin-left: 7%;
+    }
+    
+}
 
 .buttonsnav {
     color: rgb(0, 0, 0);

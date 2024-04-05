@@ -133,6 +133,74 @@ nav ul li a {
     display: block;
 }
 
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+    top: 0;
+}
+
+.menu-open{
+    display: block;
+    position: fixed;
+    z-index: 7001;
+    margin-left: 7%;
+}
+
+.mobile-menu-icon button {
+    background-color: transparent;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.mobile-menu ul {
+    width: 100%;
+    max-width: 700px;
+    position: fixed;
+    background-color: transparent;
+    padding-top: 100px;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    top: 0;
+    z-index: 7000;
+}
+
+.mobile-menu .nav-item {
+    border-radius: 15px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    margin: 10px 7% 10px 7%;
+    font-size: 17px;
+    justify-content: space-between;
+    transition: all 0.3s;
+    border: 1px solid #cccccc;
+}
+
+.mobile-menu .nav-item a{
+    font-weight: 600;
+}
+
+
+.mobile-menu .nav-item img{
+    max-height: 15px;
+    margin-right: 5px;
+    transform: translate(-0%, 20%);
+}
+
+
+.open {
+    display: block;
+    z-index: 7000;
+}
+
 @media screen and (max-width: 1000px) {
     nav ul {
         display: flex;
@@ -248,12 +316,12 @@ nav ul li a {
 
 .principaltext {
     position: relative;
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(0, 0, 0);
     width: 100%;
     height: 60px;
     font-weight: 700;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .buttonabrirfiltrar {
@@ -1618,15 +1686,16 @@ nav ul li a {
 
 @media screen and (max-width: 1000px){
     .vendas{
-        width: 90%;
+        width: 100%;
         margin: auto;
         box-sizing: border-box;
+        padding-top: 50px;
     }
     
     
     .modelos {
         padding: 0px;
-        width: 100%;
+        width: 90%;
         margin: auto;
         box-sizing: border-box;
         position: relative;
