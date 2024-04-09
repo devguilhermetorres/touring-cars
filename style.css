@@ -92,7 +92,8 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: #f1f1f1;
+    backdrop-filter: blur(12px);
+    background-color: #f0f0f0d1;
     top: 0;
 }
 
@@ -116,7 +117,6 @@ nav ul li a {
 
 .mobile-menu ul {
     width: 100%;
-    max-width: 700px;
     position: fixed;
     background-color: transparent;
     padding-top: 100px;
@@ -286,7 +286,7 @@ nav ul li a {
         font-size: 17px;
         justify-content: space-between;
         transition: all 0.3s;
-        border: 1px solid #cccccc;
+        border: 1px solid rgb(189, 189, 189);
     }
     
     .mobile-menu .nav-item a{
@@ -363,7 +363,7 @@ nav ul li a {
     text-align: left;
     float: right;
     border-radius: 15px;
-    box-shadow:0px 0px 0px 1px black inset;
+    box-shadow: 0px 0px 0px 1px black inset;
     transition: all 0.3s;
 }
 
