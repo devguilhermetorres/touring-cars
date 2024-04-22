@@ -308,41 +308,836 @@ nav ul li a {
 }  
 
 .principal{
-    display: flex;
     margin: auto;
     width: 70%;
-    height: 325px;
+    height: 200px;
     margin-bottom: 50px;
 }
 
 .principaltext {
-    display: flex;
-    margin: auto;
-    font-size: 35px;
-    color: rgb(164, 164, 164);
+    position: relative;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    width: 100%;
     height: 60px;
     font-weight: 700;
-    justify-items: center;
-    margin-left: 0;
+    padding-top: 80px;
+}
+
+.buttonabrirfiltrar {
+    display: none;
 }
 
 @media screen and (max-width: 1000px) {
+    .buttonabrirfiltrar {
+        display: block;
+        float: right;
+        height: 50px;
+        margin-right: 15%;
+        margin-top: 110px;
+    }
+
     .principal{
-        display: flex;
+        display: inline-block;
         margin: auto;
-        width: 70%;
-        height: 350px;
+        width: 40%;
+        margin-left: 15%;
+        height: 150px;
         margin-bottom: 50px;
     }
     
     .principaltext {
         padding-top: 80px;
         margin: 0;
-        font-size: 25px;
-        color: rgb(164, 164, 164);
+        font-size: 30px;
+        color: rgb(0, 0, 0);
         font-weight: 700;
     }
+
+    .showfiltrar {
+        background-color: transparent;
+        font-size: 20px;
+        height: 40px;
+        width: 100px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 }
+
+.full {
+    position: absolute;
+    height: 420px;
+}
+
+@media screen and (max-width: 1395px) {
+    .full {
+        position: absolute;
+        height: 3150px;
+    }
+}
+
+.full2 {
+    display: none;
+}
+
+
+.filtrocar {
+    width: 23%;
+    height: 420px;
+    margin-left: 40px;
+    border-radius: 15px;
+    padding: 25px 40px 25px 40px;
+    border: 1.5px solid #cccccc;
+    box-sizing: border-box;
+}
+
+
+
+.filtromarcas {
+    display: inline-block;
+    width: 35%;
+}
+
+.filtromarcas label {
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636
+}
+
+.filtromarcas input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+.filtromarcas input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtromarcas input:hover {
+    cursor: pointer;
+}
+
+.dropDown {
+    position: absolute;
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    height: 90px;
+    overflow: auto;
+    display: none;
+}
+
+.dropDown::-webkit-scrollbar{
+    background-color: #ffffff;
+    width: 7px;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #7d7d7d;
+    border-radius: 0px;
+}
+
+.item{
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: 0.2s all;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.item p {
+    font-size: 5px;
+}
+
+.item:hover {
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.filtroblindado {
+    position: relative;
+    float: right;
+    width: 35%;
+}
+
+.filtroblindado label {
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636;
+}
+
+.filtroblindado input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtroblindado input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtroblindado input:hover {
+    cursor: pointer;
+}
+
+.dropDown2 {
+    position: absolute;
+    width: 100px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border: none;
+    height: 90px;
+    overflow: auto;
+    display: none;
+}
+
+.item2{
+    height: 30px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+.item2:hover {
+    background-color: #121212;
+    padding-left: 7px;
+}
+
+.filtroanoinicial {
+    display: inline-block;
+    width: 35%;
+}
+
+.filtroanoinicial label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636;
+}
+
+.filtroanoinicial input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtroanoinicial input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.ate {
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636;
+    margin-left: 10%;
+}
+
+.filtroanofinal {
+    float: right;
+    width: 35%;
+}
+
+.filtroanofinal label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #7d7d7d;
+}
+
+.filtroanofinal input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtroanofinal input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtrovalorinicial {
+    display: inline-block;
+    width: 35%;
+}
+
+.filtrovalorinicial label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636;
+}
+
+.filtrovalorinicial input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtrovalorinicial input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtrovalorfinal {
+    float: right;
+    width: 35%;
+}
+
+.filtrovalorfinal label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #7d7d7d;
+}
+
+.filtrovalorfinal input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtrovalorfinal input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtrokminicial {
+    display: inline-block;
+    width: 35%;
+}
+
+.filtrokminicial label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #363636;
+}
+
+.filtrokminicial input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtrokminicial input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtrokmfinal {
+    float: right;
+    width: 35%;
+}
+
+.filtrokmfinal label {
+    margin-top: 30px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #7d7d7d;
+}
+
+.filtrokmfinal input {
+    letter-spacing: 1px;
+    height: 30px;
+    width: 100%;
+    background-color: #00000000;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #7d7d7d;
+}
+
+
+.filtrokmfinal input::placeholder {
+    color: #7d7d7d;
+    font-size: 14px;
+}
+
+.filtrar {
+    margin-top: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 40px;
+    color: rgb(68, 68, 68);;
+    background-color: #000000;
+    border: solid 2px #000000;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .full {
+        display: none;
+    }
+    
+    .full2 {
+        display: none;
+        height: 380px;
+    }
+    
+    .filtrocar {
+        position: relative;
+        width: 70%;
+        margin: auto;
+        height: auto;
+        border-radius: 15px;
+        padding: 25px 40px 25px 40px;
+        border: 1.5px solid #363636;
+        box-sizing: border-box;
+    }
+    
+    .filtromarcas {
+        display: inline-block;
+        width: 35%;
+    }
+    
+    .filtromarcas label {
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636
+    }
+    
+    .filtromarcas input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    .filtromarcas input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .dropDown {
+        position: absolute;
+        width: 100px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        border: none;
+        height: 90px;
+        overflow: auto;
+        display: none;
+    }
+    
+    .dropDown::-webkit-scrollbar{
+        background-color: #ffffff;
+        width: 7px;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #7d7d7d;
+        border-radius: 0px;
+    }
+    
+    .item{
+        height: 30px;
+        padding: 5px;
+        box-sizing: border-box;
+        transition: 0.2s all;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    
+    .item p {
+        font-size: 5px;
+    }
+    
+    .item:hover {
+        font-weight: 600;
+        padding-left: 7px;
+    }
+    
+    .filtroblindado {
+        position: relative;
+        float: right;
+        width: 35%;
+    }
+    
+    .filtroblindado label {
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636;
+    }
+    
+    .filtroblindado input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtroblindado input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    
+    .dropDown2 {
+        position: absolute;
+        width: 100px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        border: none;
+        height: 90px;
+        overflow: auto;
+        display: none;
+    }
+    
+    .item2{
+        height: 30px;
+        padding: 0px 5px;
+        box-sizing: border-box;
+        transition: 0.4s all;
+        cursor: pointer;
+    }
+    
+    .filtroanoinicial {
+        display: inline-block;
+        width: 35%;
+    }
+    
+    .filtroanoinicial label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636;
+    }
+    
+    .filtroanoinicial input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtroanoinicial input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .ate {
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636;
+        margin-left: 10%;
+    }
+    
+    .filtroanofinal {
+        float: right;
+        width: 35%;
+    }
+    
+    .filtroanofinal label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #7d7d7d;
+    }
+    
+    .filtroanofinal input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtroanofinal input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .filtrovalorinicial {
+        display: inline-block;
+        width: 35%;
+    }
+    
+    .filtrovalorinicial label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636;
+    }
+    
+    .filtrovalorinicial input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtrovalorinicial input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .filtrovalorfinal {
+        float: right;
+        width: 35%;
+    }
+    
+    .filtrovalorfinal label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #7d7d7d;
+    }
+    
+    .filtrovalorfinal input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtrovalorfinal input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .filtrokminicial {
+        display: inline-block;
+        width: 35%;
+    }
+    
+    .filtrokminicial label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #363636;
+    }
+    
+    .filtrokminicial input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtrokminicial input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .filtrokmfinal {
+        float: right;
+        width: 35%;
+    }
+    
+    .filtrokmfinal label {
+        margin-top: 10px;
+        display: inline-block;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+        font-weight: 700;
+        color: #7d7d7d;
+    }
+    
+    .filtrokmfinal input {
+        letter-spacing: 1px;
+        height: 30px;
+        width: 100%;
+        background-color: #00000000;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #7d7d7d;
+    }
+    
+    
+    .filtrokmfinal input::placeholder {
+        color: #7d7d7d;
+        font-size: 14px;
+    }
+    
+    .filtrar {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        height: 40px;
+        color: rgb(255, 255, 255);
+        background-color: #363636;
+        border: solid 2px #363636;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .full2 {
+        display: none!important;
+    }
+}
+
+
+.vendas{
+    width: 65%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    height: 420px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.vendas h1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #313131;
+}
+
+@media screen and (max-width: 1000px){
+    .vendas{
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        padding-top: 50px;
+    }
+    
+    
+    .modelos {
+        padding: 0px;
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* FORMULARIO */
 
 .formulario {
     background-color: #f7f7f7;
@@ -730,4 +1525,5 @@ footer {
         gap: 2rem;
     }
 }
+
 
