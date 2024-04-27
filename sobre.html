@@ -34,32 +34,42 @@
                     <li>
                         <a href="index.html">
                             <div class="buttonsnav">
-                                <p>home</p>
+                                <p>Home</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html">
+                            <div class="buttonsnav">
+                                <p>Contato</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <div class="buttonsnav">
-                                <p>localização</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="buttonsnav">
-                                <p>contato</p>
+                            <div class="anunciar">
+                                <p>Anunciar</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="estoque.html">
                             <div class="acessarestoque" id="estoque">
-                                <p>acessar estoque</p>
+                                <p>Acessar estoque</p>
                             </div>
                         </a>
                     </li>
                     
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="estoque.html" style="z-index: 6000;">
+                            <div class="acessarestoque2" id="estoque2">
+                                <p>Estoque</p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
@@ -180,10 +190,16 @@
                 </p>
 
                 <div id="input_group">
-                    <input type="email" id="email" placeholder="Digite seu email">
-                    <button>
-                        <p>Enviar</p>
-                    </button>
+                    <form name="subscribe">
+                        <input type="text" class="field" id="email" placeholder="Email" onchange="validarSubscribe()">
+
+                        <button id="idButton" 
+                        class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
+                            <p>Enviar</p>
+                        </button>
+
+                        <script src="validarsubscribe.js"></script>
+                    </form>
                 </div>
             </div>
         </div>

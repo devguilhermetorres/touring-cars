@@ -34,28 +34,28 @@
                     <li>
                         <a href="sobre.html">
                             <div class="buttonsnav">
-                                <p>sobre</p>
+                                <p>Sobre</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <div class="buttonsnav">
-                                <p>localização</p>
+                                <p>Contato</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <div class="buttonsnav">
-                                <p>contato</p>
+                                <p>Home</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="index.html">
-                            <div class="buttonhome">
-                                <p>voltar para home</p>
+                            <div class="anunciar">
+                                <p>Anunciar veículo</p>
                             </div>
                         </a>
                     </li>
@@ -340,10 +340,16 @@
                 </p>
 
                 <div id="input_group">
-                    <input type="email" id="email" placeholder="Digite seu email">
-                    <button>
-                        <p>Enviar</p>
-                    </button>
+                    <form name="subscribe">
+                        <input type="text" class="field" id="email" placeholder="Email" onchange="validarSubscribe()">
+
+                        <button id="idButton" 
+                        class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
+                            <p>Enviar</p>
+                        </button>
+
+                        <script src="validarsubscribe.js"></script>
+                    </form>
                 </div>
             </div>
         </div>

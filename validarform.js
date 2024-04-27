@@ -1,5 +1,4 @@
 function validarCadastrar(){
-    var button = document.getElementsByClassName(".button");
     var modeloVazio = modelo.value;
     var nomeVazio = nome.value; 
     var emailVazio = email.value;

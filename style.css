@@ -4,11 +4,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-@font-face {
-    font-family: coolvetica;
-    src: url(fonts/coolvetica\ rg.otf);
- }
-
 :root {
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -72,7 +67,6 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: 500;
     padding: 0px 10px;
     text-decoration: none;
     color: #000000;
@@ -382,6 +376,31 @@ nav ul li a {
     box-shadow:0px 0px 0px 1px black inset;
 }
 
+.anunciar {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0px 5px 5px 20px;
+    background-repeat: no-repeat;
+    width: 77px;
+    text-align: left;
+    float: right;
+    border-radius: 15px;
+    box-shadow: 0px 0px 0px 1px black inset;
+    transition: all 0.3s;
+}
+
+.anunciar p{
+    display: inline;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.anunciar:hover {
+    background-color: #fbfbfb;
+    color: rgb(0, 0, 0);
+    box-shadow:0px 0px 0px 1px black inset;
+}
+
 .principal{
     background-size: cover;
     background-position: 50% 20%;
@@ -438,6 +457,10 @@ nav ul li a {
 
     60% {
         transform: translate(0%, 0%);
+    }
+
+    80% {
+        transform: translate(0%, 1%);
     }
 
     100% {
@@ -544,7 +567,6 @@ nav ul li a {
     }
 
     .imgcarprincipal {
-        background-image: url(imgs/porsche-model5.png);
         background-size: 1100px;
         background-position: 50px 45px;
         background-repeat: no-repeat;
@@ -621,18 +643,26 @@ nav ul li a {
     border-radius: 15px;
 }
 
-#arrowrightmodelos{
-    width: 13.5px;
+.arrowrightmodelos{
+    width: 15px;
     margin-top: 7px;
     margin-right: 40px;
     float: right;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
-#arrowrightmodelos:hover{
+.arrowrightmodelos:hover{
     cursor: pointer;
     margin-right: 37px;
+}
+
+.checked {
+    width: 15px;
+    margin-top: 7px;
+    margin-right: 40px;
+    float: right;
+    box-sizing: border-box;
 }
 
 .combustao {
@@ -647,7 +677,7 @@ nav ul li a {
 }
 
 .combustao:hover {
-    background-size: 22.4vw;
+    background-size: 22.2vw;
 }
 
 .textcombustao {
@@ -676,7 +706,7 @@ nav ul li a {
 }
 
 .hibrido:hover {
-    background-size: 22.4vw;
+    background-size: 22.2vw;
 }
 
 .texthibrido {
@@ -707,7 +737,7 @@ nav ul li a {
 }
 
 .eletrico:hover {
-    background-size: 22.4vw;
+    background-size: 22.2vw;
 }
 
 .texteletrico {
@@ -769,7 +799,7 @@ nav ul li a {
     }
 
     .combustao:hover {
-        background-size: 74vw;
+        background-size: 73.8vw;
     }
     
     .textcombustao {
@@ -800,7 +830,7 @@ nav ul li a {
     }
 
     .hibrido:hover {
-        background-size: 74vw;
+        background-size: 73.8vw;
     }
     
     .texthibrido {
@@ -834,7 +864,7 @@ nav ul li a {
     }
 
     .eletrico:hover {
-        background-size: 74vw;
+        background-size: 73.8vw;
     }
     
     .texteletrico {
@@ -893,7 +923,6 @@ nav ul li a {
     color: rgb(68, 68, 68);
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
-    transition: all 0.3s;
 }
 
 .buttonactive {
@@ -1112,13 +1141,13 @@ input::placeholder {
 }
 
 .foto1:hover {
-    background-size: 51vw;
+    background-size: 50.3vw;
 }
 
 .texto1 {
     background-image: url(imgs/interiormacan2.jpg);
     background-size: 700px;
-    background-position: left;
+    background-position: 20% 50%;
     height: 100%;
     width: 21.5vw;
     background-color: rgb(0, 0, 0);
@@ -1127,7 +1156,7 @@ input::placeholder {
 }
 
 .texto1:hover {
-    background-size: 715px;
+    background-size: 710px;
 }
 
 .texto1 h1 {
@@ -1174,7 +1203,6 @@ input::placeholder {
     }
     
     .foto1 {
-        background-image: url(imgs/macan.jpeg);
         background-size: 83vw;
         background-repeat: no-repeat;
         background-position: center;
@@ -1184,7 +1212,6 @@ input::placeholder {
         transition: all 0.4s;
     }
 
-    
     .foto1:hover {
         background-size: 84vw;
     }
@@ -1192,7 +1219,6 @@ input::placeholder {
     .texto1 {
         margin-top: 3vw;
         padding-top: 1vw;
-        background-image: url(imgs/interiormacan2.jpg);
         background-size: 85vw;
         background-position: center;
         background-repeat: no-repeat;
@@ -1261,7 +1287,7 @@ input::placeholder {
 }
 
 .venda1:hover {
-    background-size: 22.4vw;
+    background-size: 22.2vw;
 }
 
 .textvenda1 {
@@ -1282,7 +1308,7 @@ input::placeholder {
 .venda2 {
     background-image: url(imgs/sw42.jpeg);
     background-size: 27.7vw;
-    background-position: 100% 100%;
+    background-position: 50% 50%;
     height: 15vw;
     width: 22vw;
     position: relative;
@@ -1291,7 +1317,7 @@ input::placeholder {
 }
 
 .venda2:hover {
-    background-size: 28.1vw;
+    background-size: 27.9vw;
 }
 
 .textvenda2 {
@@ -1321,7 +1347,7 @@ input::placeholder {
 }
 
 .venda3:hover {
-    background-size: 22.4vw;
+    background-size: 22.2vw;
 }
 
 .textvenda3 {
@@ -1360,7 +1386,6 @@ input::placeholder {
     }
     
     .venda1 {
-        background-image: url(imgs/ram3.jpg);
         background-size: 75vw;
         background-position: 40% 80%;
         height: 50vw;
@@ -1421,7 +1446,6 @@ input::placeholder {
     }
     
     .venda3 {
-        background-image: url(imgs/jet2.jpg);
         background-size: 75vw;
         background-position: center;
         height: 50vw;
@@ -1572,7 +1596,20 @@ footer {
     font-size: 400;
 }
 
-#input_group button {
+.buttonsubscribe {
+    color: rgb(68, 68, 68);
+    margin-left: 25px;
+    background-color: none;
+    border: solid 2px rgb(0, 0, 0);
+    background-color: #000000;
+    padding: 0px 1.25rem;
+    font-size: 1px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.buttonsubscribeactive {
     color: white;
     margin-left: 25px;
     background-color: none;
@@ -1580,17 +1617,14 @@ footer {
     background-color: #000000;
     padding: 0px 1.25rem;
     font-size: 1px;
-    height: 100%;
+    height: 32px;
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
-}
-
-#input_group button p {
     font-size: 14px;
 }
 
-#input_group button:hover {
+.buttonsubscribeactive:hover {
     font-weight: 600;
     color: rgb(0, 0, 0);
     background-color: #fbfbfb;
