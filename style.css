@@ -508,7 +508,7 @@ nav ul li a {
     background-color: none;
     height: 100%;
     width: 100%;
-    z-index: -100;
+    z-index: 100;
 }
 
 .textprincipal h2{

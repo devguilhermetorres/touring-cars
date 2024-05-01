@@ -47,6 +47,10 @@ nav ul {
     
 }
 
+.nav-list {
+    display: block;
+}
+
 .logo {
     margin-left: 10%;
     margin-top: 30px;
@@ -63,10 +67,9 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: 500;
     padding: 0px 10px;
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #000000; /* Cor do texto do link */
+    text-decoration: none;
+    color: #000000; 
 }
 
 .acessarestoque2 {
@@ -87,7 +90,6 @@ nav ul li a {
 .buttonsnav:hover {
     background-color: rgb(236, 236, 236);
     transition: all 0.3s;
-    animation: pulse 2.5s ease infinite;
 }
 
 .buttonsnav p{
@@ -99,29 +101,25 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.anunciar {
-    background-color: #000000;
+.navatual {
     color: rgb(255, 255, 255);
-    padding: 0px 5px 5px 20px;
+    background-color: #000000;
+    padding: 0px 15px 5px 15px;
     background-repeat: no-repeat;
-    width: 128px;
-    text-align: left;
+    background-position: center;
     float: right;
+    transition: all 0.5s;
     border-radius: 15px;
     box-shadow: 0px 0px 0px 1px black inset;
-    transition: all 0.3s;
 }
 
-.anunciar p{
+.navatual p {
+    text-align: center;
     display: inline;
+    position: relative;
     font-weight: 600;
     font-size: 15px;
-}
-
-.anunciar:hover {
-    background-color: #fbfbfb;
-    color: rgb(0, 0, 0);
-    box-shadow:0px 0px 0px 1px black inset;
+    transition: all 0.6s;
 }
 
 .mobile-menu-icon {
