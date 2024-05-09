@@ -404,8 +404,6 @@ nav ul li a {
 .principal{
     background-size: cover;
     background-position: 50% 20%;
-    margin-top: 0px;
-    margin-bottom: 0px;
     position: relative;
     width: 100%;
     height: 710px;
@@ -519,7 +517,7 @@ nav ul li a {
     font-size: 95px;
     color: rgb(27, 27, 27);
     margin-left: 10%;
-    margin-top: 155px;
+    margin-top: 135px;
     font-weight: 700;
 }
 
@@ -532,7 +530,7 @@ nav ul li a {
     margin-left: 10.5%;
     font-weight: 400;
     height: 60px;
-    transform: translate(0%, 840%);
+    transform: translate(0%, 800%);
     z-index: 4500;
 }
 
@@ -621,6 +619,7 @@ nav ul li a {
     font-weight: 400;
     height: 60px;
     z-index: 4500;
+    transform: translate(0%, 835%);
     }
 
 }
@@ -915,24 +914,28 @@ nav ul li a {
 
 .button {
     float: right;
+    margin-top: 10px;
     margin-right: 4%;
     font-size: 14px;
     font-weight: 500;
-    width: 15%;
-    height: 35px;
+    width: 16%;
+    height: 38px;
     color: rgb(68, 68, 68);
+    border-radius: 5px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
 }
 
 .buttonactive {
     float: right;
+    margin-top: 10px;
     margin-right: 4%;
     font-size: 14px;
     font-weight: 500;
-    width: 15%;
-    height: 35px;
+    width: 16%;
+    height: 38px;
     color: #fbfbfb;
+    border-radius: 5px;
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
@@ -954,8 +957,8 @@ input[type=checkbox] {
   }
   
 label {
-    color: #000000;
-    font-size: 10px;
+    color: #808080;
+    font-size: 11px;
     font-weight: 400;
 }
 
@@ -964,14 +967,14 @@ label {
     display: inline-block;
     position: relative;
     margin-top: 35px;
-    margin-left: 3%;
+    margin-left: 3.3%;
     width: 93%;
 }
 
 fieldset {
     display: block;
     width: 100%;
-    border: solid 1px black;
+    border: solid 1px #989898;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;
@@ -980,23 +983,22 @@ fieldset {
 }
 
 input::placeholder {
-    color: #000000;
+    color: #989898;
     font-weight: 400;
     font-size: 14px;
 }
 
 .field{
+    padding-left: 10px;
     background-color: transparent;
-    width: 13%;
-    padding: 3px;
+    width: 15%;
+    height: 36px;
     margin-top: 10px;
-    margin-right: 1vw;
-    margin-left: 4%;
+    margin-right: 0vw;
+    margin-left: 3%;
     justify-content: space-around;
-    border: solid 2px black;
-    border-top: 0 none;
-    border-left: 0 none;
-    border-right: 0 none;
+    border: solid 1px rgb(169, 169, 169);
+    border-radius: 5px;
     font-weight: 600;
     font-size: 14px;
 }
@@ -1526,7 +1528,7 @@ footer {
 }
 
 #footer_social_media .footer-link:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .footer-list {
@@ -1564,7 +1566,7 @@ footer {
 }
 
 .footer-list .footer-link:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 #footer_subscribe {
