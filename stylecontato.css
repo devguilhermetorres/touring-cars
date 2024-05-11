@@ -421,10 +421,10 @@ nav ul li a {
 }
 
 .principal{
-    background-image: url(imgs/porsche-model7.png);
+    background-image: url(imgs/m2.png);
     background-repeat: no-repeat;
-    background-size: 1200px;
-    background-position: 230% 65%;
+    background-size: 950px;
+    background-position: 140% 95%;
     display: flex;
     margin: auto;
     width: 100%;
@@ -571,7 +571,7 @@ input[type=checkbox] {
   }
   
 label {
-    color: #808080;
+    color: #383838;
     font-size: 11px;
     font-weight: 400;
 }
@@ -588,7 +588,7 @@ label {
 fieldset {
     display: block;
     width: 100%;
-    border: solid 1px #989898;
+    border: solid 2px #000000;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;
@@ -825,7 +825,9 @@ footer {
 }
 
 #input_group input {
-    all: unset;
+    margin-top: 0px;
+    background-color: transparent;
+    margin-left: 0px;
     height: 32px;
     width: 50%;
     border: solid 1px #969696;
@@ -839,6 +841,7 @@ footer {
     color: #969696;
     font-size: 14px;
     font-size: 400;
+    padding-left: 0px;
 }
 
 .buttonsubscribe {

@@ -1,5 +1,5 @@
 function validarSubscribe(){
-    var emailVazio = email.value;
+    var emailVazio = Email.value;
     
     if(!(emailVazio == "")){
     document.subscribe.idButton.disabled=false;
@@ -7,11 +7,10 @@ function validarSubscribe(){
     document.subscribe.idButton.classList.add("buttonsubscribeactive");
 }
     
-    
     else{
         document.subscribe.idButton.disabled=true;
         document.subscribe.idButton.classList.remove("buttonsubscribeactive");
         document.subscribe.idButton.classList.add("buttonsubscribe");
     }
     
-    }
+}
