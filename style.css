@@ -268,7 +268,7 @@ nav ul li a {
         padding: 15px 30px 15px 25px;
         display: flex;
         margin: 10px 7% 10px 7%;
-        font-size: 17px;
+        font-size: 15px;
         justify-content: space-between;
         transition: all 0.3s;
         border: 1px solid rgb(189, 189, 189);
@@ -395,11 +395,11 @@ nav ul li a {
 
 .arrowbottomcentralizadora{
     margin-top: 620px;
+    height: 20px;
     position: absolute;
     background-color: none;
     width: 100%;
     animation: pulse 2s ease infinite;
-    transition: all 0.5s;
     z-index: 1000;
 }
 
@@ -411,6 +411,8 @@ nav ul li a {
 }
 
 .arrowbottomnone{
+    height: 20px;
+    margin-top: 620px;
     position: absolute;
     background-color: none;
     width: 100%;
@@ -527,7 +529,7 @@ nav ul li a {
         margin-bottom: 0px;
         position: relative;
         width: 100%;
-        height: 710px;
+        height: 600px;
     }
     
     .arrowbottomcentralizadora{
@@ -598,7 +600,7 @@ nav ul li a {
 }
 
 .textmodelos {
-    padding-top: 50px;
+    padding-top: 0px;
     width: 70%;
     margin: auto;
 }
@@ -738,7 +740,7 @@ nav ul li a {
     
     .modelos {
         position: relative;
-        padding-top: 50px;
+        padding-top: 30px;
         width: 70%;
         height: 156vw;
         margin: auto;
@@ -947,7 +949,7 @@ label {
 fieldset {
     display: block;
     width: 100%;
-    border: solid 2px #000000;
+    border: solid 1px #000000;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;
@@ -987,7 +989,7 @@ input::placeholder {
     .textformulario {
         width: 70%;
         margin: auto;
-        height: 150px;
+        height: 109px;
         margin-top: 100px;
         font-size: 12px;
     }
@@ -1001,11 +1003,10 @@ input::placeholder {
     }
     
     .form {
-        
+        margin-top: 30px;
         display: flex;
         justify-content: space-around;
         width: 70%;
-        height: 320px;
         padding: 0;
     }
     
@@ -1057,9 +1058,10 @@ input::placeholder {
         width: 100%;
         padding-top: 8%;
         padding-left: 6vw;
-        padding-bottom: 300px;
+        padding-bottom: 8%;
         padding-right: 6vw;
         border-radius: 15px;
+
     }
     
     input::placeholder {
@@ -1176,7 +1178,7 @@ input::placeholder {
         font-size: 12px;
         width: 70%;
         margin: auto;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         margin-top: 100px;
     }
     
@@ -1197,7 +1199,7 @@ input::placeholder {
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
-        height: 35vw;
+        height: 50%;
         border-radius: 15px;
         transition: all 0.4s;
     }
@@ -1365,10 +1367,10 @@ input::placeholder {
     
     .vendas {
         position: relative;
-        padding-top: 50px;
         width: 70%;
         height: 156vw;
         margin: auto;
+        margin-top: 30px;
         background-color: none;
         justify-content: flex-end;
         display: block;
@@ -1590,7 +1592,6 @@ footer {
 .buttonsubscribe {
     all: unset;
     color: rgb(68, 68, 68);
-    margin-left: 25px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
@@ -1606,7 +1607,6 @@ footer {
 .buttonsubscribeactive {
     all: unset;
     color: white;
-    margin-left: 25px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
