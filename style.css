@@ -126,14 +126,9 @@ nav ul li a {
     padding: 15px 30px 15px 30px;
     display: flex;
     margin: 10px 7% 10px 7%;
-    font-size: 17px;
     justify-content: space-between;
     transition: all 0.3s;
     border: 1px solid #cccccc;
-}
-
-.mobile-menu .nav-item a{
-    font-weight: 600;
 }
 
 
@@ -268,15 +263,15 @@ nav ul li a {
         padding: 15px 30px 15px 25px;
         display: flex;
         margin: 10px 7% 10px 7%;
-        font-size: 15px;
+        font-size: 17px;
         justify-content: space-between;
         transition: all 0.3s;
-        border: 1px solid rgb(189, 189, 189);
-        font-weight: 500;
+        border: 1px solid rgb(204, 204, 204);
+        font-weight: 400;
     }
 
     .mobile-menu .nav-item:hover {
-        background-color: #cacaca4c;
+        background-color: #d8d8d84c;
     }
 
     .mobile-menu .nav-item img{
