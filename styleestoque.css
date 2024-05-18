@@ -1502,9 +1502,9 @@ footer {
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px 1.25rem;
+    padding: 0px 0.7rem;
     font-size: 1px;
-    height: 32px;
+    height: 31px;
     font-weight: 500;
     font-size: 14px;
     border-radius: 5px;
@@ -1517,9 +1517,9 @@ footer {
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px 1.25rem;
+    padding: 0px .7rem;
     font-size: 1px;
-    height: 32px;
+    height: 31px;
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
