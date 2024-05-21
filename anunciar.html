@@ -61,16 +61,6 @@
                     </li>
                     
                 </ul>
-
-                <ul>
-                    <li>
-                        <a href="estoque.html" style="z-index: 6000;">
-                            <div class="acessarestoque2" id="estoque2">
-                                <p>Estoque</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
             </div>
 
             <div class="mobile-menu-icon">
@@ -116,50 +106,53 @@
                 <h2>Preencha o formulário e realize seu anúncio! Nossa equipe entrará em contato com você o mais rápido.</h2>
             </div>
             
-            <div class="formulario">
-                <fieldset>
-                    <form name="cadastrar">
-                        <p id="textoform">Dados do veículo</p>
-                        <input type="text" id="marca" name="marca" class="field" placeholder="Marca do veículo" onchange="validarCadastrar()">
-    
-                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo do veículo" onchange="validarCadastrar()">
-    
-                        <input type="text" class="field" id="versao" name="versao" placeholder="Versão do veículo" onchange="validarCadastrar()">
-    
-                        <input type="number" class="field" id="km" name="km" placeholder="KM do veículo" onchange="validarCadastrar()">
-                        
-                        <input type="number" class="field" id="ano" name="ano" placeholder="Ano do veículo" onchange="validarCadastrar()">
-
-                        <input type="number" class="field" id="valor" name="valor" placeholder="Valor desejado" onchange="validarCadastrar()">
-    
-                        <p id="textoform">Dados pessoais</p>
-    
-                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
-    
-                        <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
-    
-                        <input type="tel" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000" onchange="validarCadastrar()">
-    
-                        <p id="textoform">Fotos do veículo</p>
-                        <input type="file" class="upload" id="fotos" name="fotos" onchange="validarCadastrar()" multiple>
-    
-                        <button id="idButton"
-                            class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
-                        <script src="validarform.js"></script>
-                    </form>
-                    
-    
-                    <div class="checklgpd">
-                        <input type="checkbox" id="lgpd" class="check">
-                        <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo.</label>
-                    </div>
-                    
-                </fieldset>
-            </div>
-            
-
 
         </div>
+
+        <div class="formulario">
+            <fieldset>
+                <form name="cadastrar">
+                    <label class="textoform" id="dadosveiculo">Dados do veículo</label>
+                    
+                    <input type="text" id="marca" name="marca" class="field" placeholder="Marca do veículo" onchange="validarCadastrar()">
+
+                    <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo do veículo" onchange="validarCadastrar()">
+
+                    <input type="text" class="field" id="versao" name="versao" placeholder="Versão do veículo" onchange="validarCadastrar()">
+
+                    <input type="number" class="field" id="km" name="km" placeholder="KM do veículo" onchange="validarCadastrar()">
+                    
+                    <input type="number" class="field" id="ano" name="ano" placeholder="Ano do veículo" onchange="validarCadastrar()">
+
+                    <input type="number" class="field" id="valor" name="valor" placeholder="Valor desejado" onchange="validarCadastrar()">
+
+                    <label class="textoform" id="dadospessoais">Dados pessoais</label>
+
+                    <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
+
+                    <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+
+                    <input type="tel" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000" onchange="validarCadastrar()">
+
+                    <label class="textoform" id="fotos">Fotos do veículo</label>
+
+                    <input type="file" class="upload" id="fotos" name="fotos" onchange="validarCadastrar()" accept="image/*,.pdf" multiple>
+
+                    <button id="idButton"
+                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+                    <script src="validarform.js"></script>
+                </form>
+                
+
+                <div class="checklgpd">
+                    <input type="checkbox" id="lgpd" class="check">
+                    <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
+                </div>
+                
+            </fieldset>
+        </div>
+        
+
     </main>
     <footer>
         <hr style="margin: 100px 7.5vw 0px 7.5vw;">
@@ -170,15 +163,15 @@
                 <p>Qualidade, Segurança,  Transparência. </p>
 
                 <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
+                    <a href="https://www.instagram.com/" class="footer-link" id="instagram" target="_blank">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="facebook">
+                    <a href="https://www.facebook.com/" class="footer-link" id="facebook" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="youtube">
+                    <a href="https://www.youtube.com/" class="footer-link" id="youtube" target="_blank">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
                 </div>
@@ -214,7 +207,7 @@
 
                         <button id="idButton" 
                         class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
-                            <p>Enviar</p>
+                            <p>Inscrever-se</p>
                         </button>
 
                         <script src="validarsubscribe.js"></script>

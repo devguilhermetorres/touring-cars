@@ -44,7 +44,6 @@ nav ul {
     float: right;
     margin-right: 10%;
     margin-top: 30px;
-    
 }
 
 .nav-list {
@@ -87,7 +86,7 @@ nav ul li a {
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(12px);
-    background-color: #f2f2f2d1;
+    background-color: #ffffffdf;
     top: 0;
 }
 
@@ -123,21 +122,54 @@ nav ul li a {
 
 .mobile-menu .nav-item {
     border-radius: 15px;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 15px 10px 15px;
     display: flex;
-    margin: 10px 7% 10px 7%;
+    margin: 10px 5.5% 5px 5.5%;
+    font-size: 19.5px;
     justify-content: space-between;
     transition: all 0.3s;
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(60, 54, 54, 0);
+    font-weight: 350;
 }
 
+.mobile-menu .nav-item:hover {
+    background-color: #c6c6c62d;
+    padding: 10px 10px 10px 15px;
+}
+
+.mobile-menu .nav-item-icons {
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    margin: 50px 5.5% 5px 5.5%;
+    font-size: 19.5px;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+.mobile-menu .nav-item-icons i{
+    display: flex;
+    font-size: 19.5px;
+    justify-content: space-evenly;
+    transition: all 0.3s;
+    color: #000000;
+    font-size: 22px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.mobile-menu .nav-item-icons i:hover{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c6c6c65e;
+}
 
 .mobile-menu .nav-item img{
     max-height: 15px;
     margin-right: 5px;
     transform: translate(-0%, 20%);
 }
-
 
 .open {
     display: block;
@@ -147,7 +179,7 @@ nav ul li a {
 @media screen and (max-width: 1000px) {
     nav ul {
         display: flex;
-        list-style-type: none; /* Remove os marcadores de lista */
+        list-style-type: none;
         justify-content: space-between;
         margin-right: 7%;
         margin-top: 30px;
@@ -246,7 +278,6 @@ nav ul li a {
 
     .mobile-menu ul {
         width: 100%;
-        max-width: 700px;
         position: fixed;
         background-color: transparent;
         padding-top: 100px;
@@ -255,23 +286,51 @@ nav ul li a {
         margin: 0;
         top: 0;
         z-index: 7000;
-        
     }
     
     .mobile-menu .nav-item {
         border-radius: 15px;
-        padding: 15px 30px 15px 25px;
+        padding: 10px 15px 10px 15px;
         display: flex;
-        margin: 10px 7% 10px 7%;
-        font-size: 17px;
+        margin: 10px 5.5% 5px 5.5%;
+        font-size: 19.5px;
         justify-content: space-between;
         transition: all 0.3s;
-        border: 1px solid rgb(204, 204, 204);
-        font-weight: 400;
+        border: 1px solid rgba(60, 54, 54, 0);
+        font-weight: 350;
     }
 
     .mobile-menu .nav-item:hover {
-        background-color: #d8d8d84c;
+        background-color: #c6c6c62d;
+        padding: 10px 10px 10px 15px;
+    }
+
+    .mobile-menu .nav-item-icons {
+        border-radius: 15px;
+        padding: 10px 15px 10px 15px;
+        display: flex;
+        margin: 50px 5.5% 5px 5.5%;
+        font-size: 19.5px;
+        justify-content: center;
+        transition: all 0.3s;
+    }
+
+    .mobile-menu .nav-item-icons i{
+        display: flex;
+        font-size: 19.5px;
+        justify-content: space-evenly;
+        transition: all 0.3s;
+        color: #000000;
+        font-size: 22px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+
+    .mobile-menu .nav-item-icons i:hover{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #c6c6c65e;
     }
 
     .mobile-menu .nav-item img{
@@ -279,7 +338,6 @@ nav ul li a {
         margin-right: 5px;
         transform: translate(-0%, 20%);
     }
-    
     
     .open {
         display: block;
@@ -314,7 +372,6 @@ nav ul li a {
 
 .buttonsnav:hover {
     background-color: rgb(236, 236, 236);
-    transition: all 0.3s;
 }
 
 .buttonsnav p{
@@ -894,7 +951,7 @@ nav ul li a {
     width: 16%;
     height: 38px;
     color: rgb(68, 68, 68);
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
 }
@@ -908,7 +965,7 @@ nav ul li a {
     width: 16%;
     height: 38px;
     color: #fbfbfb;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
@@ -971,7 +1028,7 @@ input::placeholder {
     margin-left: 3%;
     justify-content: space-around;
     border: solid 1px rgb(169, 169, 169);
-    border-radius: 5px;
+    border-radius: 7px;
     font-weight: 600;
     font-size: 14px;
 }
@@ -1580,7 +1637,7 @@ footer {
     height: 32px;
     width: 50%;
     border: solid 1px #969696;
-    border-radius: 5px;
+    border-radius: 7px;
     font-weight: 600;
     font-size: 14px;
     padding-left: 10px;
@@ -1603,7 +1660,7 @@ footer {
     height: 30px;
     font-weight: 300;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-left: 15px;
 }
 
@@ -1620,7 +1677,7 @@ footer {
     transition: all 0.3s;
     font-weight: 500;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-left: 15px;
 }
 

@@ -320,7 +320,6 @@ nav ul li a {
 
 .buttonsnav:hover {
     background-color: rgb(236, 236, 236);
-    transition: all 0.3s;
 }
 
 .buttonsnav p{
@@ -809,7 +808,7 @@ footer {
     height: 32px;
     width: 50%;
     border: solid 1px #969696;
-    border-radius: 5px;
+    border-radius: 7px;
     font-weight: 600;
     font-size: 14px;
     padding-left: 10px;
@@ -833,7 +832,7 @@ footer {
     height: 31px;
     font-weight: 500;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .buttonsubscribeactive {
@@ -850,7 +849,7 @@ footer {
     transition: all 0.3s;
     font-weight: 500;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .buttonsubscribeactive:hover {

@@ -244,6 +244,20 @@ nav ul li a {
         z-index: 7008;
     }
 
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        backdrop-filter: blur(12px);
+        background-color: #ffffffdf;
+        top: 0;
+    }
+    
+    .open{
+        display: block;
+    }
+    
     .menu-open{
         display: block;
         position: fixed;
@@ -257,10 +271,9 @@ nav ul li a {
         border: none;
         cursor: pointer;
     }
-
+    
     .mobile-menu ul {
         width: 100%;
-        max-width: 700px;
         position: fixed;
         background-color: transparent;
         padding-top: 100px;
@@ -273,19 +286,48 @@ nav ul li a {
     
     .mobile-menu .nav-item {
         border-radius: 15px;
-        padding: 15px 30px 15px 30px;
+        padding: 10px 15px 10px 15px;
         display: flex;
-        margin: 10px 7% 10px 7%;
-        font-size: 17px;
+        margin: 10px 5.5% 5px 5.5%;
+        font-size: 19.5px;
         justify-content: space-between;
         transition: all 0.3s;
-        border: 1px solid rgb(189, 189, 189);
+        border: 1px solid rgba(60, 54, 54, 0);
+        font-weight: 350;
     }
     
-    .mobile-menu .nav-item a{
-        font-weight: 600;
+    .mobile-menu .nav-item:hover {
+        background-color: #c6c6c62d;
+        padding: 10px 10px 10px 15px;
     }
     
+    .mobile-menu .nav-item-icons {
+        border-radius: 15px;
+        padding: 10px 15px 10px 15px;
+        display: flex;
+        margin: 50px 5.5% 5px 5.5%;
+        font-size: 19.5px;
+        justify-content: center;
+        transition: all 0.3s;
+    }
+    
+    .mobile-menu .nav-item-icons i{
+        display: flex;
+        font-size: 19.5px;
+        justify-content: space-evenly;
+        transition: all 0.3s;
+        color: #000000;
+        font-size: 22px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    
+    .mobile-menu .nav-item-icons i:hover{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #c6c6c65e;
+    }
     
     .mobile-menu .nav-item img{
         max-height: 15px;
@@ -293,14 +335,9 @@ nav ul li a {
         transform: translate(-0%, 20%);
     }
     
-    
     .open {
         display: block;
         z-index: 7000;
-    }
-
-    .arrowbottomcentralizadora {
-        display: none;
     }
 }  
 
@@ -325,7 +362,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
     float: right;
-    transition: all 0.4s;
+    transition: all 0.5s;
     border-radius: 15px;
     animation: pulse 2.5s ease infinite;
 }
@@ -459,7 +496,7 @@ nav ul li a {
 .acoes ul li {
     background-image: url(imgs/arrowrightpreto.png);
     background-size: 15px;
-    background-position: 87% 50%;
+    background-position: 88% 50%;
     background-repeat: no-repeat;
     width: 100%;
     padding: 20px 20px;
@@ -468,13 +505,13 @@ nav ul li a {
     margin-bottom: 15px;
     border-radius: 15px;
     font-weight: 300;
-    transition: all 0.3s;
+    transition: all 0.4s;
 }
 
 .acoes ul li:hover {
     background-image: url(imgs/arrowright.png);
     background-size: 15px;
-    background-position: 90% 50%;
+    background-position: 92% 50%;
     background-repeat: no-repeat;
     transform: translate(0.7%, 0%);
     color: rgb(255, 255, 255);
@@ -524,7 +561,7 @@ nav ul li a {
     .acoes ul li {
         background-image: url(imgs/arrowrightpreto.png);
         background-size: 15px;
-        background-position: 87% 50%;
+        background-position: 88% 50%;
         background-repeat: no-repeat;
         width: 100%;
         padding: 20px 20px;
@@ -533,14 +570,14 @@ nav ul li a {
         margin-bottom: 15px;
         border-radius: 15px;
         font-weight: 300;
-        transition: all 0.3s;
+        transition: all 0.4s;
         font-size: 14.5px;
     }
     
     .acoes ul li:hover {
         background-image: url(imgs/arrowright.png);
         background-size: 15px;
-        background-position: 90% 50%;
+        background-position: 92% 50%;
         background-repeat: no-repeat;
         transform: translate(0.7%, 0%);
         color: rgb(255, 255, 255);
@@ -585,7 +622,7 @@ nav ul li a {
     width: 16%;
     height: 38px;
     color: rgb(68, 68, 68);
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
 }
@@ -599,7 +636,7 @@ nav ul li a {
     width: 16%;
     height: 38px;
     color: #fbfbfb;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
     transition: all 0.3s;
@@ -662,7 +699,7 @@ input::placeholder {
     margin-left: 3%;
     justify-content: space-around;
     border: solid 1px rgb(169, 169, 169);
-    border-radius: 5px;
+    border-radius: 7px;
     font-weight: 600;
     font-size: 14px;
 }
@@ -773,7 +810,6 @@ input::placeholder {
         margin-left: 0px;
         border: solid 1px #969696;
         font-weight: 600;
-        border-radius: 5px;
         padding-left: 10px; 
     }
 
@@ -900,7 +936,7 @@ footer {
     height: 32px;
     width: 50%;
     border: solid 1px #969696;
-    border-radius: 5px;
+    border-radius: 7px;
     font-weight: 600;
     font-size: 14px;
     padding-left: 10px;
@@ -924,7 +960,7 @@ footer {
     height: 31px;
     font-weight: 500;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .buttonsubscribeactive {
@@ -940,7 +976,7 @@ footer {
     transition: all 0.3s;
     font-weight: 500;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .buttonsubscribeactive:hover {

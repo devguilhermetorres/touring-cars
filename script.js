@@ -33,14 +33,14 @@ function menuShowFiltrar() {
         button.classList.remove('open');
         filtro.style.display = "block";
         document.querySelector('.iconarrow').src = "imgs/up-chevron.svg";
-        button.style.border = "1px solid #363636";
+        button.style.border = "1px solid #000000";
         
         
     } else {
         button.classList.add('open');
         document.querySelector('.iconarrow').src = "imgs/down-chevron.svg";
         filtro.style.display = "none";
-        button.style.border = "1px solid #ccc";
+        button.style.border = "1px solid #c2c2c2";
     }
 };
 
