@@ -85,8 +85,8 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(12px);
-    background-color: #ffffffdf;
+    backdrop-filter: blur(15px);
+    background-color: #ffffffea;
     top: 0;
 }
 
@@ -133,7 +133,7 @@ nav ul li a {
 }
 
 .mobile-menu .nav-item:hover {
-    background-color: #c6c6c62d;
+    background-color: #d3d3d32d;
     padding: 10px 10px 10px 15px;
 }
 
@@ -177,6 +177,8 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1000px) {
+
+
     nav ul {
         display: flex;
         list-style-type: none;
@@ -301,7 +303,7 @@ nav ul li a {
     }
 
     .mobile-menu .nav-item:hover {
-        background-color: #c6c6c62d;
+        background-color: #d3d3d32d;
         padding: 10px 10px 10px 15px;
     }
 
@@ -328,8 +330,6 @@ nav ul li a {
     }
 
     .mobile-menu .nav-item-icons i:hover{
-        display: flex;
-        justify-content: space-evenly;
         background-color: #c6c6c65e;
     }
 
@@ -383,36 +383,6 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.acessarestoque {
-    background-image: url(imgs/arrowright.png);
-    background-size: 13.5px;
-    background-position: 90% 50%;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 0px 5px 5px 20px;
-    background-repeat: no-repeat;
-    width: 145px;
-    text-align: left;
-    float: right;
-    border-radius: 15px;
-    box-shadow: 0px 0px 0px 1px black inset;
-    transition: all 0.3s;
-}
-
-.acessarestoque p{
-    display: inline;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.acessarestoque:hover {
-    background-image: url(imgs/arrowrightpreto.png);
-    background-size: 13.5px;
-    background-position: 95% 50%;
-    background-color: #fbfbfb;
-    color: rgb(0, 0, 0);
-    box-shadow:0px 0px 0px 1px black inset;
-}
 
 .anunciar {
     background-color: #000000;
@@ -539,6 +509,10 @@ nav ul li a {
     opacity: 0.4;
 }
 
+.textprincipal2 {
+    display: none;
+}
+
 .textprincipal {
     display: flex;
     position: absolute;
@@ -615,40 +589,104 @@ nav ul li a {
         height: 100%;
         opacity: 0.4;
     }
-    
+
     .textprincipal {
+        display: none;
+    }
+    
+    .textprincipal2 {
         display: flex;
         background-color: none;
         height: 100%;
         width: 100%;
+        
     }
     
-    .textprincipal h2{
-    display: block;
-    letter-spacing: -4px;
-    line-height: 60px;
-    z-index: -2;
-    font-size: 55px;
-    color: rgb(27, 27, 27);
-    margin-left: 10%;
-    margin-top: 40px;
-    font-weight: 700;
-    height: 60px;
-    }
-    
-    .textprincipal p{
-    position: absolute;
-    line-height: 20px;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    margin-top: -270px;
-    margin-left: 10.5%;
-    font-weight: 400;
-    height: 60px;
-    z-index: 4500;
-    transform: translate(0%, 835%);
+    .textprincipal2 h2{
+        display: block;
+        letter-spacing: -4px;
+        line-height: 60px;
+        z-index: -2;
+        font-size: 55px;
+        color: rgb(27, 27, 27);
+        margin-left: 10%;
+        margin-top: 40px;
+        font-weight: 700;
+        height: 60px;
+
     }
 
+    .buttonsestoqueanunciar {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        height: auto;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    
+    .textprincipal2 p{
+        position: absolute;
+        line-height: 20px;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        margin-top: -270px;
+        margin-left: 10.5%;
+        font-weight: 400;
+        height: 60px;
+        z-index: 4500;
+        transform: translate(0%, 835%);
+    }
+
+    .acessarestoque {
+        display: inline-block;
+        background-size: 12.5px;
+        background-position: 85% 55%;
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        color: white;
+        padding: 3px 25px 3px 25px;
+        transition: all 0.3s;
+        border-radius: 15px 0px 0px 15px;
+        cursor: pointer;
+        box-shadow:0px 0px 0px 1.5px black inset;
+        font-weight: 600;
+        font-size: 13.5px;
+    }  
+
+    .acessarestoque:hover {
+        background-size: 12.5px;
+        background-position: 90% 55%;
+        background-color: #fbfbfb;
+        color: rgb(0, 0, 0);
+        box-shadow:0px 0px 0px 1.5px black inset;
+    }
+
+    .acessaranunciar {
+        display: inline-block;
+        background-size: 12.5px;
+        background-position: 85% 55%;
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        color: white;
+        padding: 3px 25px 3px 25px;
+        transition: all 0.3s;
+        border-radius: 0px 15px 15px 0px;
+        box-shadow:0px 0px 0px 1.5px black inset;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 13.5px;
+        margin-left: 5px;
+        font-weight: 600;
+        font-size: 13.5px;
+    }
+
+    .acessaranunciar:hover {
+        background-size: 12.5px;
+        background-position: 90% 55%;
+        background-color: #fbfbfb;
+        color: rgb(0, 0, 0);
+    }
 }
 
 .textmodelos {
@@ -954,6 +992,7 @@ nav ul li a {
     border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
+    transition: all 0.3s;
 }
 
 .buttonactive {
@@ -973,10 +1012,9 @@ nav ul li a {
 }
 
 .buttonactive:hover {
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    border: solid 2px rgb(0, 0, 0);
 }
 
 input[type=checkbox] {
@@ -1558,9 +1596,34 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 3.8rem;
-    margin-top: 1.5rem;
+    gap: 1.95rem;
+    margin-top: 1.2rem;
 } 
+
+#footer_social_media i {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#footer_social_media i:hover {
+    background-color: #c6c6c65e;
+}
+
+i.fa-brands.fa-facebook-f:hover {
+    color: rgb(0, 68, 177);
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-youtube:hover {
+    color: red;
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-whatsapp:hover {
+    color: rgb(0, 193, 48);
+    transition: all 0.2s;
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -1575,10 +1638,6 @@ footer {
 
 #footer_social_media .footer-link i {
     font-size: 1.25rem;    
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.7;
 }
 
 .footer-list {
@@ -1646,7 +1705,7 @@ footer {
 #input_group input::placeholder {
     color: #969696;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .buttonsubscribe {
@@ -1662,6 +1721,7 @@ footer {
     font-size: 14px;
     border-radius: 7px;
     margin-left: 15px;
+    transition: all 0.3s;
 }
 
 .buttonsubscribeactive {
@@ -1682,10 +1742,8 @@ footer {
 }
 
 .buttonsubscribeactive:hover {
-    font-weight: 600;
     color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 #footer_copyright {

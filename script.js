@@ -32,15 +32,14 @@ function menuShowFiltrar() {
     if (button.classList.contains('open')) {
         button.classList.remove('open');
         filtro.style.display = "block";
-        document.querySelector('.iconarrow').src = "imgs/up-chevron.svg";
         button.style.border = "1px solid #000000";
-        
+        document.querySelector('.iconarrow').style  = "max-width: 13px; margin-left: 5px; transform: rotate(0deg);"
         
     } else {
         button.classList.add('open');
-        document.querySelector('.iconarrow').src = "imgs/down-chevron.svg";
         filtro.style.display = "none";
         button.style.border = "1px solid #c2c2c2";
+        document.querySelector('.iconarrow').style  = "max-width: 13px; margin-left: 5px; transform: rotate(180deg);"
     }
 };
 
@@ -66,3 +65,4 @@ function validarCadastrar(){
     }
     
 };
+

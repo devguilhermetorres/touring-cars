@@ -85,8 +85,8 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(12px);
-    background-color: #f0f0f0d1;
+    backdrop-filter: blur(15px);
+    background-color: #ffffffea;
     top: 0;
 }
 
@@ -122,14 +122,21 @@ nav ul li a {
 
 .mobile-menu .nav-item {
     border-radius: 15px;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 15px 10px 15px;
     display: flex;
-    margin: 10px 7% 10px 7%;
-    font-size: 17px;
+    margin: 10px 5.5% 5px 5.5%;
+    font-size: 19.5px;
     justify-content: space-between;
     transition: all 0.3s;
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(60, 54, 54, 0);
+    font-weight: 350;
 }
+
+.mobile-menu .nav-item:hover {
+    background-color: #d3d3d32d;
+    padding: 10px 10px 10px 15px;
+}
+
 
 .mobile-menu .nav-item a{
     font-weight: 600;
@@ -141,7 +148,6 @@ nav ul li a {
     margin-right: 5px;
     transform: translate(-0%, 20%);
 }
-
 
 .open {
     display: block;
@@ -249,13 +255,9 @@ nav ul li a {
         position: fixed;
         width: 100vw;
         height: 100vh;
-        backdrop-filter: blur(12px);
-        background-color: #ffffffdf;
+        backdrop-filter: blur(15px);
+        background-color: #ffffffea;
         top: 0;
-    }
-    
-    .open{
-        display: block;
     }
     
     .menu-open{
@@ -297,7 +299,7 @@ nav ul li a {
     }
     
     .mobile-menu .nav-item:hover {
-        background-color: #c6c6c62d;
+        background-color: #d3d3d32d;
         padding: 10px 10px 10px 15px;
     }
     
@@ -475,7 +477,7 @@ nav ul li a {
     font-size: 18px;
     color: black;
     height: 60px;
-    margin-left: 10%;
+    margin-left: 10.5%;
     margin-top: 50px;
 }
 
@@ -483,7 +485,7 @@ nav ul li a {
     width: 1000px;
     height: 400px;
     margin-top: 20px;
-    margin-left: 10%;
+    margin-left: 10.5%;
 }
 
 .acoes ul {
@@ -512,7 +514,6 @@ nav ul li a {
     background-image: url(imgs/arrowright.png);
     background-size: 15px;
     background-position: 92% 50%;
-    background-repeat: no-repeat;
     transform: translate(0.7%, 0%);
     color: rgb(255, 255, 255);
 }
@@ -625,6 +626,7 @@ nav ul li a {
     border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
+    transition: all 0.3s;
 }
 
 .buttonactive {
@@ -644,10 +646,9 @@ nav ul li a {
 }
 
 .buttonactive:hover {
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    border: solid 2px rgb(0, 0, 0);
 }
 
 input[type=checkbox] {
@@ -857,9 +858,34 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 3.8rem;
-    margin-top: 1.5rem;
+    gap: 1.95rem;
+    margin-top: 1.2rem;
 } 
+
+#footer_social_media i {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#footer_social_media i:hover {
+    background-color: #c6c6c65e;
+}
+
+i.fa-brands.fa-facebook-f:hover {
+    color: rgb(0, 68, 177);
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-youtube:hover {
+    color: red;
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-whatsapp:hover {
+    color: rgb(0, 193, 48);
+    transition: all 0.2s;
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -874,10 +900,6 @@ footer {
 
 #footer_social_media .footer-link i {
     font-size: 1.25rem;    
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.7;
 }
 
 .footer-list {
@@ -945,50 +967,51 @@ footer {
 #input_group input::placeholder {
     color: #969696;
     font-size: 14px;
-    font-size: 400;
-    padding-left: 0px;
+    font-weight: 600;
 }
 
 .buttonsubscribe {
+    all: unset;
     color: rgb(68, 68, 68);
-    margin-left: 25px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
     padding: 0px .7rem;
     font-size: 1px;
-    height: 31px;
-    font-weight: 500;
+    height: 30px;
+    font-weight: 300;
     font-size: 14px;
     border-radius: 7px;
+    margin-left: 15px;
+    transition: all 0.3s;
 }
 
 .buttonsubscribeactive {
+    all: unset;
     color: white;
-    margin-left: 25px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
     padding: 0px .7rem;
     font-size: 1px;
-    height: 31px;
+    height: 30px;
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
     font-size: 14px;
     border-radius: 7px;
+    margin-left: 15px;
 }
 
 .buttonsubscribeactive:hover {
-    font-weight: 600;
     color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 #footer_copyright {
     display: flex;
     justify-content: center;
+    background-color: #fbfbfb;
     font-size: 0.9rem;
     padding: 1.5rem;
     font-weight: 400;

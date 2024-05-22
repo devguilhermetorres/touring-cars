@@ -148,7 +148,8 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: #f1f1f1;
+    backdrop-filter: blur(15px);
+    background-color: #ffffffea;
     top: 0;
 }
 
@@ -168,7 +169,6 @@ nav ul li a {
 
 .mobile-menu ul {
     width: 100%;
-    max-width: 700px;
     position: fixed;
     background-color: transparent;
     padding-top: 100px;
@@ -181,14 +181,21 @@ nav ul li a {
 
 .mobile-menu .nav-item {
     border-radius: 15px;
-    padding: 15px 30px 15px 30px;
+    padding: 10px 15px 10px 15px;
     display: flex;
-    margin: 10px 7% 10px 7%;
-    font-size: 17px;
+    margin: 10px 5.5% 5px 5.5%;
+    font-size: 19.5px;
     justify-content: space-between;
     transition: all 0.3s;
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(60, 54, 54, 0);
+    font-weight: 350;
 }
+
+.mobile-menu .nav-item:hover {
+    background-color: #d3d3d32d;
+    padding: 10px 10px 10px 15px;
+}
+
 
 .mobile-menu .nav-item a{
     font-weight: 600;
@@ -200,7 +207,6 @@ nav ul li a {
     margin-right: 5px;
     transform: translate(-0%, 20%);
 }
-
 
 .open {
     display: block;
@@ -250,6 +256,20 @@ nav ul li a {
         z-index: 7008;
     }
 
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        backdrop-filter: blur(15px);
+        background-color: #ffffffea;
+        top: 0;
+    }
+    
+    .open{
+        display: block;
+    }
+    
     .menu-open{
         display: block;
         position: fixed;
@@ -263,10 +283,9 @@ nav ul li a {
         border: none;
         cursor: pointer;
     }
-
+    
     .mobile-menu ul {
         width: 100%;
-        max-width: 700px;
         position: fixed;
         background-color: transparent;
         padding-top: 100px;
@@ -279,33 +298,55 @@ nav ul li a {
     
     .mobile-menu .nav-item {
         border-radius: 15px;
-        padding: 15px 30px 15px 30px;
+        padding: 10px 15px 10px 15px;
         display: flex;
-        margin: 10px 7% 10px 7%;
-        font-size: 17px;
+        margin: 10px 5.5% 5px 5.5%;
+        font-size: 19.5px;
         justify-content: space-between;
         transition: all 0.3s;
-        border: 1px solid #cccccc;
+        border: 1px solid rgba(60, 54, 54, 0);
+        font-weight: 350;
     }
     
     .mobile-menu .nav-item:hover {
-        border: 1px solid rgb(123, 123, 123);
-        cursor: pointer;
-        transform: translate(1%, 0%);
-        
+        background-color: #d3d3d32d;
+        padding: 10px 10px 10px 15px;
     }
     
-    .mobile-menu .nav-item a{
-        font-weight: 600;
+    .mobile-menu .nav-item-icons {
+        border-radius: 15px;
+        padding: 10px 15px 10px 15px;
+        display: flex;
+        margin: 50px 5.5% 5px 5.5%;
+        font-size: 19.5px;
+        justify-content: center;
+        transition: all 0.3s;
     }
     
+    .mobile-menu .nav-item-icons i{
+        display: flex;
+        font-size: 19.5px;
+        justify-content: space-evenly;
+        transition: all 0.3s;
+        color: #000000;
+        font-size: 22px;
+        padding: 10px;
+        margin: 15px;
+        border-radius: 10px;
+    }
+    
+    .mobile-menu .nav-item-icons i:hover{
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #c6c6c65e;
+    }
     
     .mobile-menu .nav-item img{
         max-height: 15px;
         margin-right: 5px;
         transform: translate(-0%, 20%);
     }
-    
+
     
     .open {
         display: block;
@@ -328,6 +369,10 @@ nav ul li a {
     height: 60px;
     font-weight: 700;
     padding-top: 80px;
+}
+
+.principaltext2 {
+    display: none;
 }
 
 .buttonabrirfiltrar {
@@ -353,11 +398,17 @@ nav ul li a {
     }
     
     .principaltext {
+        display: none;
+    }
+
+    .principaltext2 {
+        display: block;
         padding-top: 80px;
         margin: 0;
         font-size: 30px;
         color: rgb(0, 0, 0);
         font-weight: 700;
+        height: auto;
     }
 
     .showfiltrar {
@@ -368,6 +419,11 @@ nav ul li a {
         border: 1px solid #c2c2c2;
         border-radius: 8px;
         cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .showfiltrar img {
+        transition: all 0.3s;
     }
 }
 
@@ -397,8 +453,6 @@ nav ul li a {
     border: 1.5px solid #c2c2c2;
     box-sizing: border-box;
 }
-
-
 
 .filtromarcas {
     display: inline-block;
@@ -778,7 +832,7 @@ nav ul li a {
         height: auto;
         border-radius: 15px;
         padding: 25px 40px 25px 40px;
-        border: 1.5px solid #c2c2c2;
+        border: 1px solid #c2c2c2;
         box-sizing: border-box;
     }
     
@@ -1134,7 +1188,7 @@ nav ul li a {
 .vendas h1 {
     margin-left: 100px;
     margin-top: 260px;
-    color: #c2c2c2;
+    color: #b4b4b4;
 }
 
 @media screen and (max-width: 1000px){
@@ -1148,7 +1202,7 @@ nav ul li a {
     .vendas h1{
         margin-left: 0px;
         font-size: 25px;
-        color: #c2c2c2;
+        color: #b4b4b4;
         margin-top: 220px;
     }
     
@@ -1182,7 +1236,7 @@ nav ul li a {
     margin: auto;
     height: 150px;
     margin-top: 120px;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .textformulario h2 {
@@ -1212,6 +1266,7 @@ nav ul li a {
     border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
+    transition: all 0.3s;
 }
 
 .buttonactive {
@@ -1231,10 +1286,9 @@ nav ul li a {
 }
 
 .buttonactive:hover {
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px black;
+    background-color: transparent;
+    color: black;
+    border: solid 2px rgb(0, 0, 0);
 }
 
 input[type=checkbox] {
@@ -1444,9 +1498,34 @@ footer {
 
 #footer_social_media {
     display: flex;
-    gap: 3.8rem;
-    margin-top: 1.5rem;
+    gap: 1.95rem;
+    margin-top: 1.2rem;
 } 
+
+#footer_social_media i {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+#footer_social_media i:hover {
+    background-color: #c6c6c65e;
+}
+
+i.fa-brands.fa-facebook-f:hover {
+    color: rgb(0, 68, 177);
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-youtube:hover {
+    color: red;
+    transition: all 0.2s;
+}
+
+i.fa-brands.fa-whatsapp:hover {
+    color: rgb(0, 193, 48);
+    transition: all 0.2s;
+}
 
 #footer_social_media .footer-link {
     display: flex;
@@ -1461,10 +1540,6 @@ footer {
 
 #footer_social_media .footer-link i {
     font-size: 1.25rem;    
-}
-
-#footer_social_media .footer-link:hover {
-    opacity: 0.7;
 }
 
 .footer-list {
@@ -1517,6 +1592,7 @@ footer {
 }
 
 #input_group input {
+    all: unset;
     margin-top: 0px;
     background-color: transparent;
     margin-left: 0px;
@@ -1532,17 +1608,17 @@ footer {
 #input_group input::placeholder {
     color: #969696;
     font-size: 14px;
-    font-size: 400;
-    padding-left: 0px;
+    font-weight: 600;
 }
 
 .buttonsubscribe {
+    all: unset;
     color: rgb(68, 68, 68);
-    margin-left: 25px;
+    margin-left: 15px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px .7rem;
+    padding: 0px 0.7rem;
     font-size: 1px;
     height: 31px;
     font-weight: 500;
@@ -1551,12 +1627,13 @@ footer {
 }
 
 .buttonsubscribeactive {
+    all: unset;
     color: white;
-    margin-left: 25px;
+    margin-left: 15px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px .7rem;
+    padding: 0px 0.7rem;
     font-size: 1px;
     height: 31px;
     cursor: pointer;
@@ -1564,17 +1641,15 @@ footer {
     font-weight: 500;
     font-size: 14px;
     border-radius: 7px;
+    transition: all 0.3s;
 }
 
 .buttonsubscribeactive:hover {
-    font-weight: 600;
     color: rgb(0, 0, 0);
-    background-color: #fbfbfb;
-    border: solid 2px rgb(0, 0, 0);
+    background-color: transparent;
 }
 
 #footer_copyright {
-    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     font-size: 0.9rem;
@@ -1588,7 +1663,3 @@ footer {
         gap: 2rem;
     }
 }
-
-
-
-
