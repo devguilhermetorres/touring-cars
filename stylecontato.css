@@ -505,9 +505,9 @@ nav ul li a {
     color: white;
     background-color: rgb(0, 0, 0);
     margin-bottom: 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     font-weight: 300;
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 .acoes ul li:hover {
@@ -569,9 +569,9 @@ nav ul li a {
         color: white;
         background-color: rgb(0, 0, 0);
         margin-bottom: 15px;
-        border-radius: 15px;
+        border-radius: 20px;
         font-weight: 300;
-        transition: all 0.4s;
+        transition: all 0.3s;
         font-size: 14.5px;
     }
     

@@ -486,6 +486,7 @@ nav ul li a {
 }
 
 .car:hover {
+    background-size: 1215px;;
     transform: translate(0%, -1%);
     background-color: rgb(239, 239, 239);
 }
