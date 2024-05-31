@@ -370,7 +370,7 @@ nav ul li a {
     box-shadow:0px 0px 0px 1px black inset;
 }
 
-.principal{
+.principal {
     display: flex;
     margin: auto;
     width: 100%;
@@ -385,6 +385,7 @@ nav ul li a {
     height: 60px;
     margin: auto;
     margin-top: 50px;
+    
 }
 
 .principaltext h2{
@@ -402,6 +403,7 @@ nav ul li a {
         width: 70%;
         height: auto;
         margin-bottom: 50px;
+        
     }
     
     .principaltext {
@@ -425,6 +427,7 @@ nav ul li a {
 .formulario {
     margin-top: 50px;;
     width: 100%;
+    
 }
 
 .textoform {
@@ -573,6 +576,7 @@ input::file-selector-button {
         margin-top: 0px;
         display: flex;
         margin: auto;
+        
     }
 
     .textoform {
@@ -627,7 +631,7 @@ input::file-selector-button {
         display: inline-block;
         position: relative;
         margin-left: 0;
-        width: 93%;
+        width: 100%;
         line-height: 15px;
         margin-top: 20px;
         text-align: justify;
@@ -682,6 +686,7 @@ input::file-selector-button {
         font-weight: 400;
         font-size: 11px;
         cursor: pointer;
+        width: auto;
     }
     
     input::file-selector-button {
@@ -707,17 +712,14 @@ input::file-selector-button {
 
       #marca {
         float: left;
-        margin-right: 12%;
       }
 
       #versao {
         float: left;
-        margin-right: 12%;
       }
 
       #ano {
         float: left;
-        margin-right: 12%;
       }
 
       #modelo {
@@ -734,7 +736,6 @@ input::file-selector-button {
 
       #nome {
         float: left;
-        margin-right: 12%;
       }
 
       #email {
@@ -743,7 +744,6 @@ input::file-selector-button {
 
       #numero {
         float: left;
-        margin-right: 67%;
       }
 }
 
