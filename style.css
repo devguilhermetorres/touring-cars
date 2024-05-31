@@ -80,8 +80,7 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    backdrop-filter: blur(15px);
-    background-color: #ffffffea;
+    background-color: #ffffff;
     top: 0;
 }
 
