@@ -593,6 +593,7 @@ nav ul li a {
 
     .car2 {
         width: 100%;
+        background-image: url(./imgs/porsche-model1.png);
         background-size: 850px;
         background-position: -5% 80%;
         background-repeat: no-repeat;
