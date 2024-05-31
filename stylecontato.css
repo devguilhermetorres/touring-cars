@@ -70,12 +70,6 @@ nav ul li a {
     color: #000000;
 }
 
-.acessarestoque2 {
-    display: none;
-    float: right;
-}
-
-
 .mobile-menu-icon {
     display: none;
 }
@@ -157,7 +151,7 @@ nav ul li a {
 @media screen and (max-width: 1000px) {
     nav ul {
         display: flex;
-        list-style-type: none; /* Remove os marcadores de lista */
+        list-style-type: none;
         justify-content: space-between;
         margin-right: 7%;
         margin-top: 30px;
@@ -186,60 +180,6 @@ nav ul li a {
 
     .logo{
         display: none;
-    }
-    
-    .acessarestoque2 {
-        display: block;
-        background-image: url(imgs/arrowright.png);
-        background-size: 12.5px;
-        background-position: 85% 55%;
-        background-color: rgb(0, 0, 0);
-        background-repeat: no-repeat;
-        color: white;
-        padding: 2px 18px 5px 0px;
-        width: 75px;
-        transition: all 0.3s;
-        border-radius: 15px;
-        cursor: pointer;
-        box-shadow:0px 0px 0px 1.5px black inset;
-    }
-
-    .acessarestoque3 {
-        display: none;
-    }
-    
-    .acessarestoque2 p{
-        font-weight: 600;
-        font-size: 13.5px;
-    }
-    
-    
-    .acessarestoque2:hover {
-        background-image: url(imgs/arrowrightpreto.png);
-        background-size: 12.5px;
-        background-position: 90% 55%;
-        background-color: #fbfbfb;
-        color: rgb(0, 0, 0);
-        box-shadow:0px 0px 0px 1.5px black inset;
-    }
-
-
-    .acessarestoque2:hover {
-        background-image: url(imgs/arrowrightpreto.png);
-        background-size: 12.5px;
-        background-position: 90% 55%;
-        background-color: #fbfbfb;
-        color: rgb(0, 0, 0);
-        box-shadow:0px 0px 0px 1.5px black inset;
-    }
-
-    .arrowrightestoque2{
-        max-width: 12px;
-        margin-top: 8px;
-        color: #ffffff;
-        transition: all 0.3s;
-        float: right;
-        box-sizing: border-box;
     }
 
     .mobile-menu-icon {
@@ -403,37 +343,6 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.acessarestoque {
-    background-image: url(imgs/arrowright.png);
-    background-size: 13.5px;
-    background-position: 90% 50%;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 0px 5px 5px 20px;
-    background-repeat: no-repeat;
-    width: 145px;
-    text-align: left;
-    float: right;
-    border-radius: 15px;
-    box-shadow: 0px 0px 0px 1px black inset;
-    transition: all 0.3s;
-}
-
-.acessarestoque p{
-    display: inline;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.acessarestoque:hover {
-    background-image: url(imgs/arrowrightpreto.png);
-    background-size: 13.5px;
-    background-position: 95% 50%;
-    background-color: #fbfbfb;
-    color: rgb(0, 0, 0);
-    box-shadow:0px 0px 0px 1px black inset;
-}
-
 .anunciar {
     background-color: #000000;
     color: rgb(255, 255, 255);
@@ -463,7 +372,7 @@ nav ul li a {
     background-image: url(imgs/m2.png);
     background-repeat: no-repeat;
     background-size: 950px;
-    background-position: 700px 100%;
+    background-position: 54vw 100%;
     display: flex;
     margin: auto;
     width: 100%;
@@ -476,14 +385,13 @@ nav ul li a {
     width: 40%;
     font-size: 18px;
     color: black;
-    height: 60px;
+    height: 40px;
     margin-left: 10.5%;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .acoes {
-    width: 1000px;
-    height: 400px;
     margin-top: 20px;
     margin-left: 10.5%;
 }
@@ -492,7 +400,7 @@ nav ul li a {
     list-style-type: none;
     flex-direction: column;
     margin: 0;
-    width: 40%;
+    width: 30%;
 }
 
 .acoes ul li {
@@ -504,10 +412,14 @@ nav ul li a {
     padding: 20px 20px;
     color: white;
     background-color: rgb(0, 0, 0);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border-radius: 20px;
     font-weight: 300;
     transition: all 0.3s;
+}
+
+#instagramcontato {
+    margin-bottom: 0px;
 }
 
 .acoes ul li:hover {
@@ -517,6 +429,7 @@ nav ul li a {
     transform: translate(0.7%, 0%);
     color: rgb(255, 255, 255);
 }
+
 
 @media screen and (max-width: 1000px) {
     .principal{
@@ -731,7 +644,6 @@ input::placeholder {
         font-size: 13.6px;
         font-weight: 600;
         margin-top: 10px;
-
     }
     
     .form {
@@ -793,7 +705,6 @@ input::placeholder {
         padding-bottom: 8%;
         padding-right: 6vw;
         border-radius: 15px;
-
     }
     
     input::placeholder {

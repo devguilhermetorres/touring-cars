@@ -66,3 +66,8 @@ function validarCadastrar(){
     
 };
 
+/*function EnviadoComSucesso() {
+    alert('Enviado com sucesso! Entraremos em contato o mais rápido.');document.location='index.html';
+}*/
+
+

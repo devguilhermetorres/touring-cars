@@ -72,10 +72,6 @@ nav ul li a {
     color: #000000; 
 }
 
-.acessarestoque2 {
-    display: none;
-}
-
 .buttonsnav {
     color: rgb(0, 0, 0);
     padding: 0px 15px 5px 15px;
@@ -133,10 +129,6 @@ nav ul li a {
     background-color: #f1f1f1;
     top: 0;
     z-index: 0;
-}
-
-.open{
-    display: block;
 }
 
 .mobile-menu-icon {
@@ -216,7 +208,7 @@ nav ul li a {
 @media screen and (max-width: 1000px) {
     nav ul {
         display: flex;
-        list-style-type: none; /* Remove os marcadores de lista */
+        list-style-type: none;
         justify-content: space-between;
         margin-right: 7%;
         margin-top: 30px;
@@ -347,7 +339,6 @@ nav ul li a {
         transform: translate(-0%, 20%);
     }
 
-    
     .open {
         display: block;
         z-index: 7000;
@@ -442,7 +433,6 @@ nav ul li a {
 .full2 {
     display: none;
 }
-
 
 .filtrocar {
     width: 23%;
@@ -815,7 +805,6 @@ nav ul li a {
 
 
 @media screen and (max-width: 1000px) {
-
     .full {
         display: none;
     }

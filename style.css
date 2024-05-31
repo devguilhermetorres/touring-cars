@@ -30,6 +30,17 @@ body {
     height: 100%;
 }
 
+.logo {
+    margin-left: 10%;
+    margin-top: 30px;
+    width: 150px;
+    float: left;
+}
+
+.logo2{
+    display: none;
+}
+
 nav {
     background-color: #fbfbfb;
     height: 80px;
@@ -50,17 +61,6 @@ nav ul {
     display: block;
 }
 
-.logo {
-    margin-left: 10%;
-    margin-top: 30px;
-    width: 150px;
-    float: left;
-}
-
-.logo2{
-    display: none;
-}
-
 nav ul li {
     display: inline-flex;
 }
@@ -69,11 +69,6 @@ nav ul li a {
     padding: 0px 10px;
     text-decoration: none;
     color: #000000;
-}
-
-.acessarestoque2 {
-    display: none;
-    float: right;
 }
 
 .mobile-menu-icon {
@@ -88,10 +83,6 @@ nav ul li a {
     backdrop-filter: blur(15px);
     background-color: #ffffffea;
     top: 0;
-}
-
-.open{
-    display: block;
 }
 
 .menu-open{
@@ -127,7 +118,6 @@ nav ul li a {
     margin: 10px 5.5% 5px 5.5%;
     font-size: 19.5px;
     justify-content: space-between;
-    transition: all 0.3s;
     border: 1px solid rgba(60, 54, 54, 0);
     font-weight: 350;
 }
@@ -135,6 +125,7 @@ nav ul li a {
 .mobile-menu .nav-item:hover {
     background-color: #d3d3d32d;
     padding: 10px 10px 10px 15px;
+    transition: all 0.3s;
 }
 
 .mobile-menu .nav-item-icons {
@@ -144,14 +135,13 @@ nav ul li a {
     margin: 50px 5.5% 5px 5.5%;
     font-size: 19.5px;
     justify-content: center;
-    transition: all 0.3s;
 }
 
 .mobile-menu .nav-item-icons i{
     display: flex;
     font-size: 19.5px;
     justify-content: space-evenly;
-    transition: all 0.3s;
+    
     color: #000000;
     font-size: 22px;
     padding: 10px;
@@ -163,6 +153,7 @@ nav ul li a {
     display: flex;
     justify-content: space-evenly;
     background-color: #c6c6c65e;
+    transition: all 0.3s;
 }
 
 .mobile-menu .nav-item img{
@@ -177,8 +168,6 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1000px) {
-
-
     nav ul {
         display: flex;
         list-style-type: none;
@@ -210,50 +199,6 @@ nav ul li a {
 
     .logo{
         display: none;
-    }
-    
-    .acessarestoque2 {
-        display: block;
-        background-image: url(imgs/arrowright.png);
-        background-size: 12.5px;
-        background-position: 85% 55%;
-        background-color: rgb(0, 0, 0);
-        background-repeat: no-repeat;
-        color: white;
-        padding: 2px 18px 5px 0px;
-        width: 75px;
-        transition: all 0.3s;
-        border-radius: 15px;
-        cursor: pointer;
-        box-shadow:0px 0px 0px 1.5px black inset;
-    }
-
-    .acessarestoque3 {
-        display: none;
-    }
-    
-    .acessarestoque2 p{
-        font-weight: 600;
-        font-size: 13.5px;
-    }
-    
-    
-    .acessarestoque2:hover {
-        background-image: url(imgs/arrowrightpreto.png);
-        background-size: 12.5px;
-        background-position: 90% 55%;
-        background-color: #fbfbfb;
-        color: rgb(0, 0, 0);
-        box-shadow:0px 0px 0px 1.5px black inset;
-    }
-
-    .arrowrightestoque2{
-        max-width: 12px;
-        margin-top: 8px;
-        color: #ffffff;
-        transition: all 0.3s;
-        float: right;
-        box-sizing: border-box;
     }
 
     .mobile-menu-icon {
@@ -297,7 +242,7 @@ nav ul li a {
         margin: 10px 5.5% 5px 5.5%;
         font-size: 19.5px;
         justify-content: space-between;
-        transition: all 0.3s;
+        
         border: 1px solid rgba(60, 54, 54, 0);
         font-weight: 350;
     }
@@ -305,6 +250,7 @@ nav ul li a {
     .mobile-menu .nav-item:hover {
         background-color: #d3d3d32d;
         padding: 10px 10px 10px 15px;
+        transition: all 0.3s;
     }
 
     .mobile-menu .nav-item-icons {
@@ -314,23 +260,23 @@ nav ul li a {
         margin: 50px 5.5% 5px 5.5%;
         font-size: 19.5px;
         justify-content: center;
-        transition: all 0.3s;
     }
 
     .mobile-menu .nav-item-icons i{
         display: flex;
         font-size: 19.5px;
         justify-content: space-evenly;
-        transition: all 0.3s;
         color: #000000;
         font-size: 22px;
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
+        
     }
 
     .mobile-menu .nav-item-icons i:hover{
         background-color: #c6c6c65e;
+        transition: all 0.3s;
     }
 
     .mobile-menu .nav-item img{
@@ -366,12 +312,13 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
     float: right;
-    transition: all 0.5s;
+    
     border-radius: 15px;
 }
 
 .buttonsnav:hover {
     background-color: rgb(236, 236, 236);
+    transition: all 0.5s;
 }
 
 .buttonsnav p{
@@ -380,33 +327,6 @@ nav ul li a {
     position: relative;
     font-weight: 600;
     font-size: 15px;
-    transition: all 0.6s;
-}
-
-
-.anunciar {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-    padding: 0px 5px 5px 20px;
-    background-repeat: no-repeat;
-    width: 77px;
-    text-align: left;
-    float: right;
-    border-radius: 15px;
-    box-shadow: 0px 0px 0px 1px black inset;
-    transition: all 0.3s;
-}
-
-.anunciar p{
-    display: inline;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.anunciar:hover {
-    background-color: #fbfbfb;
-    color: rgb(0, 0, 0);
-    box-shadow:0px 0px 0px 1px black inset;
 }
 
 .principal{
@@ -513,10 +433,6 @@ nav ul li a {
     display: none;
 }
 
-.textprincipal2 {
-    display: none;
-}
-
 .textprincipal {
     display: flex;
     position: absolute;
@@ -554,6 +470,10 @@ nav ul li a {
 .bold:hover {
     transition: all 0.2s;
     color: #2d2d2d;
+}
+
+.textprincipal2 {
+    display: none;
 }
 
 @media screen and (max-width: 1000px) {
@@ -623,7 +543,6 @@ nav ul li a {
         margin-top: 40px;
         font-weight: 700;
         height: 60px;
-
     }
 
     .buttonsestoqueanunciar {
@@ -660,7 +579,7 @@ nav ul li a {
         background-repeat: no-repeat;
         color: white;
         padding: 5px 20px 6px 20px;
-        transition: all 0.3s;
+        
         border-radius: 20px;
         cursor: pointer;
         box-shadow: 0px 0px 0px 1.5px black inset;
@@ -673,6 +592,7 @@ nav ul li a {
         background-position: 90% 55%;
         background-color: #212121;
         box-shadow: 0px 0px 0px 1.5px #212121 inset;
+        transition: all 0.3s;
     }
 
     .acessaranunciar {
@@ -683,7 +603,7 @@ nav ul li a {
         background-repeat: no-repeat;
         color: rgb(0, 0, 0);
         padding: 5px 20px 6px 20px;
-        transition: all 0.3s;
+        
         border-radius: 20px;
         box-shadow: 0px 0px 0px 1.5px black inset;
         cursor: pointer;
@@ -699,6 +619,7 @@ nav ul li a {
         background-position: 90% 55%;
         background-color: black;
         color: white;
+        transition: all 0.3s;
     }
 }
 
@@ -726,20 +647,13 @@ nav ul li a {
     margin-right: 40px;
     float: right;
     box-sizing: border-box;
-    transition: 0.2s;
+    
 }
 
 .arrowrightmodelos:hover{
     cursor: pointer;
     margin-right: 37px;
-}
-
-.checked {
-    width: 15px;
-    margin-top: 7px;
-    margin-right: 40px;
-    float: right;
-    box-sizing: border-box;
+    transition: all 0.2s;
 }
 
 .combustao {
@@ -750,11 +664,12 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .combustao:hover {
     background-size: 22.2vw;
+    transition: all 0.4s;
 }
 
 .textcombustao {
@@ -779,11 +694,12 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .hibrido:hover {
     background-size: 22.2vw;
+    transition: all 0.4s;
 }
 
 .texthibrido {
@@ -810,11 +726,11 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
 }
 
 .eletrico:hover {
     background-size: 22.2vw;
+    transition: all 0.4s;
 }
 
 .texteletrico {
@@ -862,9 +778,8 @@ nav ul li a {
         margin-right: 40px;
         float: right;
         box-sizing: border-box;
-        transition: 0.5s;
+        transition: all 0.5s;
     }
-    
     
     .combustao {
         background-image: url(imgs/rs62.jpg);
@@ -875,11 +790,12 @@ nav ul li a {
         width: 100%;
         position: relative;
         border-radius: 15px;
-        transition: all 0.4s;
+        
     }
 
     .combustao:hover {
         background-size: 73.8vw;
+        transition: all 0.4s;
     }
     
     .textcombustao {
@@ -911,6 +827,7 @@ nav ul li a {
 
     .hibrido:hover {
         background-size: 73.8vw;
+        transition: all 0.4s;
     }
     
     .texthibrido {
@@ -945,6 +862,7 @@ nav ul li a {
 
     .eletrico:hover {
         background-size: 73.8vw;
+        transition: all 0.4s;
     }
     
     .texteletrico {
@@ -1005,7 +923,6 @@ nav ul li a {
     border-radius: 7px;
     background-color: #000000;
     border: solid 2px rgb(0, 0, 0);
-    transition: all 0.3s;
 }
 
 .buttonactive {
@@ -1020,7 +937,6 @@ nav ul li a {
     border-radius: 7px;
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
-    transition: all 0.3s;
     cursor: pointer;
 }
 
@@ -1028,6 +944,7 @@ nav ul li a {
     background-color: transparent;
     color: black;
     border: solid 2px rgb(0, 0, 0);
+    transition: all 0.3s;
 }
 
 input[type=checkbox] {
@@ -1132,7 +1049,6 @@ input::placeholder {
         color: rgb(68, 68, 68);
         background-color: #000000;
         border: solid 2px rgb(0, 0, 0);
-        transition: all 0.3s;
     }
 
     .buttonactive {
@@ -1146,7 +1062,6 @@ input::placeholder {
         color: #fbfbfb;
         background-color: rgb(0, 0, 0);
         border: solid 2px rgb(0, 0, 0);
-        transition: all 0.3s;
         cursor: pointer;
     }
     
@@ -1240,11 +1155,12 @@ input::placeholder {
     width: 45.6vw;
     height: 100%;
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .foto1:hover {
     background-size: 50.3vw;
+    transition: all 0.4s;
 }
 
 .texto1 {
@@ -1255,11 +1171,12 @@ input::placeholder {
     width: 21.5vw;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .texto1:hover {
     background-size: 710px;
+    transition: all 0.4s;
 }
 
 .texto1 h1 {
@@ -1312,11 +1229,12 @@ input::placeholder {
         width: 100%;
         height: 60%;
         border-radius: 15px;
-        transition: all 0.4s;
+        
     }
 
     .foto1:hover {
         background-size: 91vw;
+        transition: all 0.4s;
     }
     
     .texto1 {
@@ -1329,11 +1247,12 @@ input::placeholder {
         width: 100%;
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
-        transition: all 0.4s;
+        
     }
     
     .texto1:hover {
         background-size: 86vw;
+        transition: all 0.4s;
     }
     
     .texto1 h1 {
@@ -1378,6 +1297,14 @@ input::placeholder {
     border-radius: 15px;
 }
 
+.checked {
+    width: 15px;
+    margin-top: 7px;
+    margin-right: 40px;
+    float: right;
+    box-sizing: border-box;
+}
+
 .venda1 {
     background-image: url(imgs/ram3.jpg);
     background-size: 22vw;
@@ -1386,11 +1313,12 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .venda1:hover {
     background-size: 22.2vw;
+    transition: all 0.4s;
 }
 
 .textvenda1 {
@@ -1416,11 +1344,12 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
+    
 }
 
 .venda2:hover {
     background-size: 27.9vw;
+    transition: all 0.4s;
 }
 
 .textvenda2 {
@@ -1446,11 +1375,11 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: all 0.4s;
 }
 
 .venda3:hover {
     background-size: 22.2vw;
+    transition: all 0.4s;
 }
 
 .textvenda3 {
@@ -1495,11 +1424,11 @@ input::placeholder {
         width: 100%;
         position: relative;
         border-radius: 15px;
-        transition: all 0.4s;
     }
 
     .venda1:hover {
         background-size: 76vw;
+        transition: all 0.4s;
     }
     
     .textvenda1 {
@@ -1530,6 +1459,7 @@ input::placeholder {
     
     .venda2:hover {
         background-size: 96vw;
+        transition: all 0.4s;
     }
     
     .textvenda2 {
@@ -1562,6 +1492,7 @@ input::placeholder {
     
     .venda3:hover {
         background-size: 76vw;
+        transition: all 0.4s;
     }
     
     .textvenda3 {
@@ -1684,11 +1615,12 @@ i.fa-brands.fa-whatsapp:hover {
 
 .footer-list .footer-link {
     color: rgb(0, 0, 0);
-    transition: all 0.3s;
+    
 }
 
 .footer-list .footer-link:hover {
     opacity: 0.7;
+    transition: all 0.3s;
 }
 
 #footer_subscribe {

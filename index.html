@@ -64,6 +64,7 @@
             <div class="mobile-menu-icon">
                 <button onclick="menuShow()" ><img class="icon" src="imgs/menublack.png" alt="" style="max-width: 25px;"></button>
             </div>
+
             <div class="mobile-menu">
             <ul>
                 <a href="sobre.html">
@@ -120,16 +121,21 @@
             <div class="textprincipal">
                <h2 id="arrowbottomlink">Qualidade, <br> Segurança, <br> Transparência. </h2>
                <p>Aqui você encontra  tudo isso  e muito mais. <br> <a href="estoque.html"><b class="bold">Acesse nosso estoque</b></a> ou <a href="anunciar.html"><b class="bold">anuncie seu veículo!</b></a></p>
+               
             </div>
 
+            <div class="texturatc"></div>
+
             <div class="textprincipal2">
-                <h2 id="arrowbottomlink">Qualidade, <br> Segurança, <br> Transparência. </h2>
+                <h2 id="arrowbottomlink">Qualidade, <br> Segurança, <br> Transparência. 
+                </h2>
                 <p>Aqui você encontra  tudo isso  e muito mais!</p>
                 <div class="texturatc">
                 </div>
              </div>
 
              <div class="buttonsestoqueanunciar" style="z-index: 7000;">
+
                 <a href="estoque.html" style="z-index: 6000;">
                     <div class="acessarestoque">
                         <p>Acessar estoque</p>
@@ -143,12 +149,7 @@
                 </a>
     
             </div>
-             
-
         </div>
-
-        
-        
 
         <div class="textmodelos" id="textmodelos">
             <h1>Modelos</h1>
@@ -196,12 +197,22 @@
 
                         <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
 
-                        <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
 
-                        <input type="tel" class="field" id="numero" name="number" placeholder="Número" data-mask="(00) 0000-0000" onchange="validarCadastrar()">
+                        <input type="text" class="field" id="numero" name="number" placeholder="Número" pattern="\(\d{2}\)\d{9}" onchange="validarCadastrar()" onkeyup="
+                        var date = this.value;
+
+                        if (date.match(/^\d{2}$/) !== null) {
+                           this.value = '(' + date + ')';
+
+                        } else if (date.match(/^\d{2}\-\d{2}$/) !== null) {
+                           this.value = date + '-';
+                        }" maxlength="14">
 
                         <button id="idButton"
                         class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+
+                        
 
                         <script src="validarform.js"></script>
                     </form>
@@ -311,7 +322,7 @@
 
                 <div id="input_group">
                     <form name="subscribe">
-                        <input type="text" class="field" id="Email" placeholder="Email" onchange="validarSubscribe()">
+                        <input type="email" class="field" id="Email" placeholder="Email" onchange="validarSubscribe()">
 
                         <button id="idButton" 
                         class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
@@ -340,3 +351,4 @@ crossorigin="anonymous"></script>
 <script src="arrowbottomclose.js"></script>
 
 <script src="script.js"></script>
+
