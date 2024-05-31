@@ -394,6 +394,7 @@ nav ul li a {
         border-radius: 8px;
         cursor: pointer;
         transition: all 0.3s;
+        color: black;
     }
 
     .showfiltrar img {
@@ -447,15 +448,17 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
     font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 .filtromarcas input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .filtromarcas input:hover {
@@ -464,8 +467,8 @@ nav ul li a {
 
 .dropDown {
     position: absolute;
-    width: 100px;
-    background-color: #ffffff;
+    width: 95px;
+    background-color: #f4f4f4;
     margin-top: 10px;
     border: none;
     height: 90px;
@@ -474,7 +477,7 @@ nav ul li a {
 }
 
 .dropDown::-webkit-scrollbar{
-    background-color: #ffffff;
+    background-color: #000000;
     width: 7px;
     padding: 0px;
     margin: 0px;
@@ -524,17 +527,18 @@ nav ul li a {
     width: 100%;
     background-color: #00000000;
     box-sizing: border-box;
-    border: none;
     outline: none;
-    border-bottom: 2px solid #7d7d7d;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
     font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtroblindado input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtroblindado input:hover {
@@ -543,8 +547,8 @@ nav ul li a {
 
 .dropDown2 {
     position: absolute;
-    width: 100px;
-    background-color: #ffffff;
+    width: 95px;
+    background-color: #f4f4f4;
     margin-top: 10px;
     border: none;
     height: 90px;
@@ -586,16 +590,18 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
     font-weight: 500;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtroanoinicial input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .ate {
@@ -628,16 +634,18 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
     font-weight: 500;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtroanofinal input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtrovalorinicial {
@@ -661,16 +669,18 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
     font-weight: 500;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtrovalorinicial input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtrovalorfinal {
@@ -694,16 +704,18 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
     font-weight: 500;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtrovalorfinal input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtrokminicial {
@@ -727,16 +739,18 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
     font-weight: 500;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
 }
 
 
 .filtrokminicial input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtrokmfinal {
@@ -760,8 +774,11 @@ nav ul li a {
     background-color: #00000000;
     box-sizing: border-box;
     outline: none;
-    border: none;
-    border-bottom: 2px solid #7d7d7d;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 10%;
     font-weight: 500;
 }
 
@@ -769,11 +786,10 @@ nav ul li a {
 .filtrokmfinal input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .filtrar {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 14px;
     font-weight: 500;
     width: 100%;
