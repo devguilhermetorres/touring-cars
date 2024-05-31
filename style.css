@@ -120,12 +120,12 @@ nav ul li a {
     justify-content: space-between;
     border: 1px solid rgba(60, 54, 54, 0);
     font-weight: 350;
+    transition: all 0.3s;
 }
 
 .mobile-menu .nav-item:hover {
     background-color: #d3d3d32d;
     padding: 10px 10px 10px 15px;
-    transition: all 0.3s;
 }
 
 .mobile-menu .nav-item-icons {
@@ -141,7 +141,7 @@ nav ul li a {
     display: flex;
     font-size: 19.5px;
     justify-content: space-evenly;
-    
+    transition: all 0.3s;
     color: #000000;
     font-size: 22px;
     padding: 10px;
@@ -153,7 +153,7 @@ nav ul li a {
     display: flex;
     justify-content: space-evenly;
     background-color: #c6c6c65e;
-    transition: all 0.3s;
+    
 }
 
 .mobile-menu .nav-item img{
@@ -242,7 +242,7 @@ nav ul li a {
         margin: 10px 5.5% 5px 5.5%;
         font-size: 19.5px;
         justify-content: space-between;
-        
+        transition: all 0.3s;
         border: 1px solid rgba(60, 54, 54, 0);
         font-weight: 350;
     }
@@ -250,7 +250,7 @@ nav ul li a {
     .mobile-menu .nav-item:hover {
         background-color: #d3d3d32d;
         padding: 10px 10px 10px 15px;
-        transition: all 0.3s;
+        
     }
 
     .mobile-menu .nav-item-icons {
@@ -312,13 +312,13 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
     float: right;
-    
+    transition: all 0.5s;
     border-radius: 15px;
 }
 
 .buttonsnav:hover {
     background-color: rgb(236, 236, 236);
-    transition: all 0.5s;
+    
 }
 
 .buttonsnav p{
@@ -579,7 +579,7 @@ nav ul li a {
         background-repeat: no-repeat;
         color: white;
         padding: 5px 20px 6px 20px;
-        
+        transition: all 0.3s;
         border-radius: 20px;
         cursor: pointer;
         box-shadow: 0px 0px 0px 1.5px black inset;
@@ -592,7 +592,7 @@ nav ul li a {
         background-position: 90% 55%;
         background-color: #212121;
         box-shadow: 0px 0px 0px 1.5px #212121 inset;
-        transition: all 0.3s;
+        
     }
 
     .acessaranunciar {
@@ -647,13 +647,13 @@ nav ul li a {
     margin-right: 40px;
     float: right;
     box-sizing: border-box;
-    
+    transition: all 0.2s;
 }
 
 .arrowrightmodelos:hover{
     cursor: pointer;
     margin-right: 37px;
-    transition: all 0.2s;
+    
 }
 
 .combustao {
@@ -669,7 +669,7 @@ nav ul li a {
 
 .combustao:hover {
     background-size: 22.2vw;
-    transition: all 0.4s;
+    transition: 0.4s;
 }
 
 .textcombustao {
@@ -795,7 +795,6 @@ nav ul li a {
 
     .combustao:hover {
         background-size: 73.8vw;
-        transition: all 0.4s;
     }
     
     .textcombustao {
@@ -827,7 +826,6 @@ nav ul li a {
 
     .hibrido:hover {
         background-size: 73.8vw;
-        transition: all 0.4s;
     }
     
     .texthibrido {
@@ -862,7 +860,6 @@ nav ul li a {
 
     .eletrico:hover {
         background-size: 73.8vw;
-        transition: all 0.4s;
     }
     
     .texteletrico {
@@ -938,13 +935,14 @@ nav ul li a {
     background-color: rgb(0, 0, 0);
     border: solid 2px rgb(0, 0, 0);
     cursor: pointer;
+    transition: all 0.3s;
+
 }
 
 .buttonactive:hover {
     background-color: transparent;
     color: black;
     border: solid 2px rgb(0, 0, 0);
-    transition: all 0.3s;
 }
 
 input[type=checkbox] {
@@ -1234,7 +1232,6 @@ input::placeholder {
 
     .foto1:hover {
         background-size: 91vw;
-        transition: all 0.4s;
     }
     
     .texto1 {
@@ -1252,7 +1249,6 @@ input::placeholder {
     
     .texto1:hover {
         background-size: 86vw;
-        transition: all 0.4s;
     }
     
     .texto1 h1 {
@@ -1428,7 +1424,6 @@ input::placeholder {
 
     .venda1:hover {
         background-size: 76vw;
-        transition: all 0.4s;
     }
     
     .textvenda1 {
@@ -1459,7 +1454,6 @@ input::placeholder {
     
     .venda2:hover {
         background-size: 96vw;
-        transition: all 0.4s;
     }
     
     .textvenda2 {
@@ -1492,7 +1486,6 @@ input::placeholder {
     
     .venda3:hover {
         background-size: 76vw;
-        transition: all 0.4s;
     }
     
     .textvenda3 {
