@@ -420,7 +420,7 @@ nav ul li a {
 
 .filtrocar {
     width: 23%;
-    height: 420px;
+    height: 440px;
     margin-left: 40px;
     border-radius: 15px;
     padding: 25px 40px 25px 40px;
@@ -430,7 +430,7 @@ nav ul li a {
 
 .filtromarcas {
     display: inline-block;
-    width: 35%;
+    width: 37%;
 }
 
 .filtromarcas label {
@@ -442,7 +442,6 @@ nav ul li a {
 }
 
 .filtromarcas input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -467,17 +466,18 @@ nav ul li a {
 
 .dropDown {
     position: absolute;
-    width: 95px;
+    width: 6.5%;
     background-color: #f4f4f4;
     margin-top: 10px;
     border: none;
     height: 90px;
     overflow: auto;
     display: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103)
 }
 
 .dropDown::-webkit-scrollbar{
-    background-color: #000000;
+    background-color: #545454;
     width: 7px;
     padding: 0px;
     margin: 0px;
@@ -510,7 +510,7 @@ nav ul li a {
 .filtroblindado {
     position: relative;
     float: right;
-    width: 35%;
+    width: 37%;
 }
 
 .filtroblindado label {
@@ -522,7 +522,6 @@ nav ul li a {
 }
 
 .filtroblindado input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -547,13 +546,14 @@ nav ul li a {
 
 .dropDown2 {
     position: absolute;
-    width: 95px;
+    width: 100%;
     background-color: #f4f4f4;
     margin-top: 10px;
     border: none;
     height: 90px;
     overflow: auto;
     display: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103)
 }
 
 .item2{
@@ -571,11 +571,11 @@ nav ul li a {
 
 .filtroanoinicial {
     display: inline-block;
-    width: 35%;
+    width: 37%;
 }
 
 .filtroanoinicial label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -584,7 +584,6 @@ nav ul li a {
 }
 
 .filtroanoinicial input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -593,9 +592,10 @@ nav ul li a {
     font-weight: 500;
     border: 1px solid #c2c2c2;
     border-radius: 5px;
+    padding-left: 10%;
     font-weight: 500;
     margin-top: 4px;
-    padding-left: 10%;
+    
 }
 
 
@@ -610,25 +610,23 @@ nav ul li a {
     font-size: 10px;
     font-weight: 700;
     color: #363636;
-    margin-left: 10%;
+    margin-left: 1.2vw;
 }
 
 .filtroanofinal {
     float: right;
-    width: 35%;
+    width: 37%;
 }
 
 .filtroanofinal label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
-    letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
     color: #7d7d7d;
 }
 
 .filtroanofinal input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -637,9 +635,10 @@ nav ul li a {
     font-weight: 500;
     border: 1px solid #c2c2c2;
     border-radius: 5px;
-    font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
+    font-weight: 500;
+    
 }
 
 
@@ -650,11 +649,11 @@ nav ul li a {
 
 .filtrovalorinicial {
     display: inline-block;
-    width: 35%;
+    width: 37%;
 }
 
 .filtrovalorinicial label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -663,7 +662,6 @@ nav ul li a {
 }
 
 .filtrovalorinicial input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -685,11 +683,11 @@ nav ul li a {
 
 .filtrovalorfinal {
     float: right;
-    width: 35%;
+    width: 37%;
 }
 
 .filtrovalorfinal label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -698,7 +696,6 @@ nav ul li a {
 }
 
 .filtrovalorfinal input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -720,11 +717,11 @@ nav ul li a {
 
 .filtrokminicial {
     display: inline-block;
-    width: 35%;
+    width: 37%;
 }
 
 .filtrokminicial label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -733,7 +730,6 @@ nav ul li a {
 }
 
 .filtrokminicial input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -755,11 +751,11 @@ nav ul li a {
 
 .filtrokmfinal {
     float: right;
-    width: 35%;
+    width: 37%;
 }
 
 .filtrokmfinal label {
-    margin-top: 30px;
+    margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -768,7 +764,6 @@ nav ul li a {
 }
 
 .filtrokmfinal input {
-    letter-spacing: 1px;
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -788,18 +783,37 @@ nav ul li a {
     font-size: 14px;
 }
 
-.filtrar {
-    margin-top: 40px;
+.limpar{
+    margin-top: 35px;
     font-size: 14px;
     font-weight: 500;
     width: 100%;
-    height: 40px;
-    color: rgb(68, 68, 68);;
+    height: 35px;
+    color: #7d7d7d;
+    background-color: transparent;
+    border: solid 1px #c2c2c2;
+    border-radius: 5px;
+}
+
+.limpar:hover {
+    color: rgb(0, 0, 0);;
+    cursor: pointer;
+    border: solid 2px #000000;
+}
+
+.filtrar {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    height: 35px;
+    color: rgb(68, 68, 68);
     background-color: #000000;
     border: solid 2px #000000;
     transition: all 0.3s;
     border-radius: 5px;
 }
+
 
 
 
@@ -810,7 +824,7 @@ nav ul li a {
     
     .full2 {
         display: none;
-        height: 380px;
+        height: 450px;
     }
     
     .filtrocar {
@@ -844,8 +858,10 @@ nav ul li a {
         background-color: #00000000;
         box-sizing: border-box;
         outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 7p8;
     }
     
     .filtromarcas input::placeholder {
@@ -853,19 +869,20 @@ nav ul li a {
         font-size: 14px;
     }
     
-    .dropDown {
+    .dropDown3 {
+        display: none;
         position: absolute;
-        width: 100px;
-        background-color: #ffffff;
+        width: 18vw;
+        background-color: #f4f4f4;
         margin-top: 10px;
-        border: none;
         height: 90px;
         overflow: auto;
-        display: none;
+        float: left;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103)
     }
     
-    .dropDown::-webkit-scrollbar{
-        background-color: #ffffff;
+    .dropDown3::-webkit-scrollbar{
+        background-color: #545454;
         width: 7px;
         padding: 0px;
         margin: 0px;
@@ -877,7 +894,7 @@ nav ul li a {
         border-radius: 0px;
     }
     
-    .item{
+    .item2{
         height: 30px;
         padding: 5px;
         box-sizing: border-box;
@@ -886,13 +903,14 @@ nav ul li a {
         font-size: 14px;
     }
     
-    .item p {
+    .item2 p {
         font-size: 5px;
     }
     
-    .item:hover {
+    .item2:hover {
         font-weight: 600;
         padding-left: 7px;
+        background-color: #f4f4f4;
     }
     
     .filtroblindado {
@@ -915,27 +933,30 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        border: none;
-        outline: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtroblindado input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     
-    .dropDown2 {
+    .dropDown4 {
         position: absolute;
-        width: 100px;
-        background-color: #ffffff;
+        width: 100%;
+        background-color: #f4f4f4;
         margin-top: 10px;
         border: none;
         height: 90px;
         overflow: auto;
         display: none;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.103)
     }
     
     .item2{
@@ -966,15 +987,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtroanoinicial input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     .ate {
@@ -1006,15 +1029,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtroanofinal input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     .filtrovalorinicial {
@@ -1037,15 +1062,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtrovalorinicial input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     .filtrovalorfinal {
@@ -1068,16 +1095,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtrovalorfinal input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
-
+        font-weight: 400;
     }
     
     .filtrokminicial {
@@ -1100,15 +1128,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtrokminicial input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     .filtrokmfinal {
@@ -1131,15 +1161,17 @@ nav ul li a {
         width: 100%;
         background-color: #00000000;
         box-sizing: border-box;
-        outline: none;
-        border: none;
-        border-bottom: 2px solid #7d7d7d;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding-left: 8px;
     }
     
     
     .filtrokmfinal input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
+        font-weight: 400;
     }
     
     .filtrar {
@@ -1168,7 +1200,7 @@ nav ul li a {
     width: 65%;
     margin-left: 30%;
     box-sizing: border-box;
-    height: 420px;
+    height: 440px;
     border: 1px solid #c2c2c2;
     border-radius: 15px;
 }
@@ -1193,7 +1225,6 @@ nav ul li a {
         color: #b4b4b4;
         margin-top: 220px;
     }
-    
     
     .modelos {
         padding: 0px;

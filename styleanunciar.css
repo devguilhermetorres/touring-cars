@@ -79,7 +79,7 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     top: 0;
 }
 
@@ -424,7 +424,6 @@ nav ul li a {
 .formulario {
     margin-top: 50px;;
     width: 100%;
-    
 }
 
 .textoform {
