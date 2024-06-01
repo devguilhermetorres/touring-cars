@@ -152,7 +152,6 @@ nav ul li a {
     display: flex;
     justify-content: space-evenly;
     background-color: #c6c6c65e;
-    
 }
 
 .mobile-menu .nav-item img{
@@ -246,12 +245,6 @@ nav ul li a {
         font-weight: 350;
     }
 
-    .mobile-menu .nav-item:hover {
-        background-color: #d3d3d32d;
-        padding: 10px 10px 10px 15px;
-        
-    }
-
     .mobile-menu .nav-item-icons {
         border-radius: 15px;
         padding: 10px 15px 10px 15px;
@@ -270,12 +263,11 @@ nav ul li a {
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
-        
     }
 
     .mobile-menu .nav-item-icons i:hover{
-        background-color: #c6c6c65e;
-        transition: all 0.3s;
+        background-color: transparent;
+        color: unset;
     }
 
     .mobile-menu .nav-item img{
@@ -466,13 +458,13 @@ nav ul li a {
     z-index: 4500;
 }
 
-.bold:hover {
-    transition: all 0.2s;
-    color: #2d2d2d;
-}
-
 .textprincipal2 {
     display: none;
+}
+
+.bold:hover {
+    color: #2c2c2c;
+    transition: all 0.3s;
 }
 
 @media screen and (max-width: 1000px) {
@@ -520,18 +512,13 @@ nav ul li a {
     }
 
     .textprincipal {
-        display: none;
-    }
-    
-    .textprincipal2 {
         display: flex;
         background-color: none;
         height: 43%;
         width: 100%;
-        
     }
     
-    .textprincipal2 h2{
+    .textprincipal h2{
         display: block;
         letter-spacing: -4px;
         line-height: 60px;
@@ -556,10 +543,10 @@ nav ul li a {
         margin-left: 10%;
     }
     
-    .textprincipal2 p{
+    .textprincipal p{
         all: unset;
         position: absolute;
-        line-height: 20px;
+        line-height: 25px;
         font-size: 16px;
         color: rgb(0, 0, 0);
         margin-top: -270px;
@@ -1556,9 +1543,27 @@ i.fa-brands.fa-youtube:hover {
     transition: all 0.2s;
 }
 
-i.fa-brands.fa-whatsapp:hover {
+i.fa-brands.fa-whatsapp:hover{
     color: rgb(0, 193, 48);
     transition: all 0.2s;
+}
+
+@media screen and (max-width: 1000px) {
+    #footer_social_media i:hover {
+        background-color: transparent
+    }
+
+    i.fa-brands.fa-facebook-f:hover {
+        color: unset;
+    }
+    
+    i.fa-brands.fa-youtube:hover {
+        color: unset;
+    }
+    
+    i.fa-brands.fa-whatsapp:hover {
+        color: unset;
+    }
 }
 
 #footer_social_media .footer-link {
@@ -1642,7 +1647,7 @@ i.fa-brands.fa-whatsapp:hover {
 #input_group input::placeholder {
     color: #969696;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .buttonsubscribe {

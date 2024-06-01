@@ -79,7 +79,7 @@ nav ul li a {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     top: 0;
 }
 
@@ -126,11 +126,31 @@ nav ul li a {
     padding: 10px 10px 10px 15px;
 }
 
-
-.mobile-menu .nav-item a{
-    font-weight: 600;
+.mobile-menu .nav-item-icons {
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    margin: 50px 5.5% 5px 5.5%;
+    font-size: 19.5px;
+    justify-content: center;
 }
 
+.mobile-menu .nav-item-icons i{
+    display: flex;
+    font-size: 19.5px;
+    justify-content: space-evenly;
+    color: #000000;
+    font-size: 22px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.mobile-menu .nav-item-icons i:hover{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c6c6c65e;
+}
 
 .mobile-menu .nav-item img{
     max-height: 15px;
@@ -206,7 +226,7 @@ nav ul li a {
         border: none;
         cursor: pointer;
     }
-    
+
     .mobile-menu ul {
         width: 100%;
         position: fixed;
@@ -230,12 +250,7 @@ nav ul li a {
         border: 1px solid rgba(60, 54, 54, 0);
         font-weight: 350;
     }
-    
-    .mobile-menu .nav-item:hover {
-        background-color: #d3d3d32d;
-        padding: 10px 10px 10px 15px;
-    }
-    
+
     .mobile-menu .nav-item-icons {
         border-radius: 15px;
         padding: 10px 15px 10px 15px;
@@ -243,27 +258,24 @@ nav ul li a {
         margin: 50px 5.5% 5px 5.5%;
         font-size: 19.5px;
         justify-content: center;
-        transition: all 0.3s;
     }
-    
+
     .mobile-menu .nav-item-icons i{
         display: flex;
         font-size: 19.5px;
         justify-content: space-evenly;
-        transition: all 0.3s;
         color: #000000;
         font-size: 22px;
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
     }
-    
+
     .mobile-menu .nav-item-icons i:hover{
-        display: flex;
-        justify-content: space-evenly;
-        background-color: #c6c6c65e;
+        background-color: transparent;
+        color: unset;
     }
-    
+
     .mobile-menu .nav-item img{
         max-height: 15px;
         margin-right: 5px;
@@ -800,6 +812,24 @@ i.fa-brands.fa-whatsapp:hover {
     transition: all 0.2s;
 }
 
+@media screen and (max-width: 1000px) {
+    #footer_social_media i:hover {
+        background-color: transparent
+    }
+
+    i.fa-brands.fa-facebook-f:hover {
+        color: unset;
+    }
+    
+    i.fa-brands.fa-youtube:hover {
+        color: unset;
+    }
+    
+    i.fa-brands.fa-whatsapp:hover {
+        color: unset;
+    }
+}
+
 #footer_social_media .footer-link {
     display: flex;
     align-items: center;
@@ -882,7 +912,7 @@ i.fa-brands.fa-whatsapp:hover {
 #input_group input::placeholder {
     color: #969696;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .buttonsubscribe {
