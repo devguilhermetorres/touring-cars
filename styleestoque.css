@@ -815,7 +815,7 @@ nav ul li a {
 .limpar:hover {
     color: rgb(0, 0, 0);;
     cursor: pointer;
-    border: solid 2px #000000;
+    border: solid 1px #000000;
 }
 
 .filtrar {

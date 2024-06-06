@@ -334,6 +334,7 @@ nav ul li a {
     width: 100%;
     animation: pulse 2s ease infinite;
     z-index: 1000;
+    
 }
 
 #arrowbottom{
