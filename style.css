@@ -639,8 +639,8 @@ nav ul li a {
 }
 
 .arrowrightmodelos:hover{
-    background-color: rgba(68, 68, 68, 0.532);
-    backdrop-filter: blur(3px);
+    background-color: rgba(68, 68, 68, 0.301);
+    backdrop-filter: blur(2px);
     cursor: pointer;
 }
 
