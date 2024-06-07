@@ -629,18 +629,19 @@ nav ul li a {
 }
 
 .arrowrightmodelos{
+    border-radius: 5px;
     width: 15px;
     margin-top: 7px;
     margin-right: 40px;
     float: right;
-    box-sizing: border-box;
-    transition: all 0.2s;
+    transition: all 0.3s;
+    padding: 5px;
 }
 
 .arrowrightmodelos:hover{
+    background-color: rgba(68, 68, 68, 0.532);
+    backdrop-filter: blur(3px);
     cursor: pointer;
-    margin-right: 37px;
-    
 }
 
 .combustao {
@@ -651,7 +652,6 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    
 }
 
 .combustao:hover {
@@ -662,7 +662,7 @@ nav ul li a {
 .textcombustao {
     position: absolute;
     width: 100%;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .textcombustao p {
@@ -671,6 +671,8 @@ nav ul li a {
     font-size: 16px;
     font-weight: 600;
     margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 .hibrido {
@@ -692,17 +694,17 @@ nav ul li a {
 .texthibrido {
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .texthibrido p {
     position: absolute;
-    text-align: left;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
     margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 .eletrico {
@@ -723,17 +725,17 @@ nav ul li a {
 .texteletrico {
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .texteletrico p {
     position: absolute;
-    text-align: left;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
     margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1287,11 +1289,13 @@ input::placeholder {
 }
 
 .checked {
+    border-radius: 5px;
     width: 15px;
     margin-top: 7px;
     margin-right: 40px;
     float: right;
-    box-sizing: border-box;
+    transition: all 0.3s;
+    padding: 5px;
 }
 
 .venda1 {
@@ -1302,7 +1306,6 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    
 }
 
 .venda1:hover {
@@ -1313,8 +1316,7 @@ input::placeholder {
 .textvenda1 {
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .textvenda1 p {
@@ -1322,7 +1324,9 @@ input::placeholder {
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 25px;
+    margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 .venda2 {
@@ -1344,8 +1348,7 @@ input::placeholder {
 .textvenda2 {
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .textvenda2 p {
@@ -1353,7 +1356,9 @@ input::placeholder {
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 25px;
+    margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 .venda3 {
@@ -1374,16 +1379,17 @@ input::placeholder {
 .textvenda3 {
     position: absolute;
     width: 100%;
-    height: 20px;
-    bottom: 25px;
+    bottom: 14px;
 }
 
 .textvenda3 p {
     position: absolute;
-    color: white;
+    color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 25px;
+    margin-left: 35px;
+    background-color: none;
+    bottom: 5px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1405,6 +1411,8 @@ input::placeholder {
         display: block;
         border-radius: 15px;
     }
+
+    /* Textvenda não se altera no mobile*/
     
     .venda1 {
         background-size: 75vw;
@@ -1417,19 +1425,6 @@ input::placeholder {
 
     .venda1:hover {
         background-size: 76vw;
-    }
-    
-    .textvenda1 {
-        position: absolute;
-        width: 100%;
-        bottom: 30px;
-    }
-    
-    .textvenda1 p {
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
-        margin-left: 35px;
     }
     
     .venda2 {
@@ -1449,22 +1444,6 @@ input::placeholder {
         background-size: 96vw;
     }
     
-    .textvenda2 {
-        position: absolute;
-        width: 100%;
-        height: 20px;
-        bottom: 30px;
-    }
-    
-    .textvenda2 p {
-        position: absolute;
-        text-align: left;
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
-        margin-left: 35px;
-    }
-    
     .venda3 {
         background-size: 75vw;
         background-position: center;
@@ -1481,21 +1460,6 @@ input::placeholder {
         background-size: 76vw;
     }
     
-    .textvenda3 {
-        position: absolute;
-        width: 100%;
-        height: 20px;
-        bottom: 30px;
-    }
-    
-    .textvenda3 p {
-        position: absolute;
-        text-align: left;
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
-        margin-left: 35px;
-    }
 }
 
 footer {
