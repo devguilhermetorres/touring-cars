@@ -952,8 +952,9 @@ label {
     display: inline-block;
     position: relative;
     margin-top: 35px;
-    margin-left: 3.3%;
+    margin-left: 3%;
     width: 93%;
+    text-align: justify;
 }
 
 fieldset {
