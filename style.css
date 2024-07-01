@@ -639,7 +639,7 @@ nav ul li a {
 }
 
 .arrowrightmodelos:hover{
-    background-color: rgba(68, 68, 68, 0.301);
+    background-color: rgba(68, 68, 68, 0.423);
     backdrop-filter: blur(2px);
     cursor: pointer;
 }
