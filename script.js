@@ -3,7 +3,6 @@ function menuShow() {
     let menuMobileicon = document.querySelector('.mobile-menu-icon');
     var body = document.getElementById("body");
 
- 
 
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
@@ -65,9 +64,3 @@ function validarRegister(){
     }
     
 };
-
-/*function EnviadoComSucesso() {
-    alert('Enviado com sucesso! Entraremos em contato o mais rápido.');document.location='index.html';
-}*/
-
-

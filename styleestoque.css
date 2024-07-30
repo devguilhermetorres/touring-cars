@@ -352,7 +352,7 @@ nav ul li a {
     margin-bottom: 50px;
 }
 
-.principaltext {
+.home-screen-text {
     position: relative;
     font-size: 40px;
     color: rgb(0, 0, 0);
@@ -362,16 +362,16 @@ nav ul li a {
     padding-top: 80px;
 }
 
-.principaltext2 {
+.home-screen-text-2 {
     display: none;
 }
 
-.buttonabrirfiltrar {
+.open-filter {
     display: none;
 }
 
 @media screen and (max-width: 1000px) {
-    .buttonabrirfiltrar {
+    .open-filter {
         display: block;
         float: right;
         height: 50px;
@@ -388,11 +388,11 @@ nav ul li a {
         margin-bottom: 50px;
     }
     
-    .principaltext {
+    .home-screen-text {
         display: none;
     }
 
-    .principaltext2 {
+    .home-screen-text-2 {
         display: block;
         padding-top: 80px;
         margin: 0;
@@ -419,13 +419,13 @@ nav ul li a {
     }
 }
 
-.full {
+.container {
     position: absolute;
     height: 420px;
 }
 
 @media screen and (max-width: 1395px) {
-    .full {
+    .container {
         position: absolute;
         height: 3150px;
     }
@@ -435,7 +435,7 @@ nav ul li a {
     display: none;
 }
 
-.filtrocar {
+.filter {
     width: 23%;
     height: 440px;
     margin-left: 40px;
@@ -445,12 +445,12 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-.filtromarcas {
+.filter-brands {
     display: inline-block;
     width: 37%;
 }
 
-.filtromarcas label {
+.filter-brands label {
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -458,7 +458,7 @@ nav ul li a {
     color: #363636
 }
 
-.filtromarcas input {
+.filter-brands input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -471,13 +471,13 @@ nav ul li a {
     padding-left: 10%;
 }
 
-.filtromarcas input::placeholder {
+.filter-brands input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
     font-weight: 400;
 }
 
-.filtromarcas input:hover {
+.filter-brands input:hover {
     cursor: pointer;
 }
 
@@ -524,13 +524,13 @@ nav ul li a {
     padding-left: 7px;
 }
 
-.filtroblindado {
+.filter-shielded {
     position: relative;
     float: right;
     width: 37%;
 }
 
-.filtroblindado label {
+.filter-shielded label {
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -538,7 +538,7 @@ nav ul li a {
     color: #363636;
 }
 
-.filtroblindado input {
+.filter-shielded input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -552,12 +552,12 @@ nav ul li a {
 }
 
 
-.filtroblindado input::placeholder {
+.filter-shielded input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.filtroblindado input:hover {
+.filter-shielded input:hover {
     cursor: pointer;
 }
 
@@ -586,12 +586,12 @@ nav ul li a {
     padding-left: 7px;
 }
 
-.filtroanoinicial {
+.filter-start-year {
     display: inline-block;
     width: 37%;
 }
 
-.filtroanoinicial label {
+.filter-start-year label {
     margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -600,7 +600,7 @@ nav ul li a {
     color: #363636;
 }
 
-.filtroanoinicial input {
+.filter-start-year input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -616,12 +616,12 @@ nav ul li a {
 }
 
 
-.filtroanoinicial input::placeholder {
+.filter-start-year input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.ate {
+.until {
     display: inline-block;
     letter-spacing: 0.5px;
     font-size: 10px;
@@ -630,12 +630,12 @@ nav ul li a {
     margin-left: 1.2vw;
 }
 
-.filtroanofinal {
+.filter-final-year {
     float: right;
     width: 37%;
 }
 
-.filtroanofinal label {
+.filter-final-year label {
     margin-top: 20px;
     display: inline-block;
     font-size: 10px;
@@ -643,7 +643,7 @@ nav ul li a {
     color: #7d7d7d;
 }
 
-.filtroanofinal input {
+.filter-final-year input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -659,17 +659,17 @@ nav ul li a {
 }
 
 
-.filtroanofinal input::placeholder {
+.filter-final-year input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.filtrovalorinicial {
+.filter-start-value {
     display: inline-block;
     width: 37%;
 }
 
-.filtrovalorinicial label {
+.filter-start-value label {
     margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -678,7 +678,7 @@ nav ul li a {
     color: #363636;
 }
 
-.filtrovalorinicial input {
+.filter-start-value input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -693,17 +693,17 @@ nav ul li a {
 }
 
 
-.filtrovalorinicial input::placeholder {
+.filter-start-value input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.filtrovalorfinal {
+.filter-final-value {
     float: right;
     width: 37%;
 }
 
-.filtrovalorfinal label {
+.filter-final-value label {
     margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -712,7 +712,7 @@ nav ul li a {
     color: #7d7d7d;
 }
 
-.filtrovalorfinal input {
+.filter-final-value input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -727,17 +727,17 @@ nav ul li a {
 }
 
 
-.filtrovalorfinal input::placeholder {
+.filter-final-value input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.filtrokminicial {
+.filter-start-km {
     display: inline-block;
     width: 37%;
 }
 
-.filtrokminicial label {
+.filter-start-km label {
     margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -746,7 +746,7 @@ nav ul li a {
     color: #363636;
 }
 
-.filtrokminicial input {
+.filter-start-km input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -761,17 +761,17 @@ nav ul li a {
 }
 
 
-.filtrokminicial input::placeholder {
+.filter-start-km input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
 
-.filtrokmfinal {
+.filter-final-km {
     float: right;
     width: 37%;
 }
 
-.filtrokmfinal label {
+.filter-final-km label {
     margin-top: 20px;
     display: inline-block;
     letter-spacing: 0.5px;
@@ -780,7 +780,7 @@ nav ul li a {
     color: #7d7d7d;
 }
 
-.filtrokmfinal input {
+.filter-final-km input {
     height: 30px;
     width: 100%;
     background-color: #00000000;
@@ -795,7 +795,7 @@ nav ul li a {
 }
 
 
-.filtrokmfinal input::placeholder {
+.filter-final-km input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
 }
@@ -836,7 +836,7 @@ nav ul li a {
 
 
 @media screen and (max-width: 1000px) {
-    .full {
+    .container {
         display: none;
     }
     
@@ -845,7 +845,7 @@ nav ul li a {
         height: 450px;
     }
     
-    .filtrocar {
+    .filter {
         position: relative;
         width: 70%;
         margin: auto;
@@ -856,12 +856,12 @@ nav ul li a {
         box-sizing: border-box;
     }
     
-    .filtromarcas {
+    .filter-brands {
         display: inline-block;
         width: 35%;
     }
     
-    .filtromarcas label {
+    .filter-brands label {
         display: inline-block;
         letter-spacing: 0.5px;
         font-size: 10px;
@@ -869,7 +869,7 @@ nav ul li a {
         color: #363636
     }
     
-    .filtromarcas input {
+    .filter-brands input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -882,7 +882,7 @@ nav ul li a {
         padding-left: 7p8;
     }
     
-    .filtromarcas input::placeholder {
+    .filter-brands input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
     }
@@ -931,13 +931,13 @@ nav ul li a {
         background-color: #f4f4f4;
     }
     
-    .filtroblindado {
+    .filter-shielded {
         position: relative;
         float: right;
         width: 35%;
     }
     
-    .filtroblindado label {
+    .filter-shielded label {
         display: inline-block;
         letter-spacing: 0.5px;
         font-size: 10px;
@@ -945,7 +945,7 @@ nav ul li a {
         color: #363636;
     }
     
-    .filtroblindado input {
+    .filter-shielded input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -958,7 +958,7 @@ nav ul li a {
     }
     
     
-    .filtroblindado input::placeholder {
+    .filter-shielded input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
@@ -985,12 +985,12 @@ nav ul li a {
         cursor: pointer;
     }
     
-    .filtroanoinicial {
+    .filter-start-year {
         display: inline-block;
         width: 35%;
     }
     
-    .filtroanoinicial label {
+    .filter-start-year label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -999,7 +999,7 @@ nav ul li a {
         color: #363636;
     }
     
-    .filtroanoinicial input {
+    .filter-start-year input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1012,13 +1012,13 @@ nav ul li a {
     }
     
     
-    .filtroanoinicial input::placeholder {
+    .filter-start-year input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
     }
     
-    .ate {
+    .until {
         display: inline-block;
         letter-spacing: 0.5px;
         font-size: 10px;
@@ -1027,12 +1027,12 @@ nav ul li a {
         margin-left: 10%;
     }
     
-    .filtroanofinal {
+    .filter-final-year {
         float: right;
         width: 35%;
     }
     
-    .filtroanofinal label {
+    .filter-final-year label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -1041,7 +1041,7 @@ nav ul li a {
         color: #7d7d7d;
     }
     
-    .filtroanofinal input {
+    .filter-final-year input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1054,18 +1054,18 @@ nav ul li a {
     }
     
     
-    .filtroanofinal input::placeholder {
+    .filter-final-year input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
     }
     
-    .filtrovalorinicial {
+    .filter-start-value {
         display: inline-block;
         width: 35%;
     }
     
-    .filtrovalorinicial label {
+    .filter-start-value label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -1074,7 +1074,7 @@ nav ul li a {
         color: #363636;
     }
     
-    .filtrovalorinicial input {
+    .filter-start-value input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1087,18 +1087,18 @@ nav ul li a {
     }
     
     
-    .filtrovalorinicial input::placeholder {
+    .filter-start-value input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
     }
     
-    .filtrovalorfinal {
+    .filter-final-value {
         float: right;
         width: 35%;
     }
     
-    .filtrovalorfinal label {
+    .filter-final-value label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -1107,7 +1107,7 @@ nav ul li a {
         color: #7d7d7d;
     }
     
-    .filtrovalorfinal input {
+    .filter-final-value input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1120,18 +1120,18 @@ nav ul li a {
     }
     
     
-    .filtrovalorfinal input::placeholder {
+    .filter-final-value input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
     }
     
-    .filtrokminicial {
+    .filter-start-km {
         display: inline-block;
         width: 35%;
     }
     
-    .filtrokminicial label {
+    .filter-start-km label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -1140,7 +1140,7 @@ nav ul li a {
         color: #363636;
     }
     
-    .filtrokminicial input {
+    .filter-start-km input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1153,18 +1153,18 @@ nav ul li a {
     }
     
     
-    .filtrokminicial input::placeholder {
+    .filter-start-km input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
     }
     
-    .filtrokmfinal {
+    .filter-final-km {
         float: right;
         width: 35%;
     }
     
-    .filtrokmfinal label {
+    .filter-final-km label {
         margin-top: 10px;
         display: inline-block;
         letter-spacing: 0.5px;
@@ -1173,7 +1173,7 @@ nav ul li a {
         color: #7d7d7d;
     }
     
-    .filtrokmfinal input {
+    .filter-final-km input {
         letter-spacing: 1px;
         height: 30px;
         width: 100%;
@@ -1186,7 +1186,7 @@ nav ul li a {
     }
     
     
-    .filtrokmfinal input::placeholder {
+    .filter-final-km input::placeholder {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
@@ -1214,7 +1214,7 @@ nav ul li a {
 }
 
 
-.vendas{
+.sale {
     width: 65%;
     margin-left: 30%;
     box-sizing: border-box;
@@ -1223,28 +1223,28 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.vendas h1 {
+.sale h1 {
     margin-left: 100px;
     margin-top: 260px;
     color: #b4b4b4;
 }
 
 @media screen and (max-width: 1000px){
-    .vendas{
+    .sale{
         width: 70%;
         margin: auto;
         box-sizing: border-box;
         padding: 40px;
     }
 
-    .vendas h1{
+    .sale h1{
         margin-left: 0px;
         font-size: 25px;
         color: #b4b4b4;
         margin-top: 220px;
     }
     
-    .modelos {
+    .models {
         padding: 0px;
         width: 90%;
         margin: auto;
@@ -1353,7 +1353,7 @@ label {
 fieldset {
     display: block;
     width: 100%;
-    border: solid 1px #000000;
+    border: solid 1px rgb(169, 169, 169);;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;

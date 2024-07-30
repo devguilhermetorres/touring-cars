@@ -205,6 +205,7 @@ nav ul li a {
         position: relative;
         margin-left: 7%;
         z-index: 7008;
+        
     }
 
     .menu-open{
@@ -219,6 +220,7 @@ nav ul li a {
         margin-top: 30px;
         border: none;
         cursor: pointer;
+        
     }
 
     .mobile-menu ul {
@@ -252,6 +254,7 @@ nav ul li a {
         margin: 50px 5.5% 5px 5.5%;
         font-size: 19.5px;
         justify-content: center;
+        
     }
 
     .mobile-menu .nav-item-icons i{
@@ -263,6 +266,7 @@ nav ul li a {
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
+        
     }
 
     .mobile-menu .nav-item-icons i:hover{
@@ -293,6 +297,7 @@ nav ul li a {
         position: fixed;
         z-index: 7001;
         margin-left: 7%;
+        
     }
     
 }
@@ -338,6 +343,7 @@ nav ul li a {
 }
 
 #chevron_icon{
+    opacity: 0.7;
     position: relative;
     max-height: 20px;
     display: flex;
@@ -624,7 +630,7 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.arrowrightmodelos{
+.models-chevron-right{
     border-radius: 5px;
     width: 15px;
     margin-top: 7px;
@@ -634,7 +640,7 @@ nav ul li a {
     padding: 5px;
 }
 
-.arrowrightmodelos:hover{
+.models-chevron-right:hover{
     background-color: rgba(68, 68, 68, 0.423);
     backdrop-filter: blur(2px);
     cursor: pointer;
@@ -757,7 +763,7 @@ nav ul li a {
         border-radius: 15px;
     }
     
-    #arrowrightmodelos{
+    #models-chevron-right{
         width: 13.5px;
         margin-top: 7px;
         margin-right: 40px;
@@ -956,7 +962,7 @@ label {
 fieldset {
     display: block;
     width: 100%;
-    border: solid 1px #000000;
+    border: solid 1px #989898;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;

@@ -600,7 +600,7 @@ label {
 fieldset {
     display: block;
     width: 100%;
-    border: solid 1px #000000;
+    border: solid 1px rgb(169, 169, 169);;
     padding-top: 70px;
     padding-bottom: 70px;
     border-radius: 15px;
