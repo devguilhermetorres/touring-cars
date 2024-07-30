@@ -56,7 +56,7 @@ nav ul {
     float: left;
 }
 
-.logo2{
+.logo-2{
     display: none;
 }
 
@@ -189,7 +189,7 @@ nav ul li a {
         display: none;
     }
 
-    .logo2 {
+    .logo-2 {
         position: absolute;
         display: flex;
         margin: auto;
@@ -312,7 +312,7 @@ nav ul li a {
     
 }
 
-.buttonsnav {
+.buttons-nav {
     color: rgb(0, 0, 0);
     padding: 0px 15px 5px 15px;
     background-repeat: no-repeat;
@@ -323,11 +323,11 @@ nav ul li a {
     animation: pulse 2.5s ease infinite;
 }
 
-.buttonsnav:hover {
+.buttons-nav:hover {
     background-color: rgb(236, 236, 236);
 }
 
-.buttonsnav p{
+.buttons-nav p{
     text-align: center;
     display: inline;
     position: relative;
@@ -382,7 +382,7 @@ nav ul li a {
     box-shadow:0px 0px 0px 1px black inset;
 }
 
-.principal{
+.home-screen{
     background-image: url(imgs/m2.png);
     background-repeat: no-repeat;
     background-size: 950px;
@@ -444,7 +444,7 @@ nav ul li a {
 
 
 @media screen and (max-width: 1000px) {
-    .principal{
+    .home-screen{
         background-image: none;
         display: flex;
         margin: auto;
@@ -509,21 +509,21 @@ nav ul li a {
     }
 }
 
-.formulario {
+.form {
     background-repeat: no-repeat;
     background-size: 900px;
     background-position: bottom left;
     width: 100%;
 }
 
-.textformulario {
+.text-form {
     width: 70%;
     margin: auto;
     height: 150px;
     margin-top: 5px;
 }
 
-.textformulario h2 {
+.text-form h2 {
     letter-spacing: normal;
     color: #000000;
     font-size: 13.6px;
@@ -531,7 +531,7 @@ nav ul li a {
     margin-top: 10px;
 }
 
-.form {
+.form-inputs {
     display: flex;
     width: 70%;
     margin: auto;
@@ -588,7 +588,7 @@ label {
     font-weight: 400;
 }
 
-.checklgpd {
+.check_lgpd {
     background-color: none;
     display: inline-block;
     position: relative;
@@ -630,14 +630,14 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1000px) {
-    .formulario {
+    .form {
         background-repeat: no-repeat;
         background-size: 900px;
         background-position: bottom left;
         width: 100%;
     }
     
-    .textformulario {
+    .text-form {
         width: 70%;
         margin: auto;
         height: 109px;
@@ -645,11 +645,11 @@ input::placeholder {
         
     }
 
-    .textformulario h1 {
+    .text-form h1 {
         font-size: 25px;
     }
     
-    .textformulario h2 {
+    .text-form h2 {
         letter-spacing: normal;
         color: #000000;
         font-size: 13.6px;
@@ -657,7 +657,7 @@ input::placeholder {
         margin-top: 10px;
     }
     
-    .form {
+    .form-inputs {
         margin-top: 70px;
         display: flex;
         justify-content: space-around;
@@ -705,7 +705,7 @@ input::placeholder {
         cursor: pointer;
       }
 
-    .checklgpd {
+    .check_lgpd {
         display: inline-block;
         position: relative;
         margin-top: 20px;

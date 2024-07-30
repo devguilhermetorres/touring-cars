@@ -1,9 +1,9 @@
 $(function(){   
-    var arrowbottom = $('#arrowbottomcentral');   
+    var chevrondown = $('#id-chevron-down');   
     $(window).scroll(function () { 
         if ($(this).scrollTop() > 600) { 
-            arrowbottom.removeClass("arrowbottomcentralizadora");
-            arrowbottom.addClass("arrowbottomnone");
+            chevrondown.removeClass("chevron-down");
+            chevrondown.addClass("arrowbottomnone");
         }
     
         else {

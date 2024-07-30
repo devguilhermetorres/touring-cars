@@ -20,7 +20,7 @@
                     </li>
                 </ul>
 
-                <ul class="logo2">
+                <ul class="logo-2">
                     <li>
                         <a href="index.html">
                             <img src="imgs/tclogo.png" alt="" style="max-height: 32px;">
@@ -32,14 +32,14 @@
                 <ul class="nav-list">
                     <li>
                         <a href="sobre.html">
-                            <div class="buttonsnav">
+                            <div class="buttons-nav">
                                 <p>Sobre</p>
                             </div>
                         </a>
                     </li>
                     <li>
                         <a href="contato.html">
-                            <div class="buttonsnav">
+                            <div class="buttons-nav">
                                 <p>Contato</p>
                             </div>
                         </a>
@@ -55,7 +55,7 @@
 
                     <li>
                         <a href="estoque.html">
-                            <div class="buttonsnav" id="estoque">
+                            <div class="buttons-nav" id="estoque">
                                 <p>Estoque</p>
                             </div>
                         </a>
@@ -116,49 +116,49 @@
     </header>
 
     <main>
-        <div class="principal">
+        <div class="home-screen">
             <div class="principaltext">
                 <h1>Anuncie seu veículo</h1>
                 <h2>Preencha o formulário e realize seu anúncio! Nossa equipe entrará em contato com você o mais rápido.</h2>
             </div>
         </div>
 
-        <div class="formulario">
+        <div class="form">
             <fieldset>
                 <form name="cadastrar">
                     <label class="textoform" id="dadosveiculo">Dados do veículo</label>
                     
-                    <input type="text" id="marca" name="marca" class="field" placeholder="Marca do veículo" onchange="validarCadastrar()">
+                    <input type="text" id="marca" name="marca" class="field" placeholder="Marca do veículo" onchange="validarRegister()">
 
-                    <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo do veículo" onchange="validarCadastrar()">
+                    <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo do veículo" onchange="validarRegister()">
 
-                    <input type="text" class="field" id="versao" name="versao" placeholder="Versão do veículo" onchange="validarCadastrar()">
+                    <input type="text" class="field" id="versao" name="versao" placeholder="Versão do veículo" onchange="validarRegister()">
 
-                    <input type="number" class="field" id="km" name="km" placeholder="KM do veículo" onchange="validarCadastrar()">
+                    <input type="number" class="field" id="km" name="km" placeholder="KM do veículo" onchange="validarRegister()">
                     
-                    <input type="number" class="field" id="ano" name="ano" placeholder="Ano do veículo" onchange="validarCadastrar()">
+                    <input type="number" class="field" id="ano" name="ano" placeholder="Ano do veículo" onchange="validarRegister()">
 
-                    <input type="number" class="field" id="valor" name="valor" placeholder="Valor desejado" onchange="validarCadastrar()">
+                    <input type="number" class="field" id="valor" name="valor" placeholder="Valor desejado" onchange="validarRegister()">
 
                     <label class="textoform" id="dadospessoais">Dados pessoais</label>
 
-                    <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
+                    <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarRegister()">
 
-                    <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+                    <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarRegister()">
 
-                    <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarCadastrar()" maxlength="14">
+                    <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarRegister()" maxlength="14">
 
                     <label class="textoform" id="fotos">Fotos do veículo</label>
 
-                    <input type="file" class="upload" id="fotos" name="fotos" onchange="validarCadastrar()" accept="image/*,.pdf" multiple>
+                    <input type="file" class="upload" id="fotos" name="fotos" onchange="validarRegister()" accept="image/*,.pdf" multiple>
 
                     <button id="idButton"
-                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+                        class="button" type="submit" disabled  onchange="validarRegister()">Enviar</button>
                     <script src="validarform.js"></script>
                 </form>
                 
 
-                <div class="checklgpd">
+                <div class="check_lgpd">
                     <input type="checkbox" id="lgpd" class="check">
                     <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
                 </div>

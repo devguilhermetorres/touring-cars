@@ -37,7 +37,7 @@ body {
     float: left;
 }
 
-.logo2{
+.logo-2{
     display: none;
 }
 
@@ -187,7 +187,7 @@ nav ul li a {
         display: none;
     }
 
-    .logo2 {
+    .logo-2 {
         position: absolute;
         display: flex;
         margin: auto;
@@ -297,7 +297,7 @@ nav ul li a {
     
 }
 
-.buttonsnav {
+.buttons-nav {
     color: rgb(0, 0, 0);
     padding: 0px 15px 5px 15px;
     background-repeat: no-repeat;
@@ -307,12 +307,12 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.buttonsnav:hover {
+.buttons-nav:hover {
     background-color: rgb(236, 236, 236);
     
 }
 
-.buttonsnav p{
+.buttons-nav p{
     text-align: center;
     display: inline;
     position: relative;
@@ -320,13 +320,13 @@ nav ul li a {
     font-size: 15px;
 }
 
-.principal{
+.home-screen{
     position: relative;
     width: 100%;
     height: 710px;
 }
 
-.arrowbottomcentralizadora{
+.chevron-down{ 
     margin-top: 620px;
     height: 20px;
     position: absolute;
@@ -337,7 +337,7 @@ nav ul li a {
     
 }
 
-#arrowbottom{
+#chevron-icon{
     position: relative;
     max-height: 20px;
     display: flex;
@@ -396,7 +396,7 @@ nav ul li a {
     }
 }
 
-.imgcarprincipal {
+.home-screen-car {
     background-image: url(imgs/porsche-model5.png);
     background-size: 1200px;
     background-position: 720px -25px;
@@ -408,7 +408,7 @@ nav ul li a {
     top: 0;
 }
 
-.texturatc {
+.texture-tc {
     background-image: url(imgs/texturatc.png);
     background-size: 650px;
     background-repeat: no-repeat;
@@ -425,7 +425,7 @@ nav ul li a {
     display: none;
 }
 
-.textprincipal {
+.home-screen-text {
     display: flex;
     position: absolute;
     background-color: none;
@@ -434,7 +434,7 @@ nav ul li a {
     z-index: 1000;
 }
 
-.textprincipal h2{
+.home-screen-text h2{
     display: block;
     letter-spacing: -4px;
     line-height: 110px;
@@ -446,7 +446,7 @@ nav ul li a {
     font-weight: 700;
 }
 
-.textprincipal p{
+.home-screen-text p{
     position: absolute;
     line-height: 25px;
     font-size: 18px;
@@ -459,17 +459,13 @@ nav ul li a {
     z-index: 4500;
 }
 
-.textprincipal2 {
-    display: none;
-}
-
 .bold:hover {
     color: #2c2c2c;
     transition: all 0.3s;
 }
 
 @media screen and (max-width: 1000px) {
-    .principal{
+    .home-screen{
         background-size: cover;
         background-position: 50% 20%;
         margin-top: -20px;
@@ -479,15 +475,15 @@ nav ul li a {
         height: 600px;
     }
     
-    .arrowbottomcentralizadora{
+    .chevron-down{
         display: none;
     }
     
-    #arrowbottom{
+    #chevron-icon{
         display: none;
     }    
 
-    .imgcarprincipal {
+    .home-screen-car {
         background-size: 1100px;
         background-position: 50px 80px;
         background-repeat: no-repeat;
@@ -498,7 +494,7 @@ nav ul li a {
         top: 0;
     }
     
-    .texturatc {
+    .textura-tc {
         position: absolute;
         background-image: url(imgs/texturatc.png);
         background-size: 550px;
@@ -512,14 +508,14 @@ nav ul li a {
         opacity: 0.4;
     }
 
-    .textprincipal {
+    .home-screen-text {
         display: flex;
         background-color: none;
         height: 43%;
         width: 100%;
     }
     
-    .textprincipal h2{
+    .home-screen-text h2{
         display: block;
         letter-spacing: -4px;
         line-height: 60px;
@@ -544,7 +540,7 @@ nav ul li a {
         margin-left: 10%;
     }
     
-    .textprincipal p{
+    .home-screen-text p{
         all: unset;
         position: absolute;
         line-height: 25px;
@@ -610,13 +606,13 @@ nav ul li a {
     }
 }
 
-.textmodelos {
+.text-models {
     padding-top: 0px;
     width: 70%;
     margin: auto;
 }
 
-.modelos {
+.models {
     position: relative;
     width: 70%;
     height: 15vw;
@@ -644,7 +640,7 @@ nav ul li a {
     cursor: pointer;
 }
 
-.combustao {
+.combustion {
     background-image: url(imgs/rs62.jpg);
     background-size: 22vw;
     background-position: center;
@@ -654,18 +650,18 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.combustao:hover {
+.combustion:hover {
     background-size: 22.2vw;
     transition: 0.4s;
 }
 
-.textcombustao {
+.text-combustion {
     position: absolute;
     width: 100%;
     bottom: 14px;
 }
 
-.textcombustao p {
+.text-combustion p {
     position: absolute;
     color: #ffffff;
     font-size: 16px;
@@ -675,7 +671,7 @@ nav ul li a {
     bottom: 5px;
 }
 
-.hibrido {
+.hybrid {
     background-image: url(imgs/rangerover4.jpg);
     background-size: 22vw;
     background-position: center;
@@ -686,18 +682,18 @@ nav ul li a {
     
 }
 
-.hibrido:hover {
+.hybrid:hover {
     background-size: 22.2vw;
     transition: all 0.4s;
 }
 
-.texthibrido {
+.text-hybrid {
     position: absolute;
     width: 100%;
     bottom: 14px;
 }
 
-.texthibrido p {
+.text-hybrid p {
     position: absolute;
     color: #ffffff;
     font-size: 16px;
@@ -707,7 +703,7 @@ nav ul li a {
     bottom: 5px;
 }
 
-.eletrico {
+.eletric {
     background-image: url(imgs/seal2.jpg);
     background-size: 22vw;
     background-position: center;
@@ -717,18 +713,18 @@ nav ul li a {
     border-radius: 15px;
 }
 
-.eletrico:hover {
+.eletric:hover {
     background-size: 22.2vw;
     transition: all 0.4s;
 }
 
-.texteletrico {
+.text-eletric {
     position: absolute;
     width: 100%;
     bottom: 14px;
 }
 
-.texteletrico p {
+.text-eletric p {
     position: absolute;
     color: #ffffff;
     font-size: 16px;
@@ -739,17 +735,17 @@ nav ul li a {
 }
 
 @media screen and (max-width: 1000px) {
-    .textmodelos {
+    .text-models {
         padding-top: 40px;
         width: 70%;
         margin: auto;
     }
 
-    .textmodelos h1 {
+    .text-models h1 {
         font-size: 25px;
     }
     
-    .modelos {
+    .models {
         position: relative;
         padding-top: 30px;
         width: 70%;
@@ -770,7 +766,7 @@ nav ul li a {
         transition: all 0.5s;
     }
     
-    .combustao {
+    .combustion {
         background-image: url(imgs/rs62.jpg);
         background-size: 73vw;
         background-repeat: no-repeat;
@@ -782,24 +778,24 @@ nav ul li a {
         
     }
 
-    .combustao:hover {
+    .combustion:hover {
         background-size: 73.8vw;
     }
     
-    .textcombustao {
+    .text-combustion {
         position: absolute;
         width: 100%;
         bottom: 30px;
     }
     
-    .textcombustao p {
+    .text-combustion p {
         color: #ffffff;
         font-size: 16px;
         font-weight: 600;
         margin-left: 35px;
     }
     
-    .hibrido {
+    .hybrid {
         background-image: url(imgs/rangerover4.jpg);
         background-size: 73vw;
         background-position: center;
@@ -813,18 +809,18 @@ nav ul li a {
         margin-top: 3vw;
     }
 
-    .hibrido:hover {
+    .hybrid:hover {
         background-size: 73.8vw;
     }
     
-    .texthibrido {
+    .text-hybrid {
         position: absolute;
         width: 100%;
         height: 20px;
         bottom: 30px;
     }
     
-    .texthibrido p {
+    .text-hybrid p {
         position: absolute;
         text-align: left;
         color: #ffffff;
@@ -833,7 +829,7 @@ nav ul li a {
         margin-left: 35px;
     }
     
-    .eletrico {
+    .eletric {
         background-image: url(imgs/seal2.jpg);
         background-size: 73vw;
         background-position: 80% 50%;
@@ -847,18 +843,18 @@ nav ul li a {
         margin-top: 3vw;
     }
 
-    .eletrico:hover {
+    .eletric:hover {
         background-size: 73.8vw;
     }
     
-    .texteletrico {
+    .texteletric {
         position: absolute;
         width: 100%;
         height: 20px;
         bottom: 30px;
     }
     
-    .texteletrico p {
+    .texteletric p {
         position: absolute;
         text-align: left;
         color: #ffffff;
@@ -868,21 +864,21 @@ nav ul li a {
     }
 }
 
-.formulario {
+.form {
     background-repeat: no-repeat;
     background-size: 900px;
     background-position: bottom left;
     width: 100%;
 }
 
-.textformulario {
+.text-form {
     width: 70%;
     margin: auto;
     height: 150px;
     margin-top: 120px;
 }
 
-.textformulario h2 {
+.text-form h2 {
     letter-spacing: normal;
     color: #000000;
     font-size: 13.6px;
@@ -890,7 +886,7 @@ nav ul li a {
     margin-top: 10px;
 }
 
-.form {
+.form-inputs {
     display: flex;
     width: 70%;
     margin: auto;
@@ -947,7 +943,7 @@ label {
     font-weight: 400;
 }
 
-.checklgpd {
+.check_lgpd {
     background-color: none;
     display: inline-block;
     position: relative;
@@ -990,14 +986,14 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1000px) {
-    .formulario {
+    .form {
         background-repeat: no-repeat;
         background-size: 900px;
         background-position: bottom left;
         width: 100%;
     }
     
-    .textformulario {
+    .text-form {
         width: 70%;
         margin: auto;
         height: 109px;
@@ -1005,11 +1001,11 @@ input::placeholder {
         
     }
 
-    .textformulario h1 {
+    .text-form h1 {
         font-size: 25px;
     }
     
-    .textformulario h2 {
+    .text-form h2 {
         letter-spacing: normal;
         color: #000000;
         font-size: 13.6px;
@@ -1018,7 +1014,7 @@ input::placeholder {
 
     }
     
-    .form {
+    .form-inputs {
         margin-top: 70px;
         display: flex;
         justify-content: space-around;
@@ -1064,7 +1060,7 @@ input::placeholder {
         cursor: pointer;
       }
 
-    .checklgpd {
+    .check_lgpd {
         display: inline-block;
         position: relative;
         margin-top: 20px;
@@ -1120,14 +1116,14 @@ input::placeholder {
     }
 }
 
-.textnovidade {
+.emphasis-title {
     width: 70%;
     margin: auto;
     margin-bottom: 50px;
     margin-top: 120px;
 }
 
-.novidades {
+.emphasis {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -1141,7 +1137,7 @@ input::placeholder {
     margin-bottom: 50px;
 }
 
-.foto1 {
+.emphasis-photo {
     background-image: url(imgs/macan.jpeg);
     background-size: 50vw;
     background-repeat: no-repeat;
@@ -1152,12 +1148,12 @@ input::placeholder {
     
 }
 
-.foto1:hover {
+.emphasis-photo:hover {
     background-size: 50.3vw;
     transition: all 0.4s;
 }
 
-.texto1 {
+.emphasis-text {
     background-image: url(imgs/interiormacan2.jpg);
     background-size: 700px;
     background-position: 20% 50%;
@@ -1168,19 +1164,19 @@ input::placeholder {
     
 }
 
-.texto1:hover {
+.emphasis-text:hover {
     background-size: 710px;
     transition: all 0.4s;
 }
 
-.texto1 h1 {
+.emphasis-text h1 {
     font-size: 1.22vw;
     color: white;
     padding: 0;
     margin-top: 5vw;
 }
 
-.texto1 p {
+.emphasis-text p {
     letter-spacing: 0px;
     margin-top: 0;
     font-size: 1vw;
@@ -1196,7 +1192,7 @@ input::placeholder {
 }
 
 @media screen and (max-width: 1000px) {
-    .textnovidade {
+    .emphasis-title {
         font-size: 12px;
         width: 70%;
         margin: auto;
@@ -1204,7 +1200,7 @@ input::placeholder {
         margin-top: 100px;
     }
     
-    .novidades {
+    .emphasis {
         display: block;
         padding-top: 0px;
         text-align: center;
@@ -1216,7 +1212,7 @@ input::placeholder {
         margin-bottom: 50px;
     }
     
-    .foto1 {
+    .emphasis-photo {
         background-size: 90vw;
         background-repeat: no-repeat;
         background-position: center;
@@ -1226,11 +1222,11 @@ input::placeholder {
         
     }
 
-    .foto1:hover {
+    .emphasis-photo:hover {
         background-size: 91vw;
     }
     
-    .texto1 {
+    .emphasis-text {
         margin-top: 3vw;
         padding-top: 1vw;
         background-size: 85vw;
@@ -1243,11 +1239,11 @@ input::placeholder {
         
     }
     
-    .texto1:hover {
+    .emphasis-text:hover {
         background-size: 86vw;
     }
     
-    .texto1 h1 {
+    .emphasis-text h1 {
         letter-spacing: .65vh;
         font-size: 2.5vw;
         color: white;
@@ -1255,8 +1251,8 @@ input::placeholder {
         margin-top: 4vw;
     }
     
-    .texto1 p {
-        letter-spacing: 0px;
+    .emphasis-text p {
+    letter-spacing: 0px;
     margin-top: 10px;
     font-size: 2.5vw;
     color: white;
@@ -1271,14 +1267,14 @@ input::placeholder {
     }
 }
 
-.textvendas {
+.sale-title {
     width: 70%;
     margin: auto;
     margin-top: 120px;
     margin-bottom: 50px;
 }
 
-.vendas {
+.sale {
     width: 70%;
     height: 15vw;
     margin: auto;
@@ -1299,7 +1295,7 @@ input::placeholder {
     padding: 5px;
 }
 
-.venda1 {
+.sale-1 {
     background-image: url(imgs/ram3.jpg);
     background-size: 22vw;
     background-position: center;
@@ -1309,18 +1305,18 @@ input::placeholder {
     border-radius: 15px;
 }
 
-.venda1:hover {
+.sale-1:hover {
     background-size: 22.2vw;
     transition: all 0.4s;
 }
 
-.textvenda1 {
+.sale-text {
     position: absolute;
     width: 100%;
     bottom: 14px;
 }
 
-.textvenda1 p {
+.sale-text p {
     position: absolute;
     color: #ffffff;
     font-size: 16px;
@@ -1330,7 +1326,7 @@ input::placeholder {
     bottom: 5px;
 }
 
-.venda2 {
+.sale-2 {
     background-image: url(imgs/sw42.jpeg);
     background-size: 27.7vw;
     background-position: 50% 50%;
@@ -1341,28 +1337,12 @@ input::placeholder {
     
 }
 
-.venda2:hover {
+.sale-2:hover {
     background-size: 27.9vw;
     transition: all 0.4s;
 }
 
-.textvenda2 {
-    position: absolute;
-    width: 100%;
-    bottom: 14px;
-}
-
-.textvenda2 p {
-    position: absolute;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 35px;
-    background-color: none;
-    bottom: 5px;
-}
-
-.venda3 {
+.sale-3 {
     background-image: url(imgs/jet2.jpg);
     background-size: 22vw;
     background-position: center;
@@ -1372,36 +1352,20 @@ input::placeholder {
     border-radius: 15px;
 }
 
-.venda3:hover {
+.sale-3:hover {
     background-size: 22.2vw;
     transition: all 0.4s;
 }
 
-.textvenda3 {
-    position: absolute;
-    width: 100%;
-    bottom: 14px;
-}
-
-.textvenda3 p {
-    position: absolute;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    margin-left: 35px;
-    background-color: none;
-    bottom: 5px;
-}
-
 @media screen and (max-width: 1000px) {
-    .textvendas {
+    .sale-title {
         width: 70%;
         margin: auto;
         font-size: 12px;
         margin-top: 100px;
     }
     
-    .vendas {
+    .sale {
         position: relative;
         width: 70%;
         height: 156vw;
@@ -1415,7 +1379,7 @@ input::placeholder {
 
     /* Textvenda não se altera no mobile*/
     
-    .venda1 {
+    .sale-1 {
         background-size: 75vw;
         background-position: 40% 80%;
         height: 50vw;
@@ -1424,11 +1388,11 @@ input::placeholder {
         border-radius: 15px;
     }
 
-    .venda1:hover {
+    .sale-1:hover {
         background-size: 76vw;
     }
     
-    .venda2 {
+    .sale-2 {
         background-size: 95vw;
         background-position: center;
         background-repeat: no-repeat;
@@ -1441,11 +1405,11 @@ input::placeholder {
         margin-top: 3vw;
     }
     
-    .venda2:hover {
+    .sale-2:hover {
         background-size: 96vw;
     }
     
-    .venda3 {
+    .sale-3 {
         background-size: 75vw;
         background-position: center;
         height: 50vw;
@@ -1457,7 +1421,7 @@ input::placeholder {
         margin-top: 3vw;
     }
     
-    .venda3:hover {
+    .sale-3:hover {
         background-size: 76vw;
     }
     

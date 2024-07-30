@@ -20,7 +20,7 @@
                     </li>
                 </ul>
 
-                <ul class="logo2">
+                <ul class="logo-2">
                     <li>
                         <a href="index.html">
                             <img src="imgs/tclogo.png" alt="" style="max-height: 32px;">
@@ -31,7 +31,7 @@
                 <ul class="nav-list">
                     <li>
                         <a href="sobre.html">
-                            <div class="buttonsnav">
+                            <div class="buttons-nav">
                                 <p>Sobre</p>
                             </div>
                         </a>
@@ -39,7 +39,7 @@
 
                     <li>
                         <a href="contato.html">
-                            <div class="buttonsnav">
+                            <div class="buttons-nav">
                                 <p>Contato</p>
                             </div>
                         </a>
@@ -47,7 +47,7 @@
 
                     <li>
                         <a href="anunciar.html">
-                            <div class="buttonsnav">
+                            <div class="buttons-nav">
                                 <p>Anunciar</p>
                             </div>
                         </a>
@@ -117,7 +117,7 @@
     </header>
 
     <main>
-        <div class="principal">
+        <div class="home-screen">
             <div class="principaltext">
                 <p>Nossos modelos</p>
             </div>
@@ -295,30 +295,30 @@
         </div>
         </div>
       
-        <div class="formulario">
-            <div class="textformulario">
+        <div class="form">
+            <div class="text-form">
                 <h1>Você está procurando<br> algum modelo em específico?</h1>
                 <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
             </div>
 
-            <div class="form">
+            <div class="form-inputs">
                 <fieldset>
                     <form name="cadastrar">
-                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarCadastrar()">
+                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarRegister()">
 
-                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
+                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarRegister()">
 
-                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarRegister()">
 
-                        <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarCadastrar()" maxlength="14">
+                        <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarRegister()" maxlength="14">
 
                         <button id="idButton"
-                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+                        class="button" type="submit" disabled  onchange="validarRegister()">Enviar</button>
 
                         <script src="validarform.js"></script>
                     </form>
                     
-                    <div class="checklgpd">
+                    <div class="check_lgpd">
                         <input type="checkbox" id="lgpd" class="check">
                         <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
                     </div>

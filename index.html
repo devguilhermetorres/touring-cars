@@ -20,7 +20,7 @@
             </ul>
                 
 
-            <ul class="logo2">
+            <ul class="logo-2">
                  <li>
                     <a href="index.html">
                         <img src="imgs/tclogo.png" alt="" style="max-height: 32px;">
@@ -31,7 +31,7 @@
             <ul class="nav-list">
                 <li>
                     <a href="sobre.html">
-                        <div class="buttonsnav">
+                        <div class="buttons-nav">
                             <p>Sobre</p>
                         </div>
                     </a>
@@ -39,7 +39,7 @@
 
                 <li>
                     <a href="contato.html">
-                        <div class="buttonsnav">
+                        <div class="buttons-nav">
                             <p>Contato</p>
                         </div>
                     </a>
@@ -47,7 +47,7 @@
 
                 <li>
                     <a href="anunciar.html">
-                        <div class="buttonsnav">
+                        <div class="buttons-nav">
                             <p>Anunciar</p>
                         </div>
                     </a>
@@ -55,7 +55,7 @@
 
                 <li>
                     <a href="estoque.html">
-                        <div class="buttonsnav">
+                        <div class="buttons-nav">
                             <p>Estoque</p>
                         </div>
                     </a>
@@ -123,84 +123,83 @@
     </header>
 
     <main>
-        <div class="principal">
+        <div class="home-screen">
             
-            <div class="imgcarprincipal" id="imgporsche"></div>
+            <div class="home-screen-car"></div>
 
-            <div class="textprincipal">
+            <div class="home-screen-text">
                <h2>Qualidade, <br> Segurança, <br> Transparência. </h2>
                <p>Aqui você encontra  tudo isso  e muito mais. <br> <a href="estoque.html"><b class="bold">Acesse o estoque</b></a> ou <a href="anunciar.html"><b class="bold">anuncie seu veículo!</b></a></p>
             </div>
 
-            <div class="texturatc"></div>
+            <div class="texture-tc"></div>
 
-            <div class="arrowbottomcentralizadora" id="arrowbottomcentral">
-                <img src="imgs/arrowbottom.png" alt="" id="arrowbottom">
+            <div class="chevron-down" id="id-chevron-down">
+                <img src="imgs/arrowbottom.png" alt="" id="chevron-icon">
             </div>
 
         </div>
 
-        <div class="textmodelos" id="textmodelos">
+        <div class="text-models">
             <h1>Modelos</h1>
         </div>
 
-        <div id="compra">
+        <div>
+            <div class="models">
 
-                <div class="modelos">
-
-                    <a href="estoque.html">
-                        <div class="combustao">
-                            <div class="textcombustao">
-                                <p>A Combustão</p>
-                                <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
-                            </div>
+                <a href="estoque.html">
+                    <div class="combustion">
+                        <div class="text-combustion">
+                            <p>A Combustão</p>
+                            <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
                         </div>
-                    </a>
+                    </div>
+                </a>
                     
-                    <a href="estoque.html">
-                        <div class="hibrido">
-                            <div class="texthibrido">
-                                <p>Híbridos</p>
-                                <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
-                            </div>
+                <a href="estoque.html">
+                    <div class="hybrid">
+                        <div class="text-hybrid">
+                            <p>Híbridos</p>
+                            <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
                         </div>
-                    </a>
+                    </div>
+                </a>
                     
-                    <a href="estoque.html">
-                        <div class="eletrico">
-                            <div class="texteletrico">
-                                <p>Elétricos</p>
-                                <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
-                            </div>
+                <a href="estoque.html">
+                    <div class="eletric">
+                        <div class="text-eletric">
+                            <p>Elétricos</p>
+                            <img src="imgs/arrowright.png" alt="arrowright" class="arrowrightmodelos">
                         </div>
-                    </a>
+                    </div>
+                </a>
                 
-                </div>
-                    
+            </div>      
         </div>
-        <div class="formulario">
-            <div class="textformulario">
+
+        <div class="form">
+            <div class="text-form">
                 <h1>Você está procurando<br> algum modelo em específico?</h1>
                 <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
             </div>
-            <div class="form">
+            <div class="form-inputs">
                 <fieldset>
-                    <form name="cadastrar">
-                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarCadastrar()">
+                    <form name="register">
+                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarRegister()">
 
-                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarCadastrar()">
+                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarRegister()">
 
-                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarCadastrar()">
+                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarRegister()">
 
-                        <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarCadastrar()" maxlength="14">
+                        <input type="text" class="field" id="numero" name="number" placeholder="Número" onchange="validarRegister()" maxlength="14">
 
                         <button id="idButton"
-                        class="button" type="submit" disabled  onchange="validarCadastrar()">Enviar</button>
+                        class="button" type="submit" disabled  onchange="validarRegister()">Enviar</button>
 
                         <script src="validarform.js"></script>
                     </form>
 
-                    <div class="checklgpd">
+                    <div class="check_lgpd">
                         <input type="checkbox" id="lgpd" class="check">
                         <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
                     </div>
@@ -212,44 +211,44 @@
 
         </div>
 
-        <div class="textnovidade">
+        <div class="emphasis-title">
             <h1>Destaque semanal</h1>
         </div>
 
-        <div class="novidades">
+        <div class="emphasis">
 
-            <div class="foto1">
+            <div class="emphasis-photo">
 
             </div>
 
-            <div class="texto1">
+            <div class="emphasis-text">
                 <h1>Novo Porsche Macan GTS.</h1>
                 <p>Novo Macan GTS: destaque nos aspectos em que os outros se perdem na multidão. Jovem, dinâmico e urbano, com equipamentos de série completos, características de design exclusivas do modelo e, é claro, o tradicional desempenho Porsche.</p>
             </div>
 
         </div>
         
-        <div class="textvendas">
+        <div class="sale-title">
             <h1>Últimas vendas</h1>
         </div>
 
-        <div class="vendas">
-            <div class="venda1">
-                <div class="textvenda1">
+        <div class="sale">
+            <div class="sale-1">
+                <div class="sale-text">
                     <p>RAM 1500</p>
                     <img src="imgs/check.png" alt="arrowright" class="checked">
                 </div>
             </div>
 
-            <div class="venda2">
-                <div class="textvenda2">
+            <div class="sale-2">
+                <div class="sale-text">
                     <p>TOYOTA SW4</p>
                     <img src="imgs/check.png" alt="arrowright" class="checked">
                 </div>
             </div>
 
-            <div class="venda3">
-                <div class="textvenda3">
+            <div class="sale-3">
+                <div class="sale-text">
                     <p>SEA-DOO GTI</p>
                     <img src="imgs/check.png" alt="arrowright" class="checked">
                 </div>

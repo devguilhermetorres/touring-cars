@@ -44,7 +44,7 @@ function menuShowFiltrar() {
 };
 
 
-function validarCadastrar(){
+function validarRegister(){
     var button = document.getElementsByClassName(".button");
     var modeloVazio = modelo.value;
     var nomeVazio = nome.value; 
@@ -52,16 +52,16 @@ function validarCadastrar(){
     var numeroVazio = numero.value;
     
     if( !(modeloVazio == "") && !(nomeVazio == "") && !(emailVazio == "") &&     !(numeroVazio == "") ){
-    document.cadastrar.idButton.disabled=false;
-    document.cadastrar.idButton.classList.remove("button");
-    document.cadastrar.idButton.classList.add("buttonactive");
+    document.register.idButton.disabled=false;
+    document.register.idButton.classList.remove("button");
+    document.register.idButton.classList.add("buttonactive");
 }
     
     
     else{
-        document.cadastrar.idButton.disabled=true;
-        document.cadastrar.idButton.classList.remove("buttonactive");
-        document.cadastrar.idButton.classList.add("button");
+        document.register.idButton.disabled=true;
+        document.register.idButton.classList.remove("buttonactive");
+        document.register.idButton.classList.add("button");
     }
     
 };
