@@ -327,7 +327,7 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.navatual {
+.current-nav {
     color: rgb(255, 255, 255);
     background-color: #000000;
     padding: 0px 15px 5px 15px;
@@ -339,7 +339,7 @@ nav ul li a {
     box-shadow: 0px 0px 0px 1px black inset;
 }
 
-.navatual p {
+.current-nav p {
     text-align: center;
     display: inline;
     position: relative;
@@ -386,7 +386,7 @@ nav ul li a {
     flex-direction: column;
 }
 
-.principaltext {
+.home-screen-text {
     margin: auto;
     width: 80%;
     font-size: 18px;
@@ -397,7 +397,7 @@ nav ul li a {
     
 }
 
-.principaltext h2{
+.home-screen-text h2{
     letter-spacing: normal;
     color: #000000;
     font-size: 13.6px;
@@ -415,7 +415,7 @@ nav ul li a {
         
     }
     
-    .principaltext {
+    .home-screen-text {
         padding-top: 80px;
         margin: 0;
         width: 100%;
@@ -424,11 +424,11 @@ nav ul li a {
         height: auto;
     }
 
-    .principaltext h1 {
+    .home-screen-text h1 {
         font-size: 30px;
     }
 
-    .principaltext h2 {
+    .home-screen-text h2 {
         font-size: 13.6px;
     }
 }
@@ -498,7 +498,7 @@ label {
     font-weight: 400;
 }
 
-.check_lgpd {
+.check-lgpd {
     display: inline-block;
     position: relative;
     margin-top: 10px;
@@ -641,7 +641,7 @@ input::file-selector-button {
         cursor: pointer;
       }
 
-    .check_lgpd {
+    .check-lgpd {
         display: inline-block;
         position: relative;
         margin-left: 0;

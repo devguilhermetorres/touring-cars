@@ -336,7 +336,7 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.navatual {
+.current-nav {
     color: rgb(255, 255, 255);
     background-color: #000000;
     padding: 0px 15px 5px 15px;
@@ -348,7 +348,7 @@ nav ul li a {
     box-shadow: 0px 0px 0px 1px black inset;
 }
 
-.navatual p {
+.current-nav p {
     text-align: center;
     display: inline;
     position: relative;
@@ -394,7 +394,7 @@ nav ul li a {
     flex-direction: column;
 }
 
-.principaltext {
+.home-screen-text {
     margin: auto;
     width: 40%;
     font-size: 18px;
@@ -405,19 +405,19 @@ nav ul li a {
     margin-bottom: 30px;
 }
 
-.acoes {
+.actions {
     margin-top: 20px;
     margin-left: 10.5%;
 }
 
-.acoes ul {
+.actions ul {
     list-style-type: none;
     flex-direction: column;
     margin: 0;
     width: 30%;
 }
 
-.acoes ul li {
+.actions ul li {
     background-image: url(imgs/arrowrightpreto.png);
     background-size: 15px;
     background-position: 88% 50%;
@@ -436,7 +436,7 @@ nav ul li a {
     margin-bottom: 0px;
 }
 
-.acoes ul li:hover {
+.actions ul li:hover {
     background-image: url(imgs/arrowright.png);
     background-position: 92% 50%;
     transform: translate(0.7%, 0%);
@@ -454,7 +454,7 @@ nav ul li a {
         height: 365px;
     }
     
-    .principaltext {
+    .home-screen-text {
         margin: auto;
         width: 50%;
         color: black;
@@ -464,11 +464,11 @@ nav ul li a {
         margin-bottom: 20px;
     }
 
-    .principaltext h1 {
+    .home-screen-text h1 {
         font-size: 30px;
     }
 
-    .acoes {
+    .actions {
         width: 70%;
         margin-top: 0px;
         margin: auto;
@@ -477,14 +477,14 @@ nav ul li a {
         height: 100%;
     }
     
-    .acoes ul {
+    .actions ul {
         list-style-type: none;
         flex-direction: column;
         margin: 0;
         width: 90%;
     }
     
-    .acoes ul li {
+    .actions ul li {
         background-image: url(imgs/arrowrightpreto.png);
         background-size: 15px;
         background-position: 88% 50%;
@@ -500,7 +500,7 @@ nav ul li a {
         font-size: 14.5px;
     }
     
-    .acoes ul li:hover {
+    .actions ul li:hover {
         background-image: url(imgs/arrowrightpreto.png);
         background-position: 88% 50%;
         background-repeat: no-repeat;
@@ -588,7 +588,7 @@ label {
     font-weight: 400;
 }
 
-.check_lgpd {
+.check-lgpd {
     background-color: none;
     display: inline-block;
     position: relative;
@@ -705,7 +705,7 @@ input::placeholder {
         cursor: pointer;
       }
 
-    .check_lgpd {
+    .check-lgpd {
         display: inline-block;
         position: relative;
         margin-top: 20px;

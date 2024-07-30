@@ -337,7 +337,7 @@ nav ul li a {
     
 }
 
-#chevron-icon{
+#chevron_icon{
     position: relative;
     max-height: 20px;
     display: flex;
@@ -479,7 +479,7 @@ nav ul li a {
         display: none;
     }
     
-    #chevron-icon{
+    #chevron_icon{
         display: none;
     }    
 
@@ -943,7 +943,7 @@ label {
     font-weight: 400;
 }
 
-.check_lgpd {
+.check-lgpd {
     background-color: none;
     display: inline-block;
     position: relative;
@@ -1060,7 +1060,7 @@ input::placeholder {
         cursor: pointer;
       }
 
-    .check_lgpd {
+    .check-lgpd {
         display: inline-block;
         position: relative;
         margin-top: 20px;

@@ -76,7 +76,6 @@ nav ul li a {
     float: right;
 }
 
-
 .mobile-menu-icon {
     display: none;
 }
@@ -387,7 +386,7 @@ nav ul li a {
     transition: all 0.6s;
 }
 
-.navatual {
+.current-nav {
     color: rgb(255, 255, 255);
     background-color: #000000;
     padding: 0px 15px 5px 15px;
@@ -399,7 +398,7 @@ nav ul li a {
     box-shadow: 0px 0px 0px 1px black inset;
 }
 
-.navatual p {
+.current-nav p {
     text-align: center;
     display: inline;
     position: relative;
@@ -417,7 +416,7 @@ nav ul li a {
     height: auto;
 }
 
-.principaltext {
+.about {
     margin: auto;
     width: 48%;
     color: rgb(0, 0, 0);
@@ -430,16 +429,16 @@ nav ul li a {
     background-color: rgb(244, 244, 244);
 }
 
-.principaltext h1 {
+.principaltaboutext h1 {
     font-size: 30px;
 }
 
-.principaltext:hover {
+.about:hover {
     transform: translate(0%, -1%);
     background-color: rgb(239, 239, 239);
 }
 
-.principaltext p {
+.about p {
     margin-top: 20px;
     letter-spacing: 0px;
     font-weight: 500;
@@ -448,7 +447,7 @@ nav ul li a {
     text-align: justify;
 }
 
-.car {
+.about-car {
     background-image: url(./imgs/porsche-model1.png);
     background-size: 1200px;
     background-position: 0% 70%;
@@ -462,13 +461,13 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-.car:hover {
+.about-car:hover {
     transform: translate(0%, -1%);
     background-color: rgb(239, 239, 239);
     background-position: -0.5% 66%;
 }
 
-.textos {
+.texts {
     width: 70%;
     margin: auto;
     margin-top: 40px;
@@ -478,7 +477,7 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
-.missao {
+.mission {
     display: inline-block;
     margin: auto;
     width: 48%;
@@ -489,18 +488,18 @@ nav ul li a {
     transition: all 0.4s;
 }
 
-.missao:hover {
+.mission:hover {
     transform: translate(0%, -1%);
 }
 
-.missao h1 {
+.mission h1 {
     color: white;
     margin-top: 30px;
     margin-left: 40px;
     font-size: 30px;
 }
 
-.missao p {
+.mission p {
     color: white;
     margin-left: 40px;
     margin-top: 20px;
@@ -508,7 +507,7 @@ nav ul li a {
     text-align: justify;
 }
 
-.visao {
+.vision {
     display: inline-block;
     width: 48%;
     height: 200px;
@@ -517,17 +516,17 @@ nav ul li a {
     transition: all 0.4s;
 }
 
-.visao:hover {
+.vision:hover {
     transform: translate(0%, -1%);
 }
 
-.visao h1 {
+.vision h1 {
     color: white;
     margin-top: 30px;
     margin-left: 40px;
 }
 
-.visao p {
+.vision p {
     color: white;
     margin-left: 40px;
     margin-top: 20px;
@@ -535,7 +534,7 @@ nav ul li a {
     text-align: justify;
 }
 
-.valores {
+.values {
     background-image: url(imgs/tclogo2.png);
     background-repeat: no-repeat;
     background-size: 300px;
@@ -549,18 +548,18 @@ nav ul li a {
     transition: all 0.4s;
 }
 
-.valores:hover {
+.values:hover {
     transform: translate(0%, -1%);
     background-size: 305px;
 }
 
-.valores h1 {
+.values h1 {
     color: white;
     margin-top: 20px;
     margin-left: 40px;
 }
 
-.valores p {
+.values p {
     color: white;
     margin-left: 40px;
     margin-top: 20px;
@@ -577,7 +576,7 @@ nav ul li a {
         margin-top: 30px;
     }
     
-    .principaltext {
+    .about {
         width: 100%;
         padding-top: 40px;
         margin: 0;
@@ -587,16 +586,16 @@ nav ul li a {
         height: auto;
     }
 
-    .principaltext:hover {
+    .about:hover {
     transform: translate(0%, -0.3%);
     background-color: rgb(239, 239, 239);
     }
 
-    .principaltext h1 {
+    .about h1 {
         font-size: 25px;
     }
 
-    .principaltext p {
+    .about p {
         margin-top: 20px;
         font-size: 14px;
         font-weight: 600;
@@ -606,11 +605,11 @@ nav ul li a {
         color: rgb(0, 0, 0);
     }
     
-    .car {
+    .about-car {
     display: none;
     }
 
-    .car2 {
+    .car-2 {
         width: 100%;
         background-image: url(./imgs/porsche-model1.png);
         background-size: 850px;
@@ -623,19 +622,19 @@ nav ul li a {
         margin-bottom: 30px;
     }
 
-    .car2:hover {
+    .car-2:hover {
         transform: translate(0%, -0.7%);
         background-color: rgb(239, 239, 239);
     }
 
-    .textos {
+    .texts {
         width: 80%;
         margin: auto;
         margin-top: 30px;
         position: relative;
     }
     
-    .missao {
+    .mission {
         width: 100%;
         height: 190px;
         background-color: rgb(0, 0, 0);
@@ -644,18 +643,18 @@ nav ul li a {
         margin-bottom: 30px;
     }
     
-    .missao:hover {
+    .mission:hover {
         transform: translate(0%, -0.7%);
     }
     
-    .missao h1 {
+    .mission h1 {
         color: white;
         margin-top: 25px;
         margin-left: 40px;
         font-size: 25px;
     }
     
-    .missao p {
+    .mission p {
         color: white;
         margin-left: 40px;
         margin-top: 4px;
@@ -664,7 +663,7 @@ nav ul li a {
         font-size: 14px;
     }
     
-    .visao {
+    .vision {
         width: 100%;
         height: 190px;
         background-color: rgb(0, 0, 0);
@@ -672,18 +671,18 @@ nav ul li a {
         transition: all 0.3s;
     }
     
-    .visao:hover {
+    .vision:hover {
         transform: translate(0%, -0.7%);
     }
     
-    .visao h1 {
+    .vision h1 {
         color: white;
         margin-top: 25px;
         margin-left: 40px;
         font-size: 25px;
     }
     
-    .visao p {
+    .vision p {
         color: white;
         margin-left: 40px;
         margin-top: 5px;
@@ -692,7 +691,7 @@ nav ul li a {
         font-size: 14px;
     }
     
-    .valores {
+    .values {
         background-image: url(imgs/tclogo2.png);
         background-repeat: no-repeat;
         background-size: 190px;
@@ -705,19 +704,19 @@ nav ul li a {
         margin-top: 30px;
     }
     
-    .valores:hover {
+    .values:hover {
         transform: translate(0%, -0.5%);
         background-size: 195px;
     }
     
-    .valores h1 {
+    .values h1 {
         font-size: 25px;
         color: white;
         margin-top: 20px;
         margin-left: 40px;
     }
     
-    .valores p {
+    .values p {
         font-size: 14px;
         color: white;
         margin-left: 40px;
