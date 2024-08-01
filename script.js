@@ -6,7 +6,7 @@ function menuShow() {
 
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "imgs/menublack.png";
+        document.querySelector('.icon').src = "imgs/menu-svgrepo-com.svg";
         body.style.position = "relative";
         menuMobileicon.style.position= "relative";
         body.style.overflow = "scroll";
@@ -14,7 +14,7 @@ function menuShow() {
         
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "imgs/closeblack.png";
+        document.querySelector('.icon').src = "imgs/close-svgrepo-com.svg";
         body.style.overflow = "hidden";
         menuMobileicon.style.position= "fixed";
 

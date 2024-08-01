@@ -149,15 +149,14 @@ nav ul li a {
 }
 
 .mobile-menu .nav-item-icons i:hover{
-    display: flex;
-    justify-content: space-evenly;
     background-color: #c6c6c65e;
 }
 
 .mobile-menu .nav-item img{
-    max-height: 15px;
+    max-width: 15px;
     margin-right: 5px;
-    transform: translate(-0%, 20%);
+    margin-top: 4px;
+    opacity: 0.5;
 }
 
 .open {
@@ -343,9 +342,9 @@ nav ul li a {
 }
 
 #chevron_icon{
-    opacity: 0.7;
+    opacity: 0.6;
     position: relative;
-    max-height: 20px;
+    width: 20px;
     display: flex;
     margin: auto;
 }
@@ -527,7 +526,7 @@ nav ul li a {
         line-height: 60px;
         z-index: -2;
         font-size: 55px;
-        color: rgb(27, 27, 27);
+        color: rgb(0, 0, 0);
         margin-left: 10%;
         margin-top: 40px;
         font-weight: 700;
@@ -633,11 +632,11 @@ nav ul li a {
 .models-chevron-right{
     border-radius: 5px;
     width: 15px;
-    margin-top: 7px;
     margin-right: 40px;
     float: right;
     transition: all 0.3s;
     padding: 5px;
+    margin-bottom: 2px;
 }
 
 .models-chevron-right:hover{
@@ -1293,7 +1292,7 @@ input::placeholder {
 
 .checked {
     border-radius: 5px;
-    width: 15px;
+    width: 20px;
     margin-top: 7px;
     margin-right: 40px;
     float: right;

@@ -418,7 +418,7 @@ nav ul li a {
 }
 
 .actions ul li {
-    background-image: url(imgs/arrowrightpreto.png);
+    background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
     background-size: 15px;
     background-position: 88% 50%;
     background-repeat: no-repeat;
@@ -437,7 +437,7 @@ nav ul li a {
 }
 
 .actions ul li:hover {
-    background-image: url(imgs/arrowright.png);
+    background-image: url(imgs/chevron-right-svgrepo-com\ \(1\).svg);
     background-position: 92% 50%;
     transform: translate(0.7%, 0%);
 }

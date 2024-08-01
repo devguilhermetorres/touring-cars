@@ -474,16 +474,16 @@ nav ul li a {
 }
 
 #brands::placeholder {
-    background-image: url(imgs/chevrondown.png);
+    background-image: url(imgs/chevron-down.svg);
     background-position: 87% 70%;
-    background-size: 8px;
+    background-size: 9px;
     background-repeat: no-repeat;
 }
 
 #armored::placeholder {
-    background-image: url(imgs/chevrondown.png);
+    background-image: url(imgs/chevron-down.svg);
     background-position: 87% 70%;
-    background-size: 8px;
+    background-size: 9px;
     background-repeat: no-repeat;
 }
 
@@ -854,6 +854,9 @@ nav ul li a {
     border-radius: 5px;
 }
 
+.field::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 
 
 
@@ -913,14 +916,14 @@ nav ul li a {
     #brands::placeholder {
         background-image: url(imgs/chevrondown.png);
         background-position: 91% 70%;
-        background-size: 6px;
+        background-size: 7px;
         background-repeat: no-repeat;
     }
     
     #armored::placeholder {
         background-image: url(imgs/chevrondown.png);
         background-position: 91% 70%;
-        background-size: 6px;
+        background-size: 7px;
         background-repeat: no-repeat;
     }
     

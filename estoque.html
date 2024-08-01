@@ -65,7 +65,9 @@
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()" ><img class="icon" src="imgs/menublack.png" alt="" style="max-width: 25px;"></button>
+                <button onclick="menuShow()" >
+                    <img class="icon" src="imgs/menu-svgrepo-com.svg" alt="" style="max-width: 20px; margin-top: 2px;">
+                </button>
             </div>
 
             <div class="mobile-menu">
@@ -128,7 +130,8 @@
         </div>
 
         <div class="open-filter">
-            <button class="showfiltrar open" onclick="menuShowFiltrar()">Filtro <img class="iconarrow" src="imgs/down-chevron.svg" alt="" style="max-width: 11px; margin-left: 5px; transform: rotate(270deg);"></button>
+            <button class="showfiltrar open" onclick="menuShowFiltrar()">Filtro <img class="iconarrow" src="imgs/down-chevron.svg" alt="" style="max-width: 11px; margin-left: 5px; transform: rotate(270deg);">
+            </button>
         </div>
 
         <div class="container">
@@ -170,38 +173,38 @@
              
                     <div class="filter-start-year">
                         <label for="ano">ANO</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="2020">
+                        <input type="number" name="anoinicial" id="anoinicial" placeholder="2020" class="field">
                     </div>
                 
                     <div class="until"><p>ATÉ</p></div>
 
                     <div class="filter-final-year">
                         <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="2024">
+                        <input type="number" name="anofinal" id="anofinal" placeholder="2024" class="field">
                     </div>
 
                     <div class="filter-start-value">
                         <label for="ano">VALOR</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="100.000">
+                        <input type="number" name="anoinicial" id="anoinicial" placeholder="100.000" class="field">
                     </div>
 
                     <div class="until"><p>ATÉ</p></div>
 
                     <div class="filter-final-value">
                         <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="3.000.000">
+                        <input type="number" name="anofinal" id="anofinal" placeholder="3.000.000" class="field">
                     </div>
 
                     <div class="filter-start-km">
                         <label for="ano">QUILOMETRAGEM</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="0 km">
+                        <input type="number" name="anoinicial" id="anoinicial" placeholder="0 km" class="field">
                     </div>
                 
                     <div class="until"><p>ATÉ</p></div>
 
                     <div class="filter-final-km">
                         <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="50.000 km" pattern="[0-300000]">
+                        <input type="number" name="anofinal" id="anofinal" placeholder="50.000 km" pattern="[0-300000]" class="field">
                     </div>
 
                     <input type="reset"  name="limpar" value="Limpar" class="limpar">
