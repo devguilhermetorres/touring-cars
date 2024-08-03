@@ -78,7 +78,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
     float: right;
-    transition: all 0.5s;
+    transition: all 0.3s;
     border-radius: 15px;
     animation: pulse 2.5s ease infinite;
 }
@@ -644,7 +644,7 @@ nav ul li a {
     letter-spacing: 0.5px;
     font-size: 10px;
     font-weight: 700;
-    color: #363636;
+    color: #7d7d7d;
     margin-left: 1.2vw;
 }
 
@@ -822,7 +822,7 @@ nav ul li a {
     font-size: 14px;
 }
 
-.limpar{
+.button-clean {
     margin-top: 35px;
     font-size: 14px;
     font-weight: 500;
@@ -835,13 +835,13 @@ nav ul li a {
     transition: all 0.1s;
 }
 
-.limpar:hover {
+.button-clean:hover {
     color: rgb(0, 0, 0);;
     cursor: pointer;
     border: solid 1px #000000;
 }
 
-.filtrar {
+.button-filter {
     margin-top: 15px;
     font-size: 14px;
     font-weight: 500;
@@ -1246,7 +1246,7 @@ nav ul li a {
         font-size: 13.5px;
     }
     
-    .filtrar {
+    .button-filter {
         margin-top: 20px;
         font-size: 14px;
         font-weight: 500;
