@@ -526,9 +526,10 @@ nav ul li a {
     height: 30px;
     padding: 5px;
     box-sizing: border-box;
-    transition: 0.2s all;
     cursor: pointer;
+    transition: all 0.2s;
     font-size: 14px;
+    color: #4d4d4d;
 }
 
 .item p {
@@ -536,8 +537,8 @@ nav ul li a {
 }
 
 .item:hover {
-    font-weight: 600;
-    padding-left: 7px;
+    color: #000000;
+    background-color: rgb(237, 237, 237);
 }
 
 .filter-shielded {
@@ -565,7 +566,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -629,7 +630,7 @@ nav ul li a {
     padding-left: 10%;
     font-weight: 500;
     margin-top: 4px;
-    font-size: 15px;
+    font-size: 14px;
     
 }
 
@@ -673,7 +674,7 @@ nav ul li a {
     margin-top: 4px;
     padding-left: 10%;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -708,7 +709,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -743,7 +744,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -778,7 +779,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -813,7 +814,7 @@ nav ul li a {
     margin-top: 4px;
     padding-left: 10%;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
