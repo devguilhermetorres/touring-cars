@@ -470,7 +470,7 @@ nav ul li a {
     font-weight: 500;
     margin-top: 4px;
     padding-left: 10%;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 #brands::placeholder {
@@ -646,7 +646,7 @@ nav ul li a {
     font-size: 10px;
     font-weight: 700;
     color: #7d7d7d;
-    margin-left: 1.2vw;
+    margin-left: 1.5vw;
 }
 
 .filter-final-year {
@@ -906,24 +906,24 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 6px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .filter-brands input::placeholder {
         color: #7d7d7d;
-        font-size: 13.5px;
+        font-size: 13px;
     }
 
     #brands::placeholder {
         background-image: url(imgs/chevrondown.png);
-        background-position: 91% 70%;
+        background-position: 85% 70%;
         background-size: 7px;
         background-repeat: no-repeat;
     }
     
     #armored::placeholder {
         background-image: url(imgs/chevrondown.png);
-        background-position: 91% 70%;
+        background-position: 85% 70%;
         background-size: 7px;
         background-repeat: no-repeat;
     }
@@ -959,7 +959,7 @@ nav ul li a {
         box-sizing: border-box;
         transition: 0.2s all;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 13px;
     }
     
     .item2 p {
@@ -996,7 +996,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 6px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1004,7 +1004,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1052,7 +1052,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1060,7 +1060,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .until {
@@ -1096,7 +1096,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1104,7 +1104,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .filter-start-value {
@@ -1131,7 +1131,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1139,7 +1139,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .filter-final-value {
@@ -1166,7 +1166,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1174,7 +1174,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .filter-start-km {
@@ -1201,7 +1201,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1209,7 +1209,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .filter-final-km {
@@ -1236,7 +1236,7 @@ nav ul li a {
         border-radius: 5px;
         margin-top: 4px;
         padding-left: 8px;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     
@@ -1244,7 +1244,7 @@ nav ul li a {
         color: #7d7d7d;
         font-size: 14px;
         font-weight: 400;
-        font-size: 13.5px;
+        font-size: 13px;
     }
     
     .button-filter {

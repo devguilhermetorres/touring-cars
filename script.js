@@ -32,13 +32,13 @@ function menuShowFiltrar() {
         button.classList.remove('open');
         filtro.style.display = "block";
         button.style.border = "1px solid #000000";
-        document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(360deg);"
+        document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(180deg);"
         
     } else {
         button.classList.add('open');
         filtro.style.display = "none";
         button.style.border = "1px solid #c2c2c2";
-        document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(270deg);"
+        document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(0deg);"
     }
 };
 

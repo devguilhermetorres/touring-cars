@@ -475,6 +475,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: auto;
 }
 
 .mission {
@@ -486,6 +487,7 @@ nav ul li a {
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
     transition: all 0.4s;
+    text-align: left;
 }
 
 .mission:hover {
@@ -504,7 +506,7 @@ nav ul li a {
     margin-left: 40px;
     margin-top: 20px;
     margin-right: 80px;
-    text-align: justify;
+    text-align: left;
 }
 
 .vision {
@@ -531,7 +533,7 @@ nav ul li a {
     margin-left: 40px;
     margin-top: 20px;
     margin-right: 80px;
-    text-align: justify;
+    
 }
 
 .values {
@@ -636,7 +638,8 @@ nav ul li a {
     
     .mission {
         width: 100%;
-        height: 190px;
+        height: auto;
+        padding-bottom: 50px;
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
         transition: all 0.3s;
@@ -658,14 +661,15 @@ nav ul li a {
         color: white;
         margin-left: 40px;
         margin-top: 4px;
-        margin-right: 80px;
+        margin-right: 40px;
         text-align: justify;
         font-size: 14px;
     }
     
     .vision {
         width: 100%;
-        height: 190px;
+        height: auto;
+        padding-bottom: 50px;
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
         transition: all 0.3s;
@@ -686,7 +690,7 @@ nav ul li a {
         color: white;
         margin-left: 40px;
         margin-top: 5px;
-        margin-right: 80px;
+        margin-right: 40px;
         text-align: justify;
         font-size: 14px;
     }
@@ -697,7 +701,8 @@ nav ul li a {
         background-size: 190px;
         background-position: 115% 50%;
         width: 100%;
-        height: 230px;
+        height: auto;
+        padding-bottom: 50px;
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
         transition: all 0.3s;
@@ -721,7 +726,7 @@ nav ul li a {
         color: white;
         margin-left: 40px;
         margin-top: 5px;
-        margin-right: 80px;
+        margin-right: 40px;
     }
 }
 
