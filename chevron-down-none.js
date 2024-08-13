@@ -3,7 +3,7 @@ $(function(){
     $(window).scroll(function () { 
         if ($(this).scrollTop() > 500) { 
             chevrondown.removeClass("chevron-down");
-            chevrondown.addClass("arrowbottomnone");
+            chevrondown.addClass("chevron-down-none");
         }
     
         else {

@@ -338,7 +338,6 @@ nav ul li a {
     width: 100%;
     animation: pulse 2s ease infinite;
     z-index: 1000;
-    
 }
 
 #chevron_icon{
@@ -349,7 +348,7 @@ nav ul li a {
     margin: auto;
 }
 
-.arrowbottomnone{
+.chevron-down-none{
     height: 20px;
     margin-top: 620px;
     position: absolute;
@@ -358,6 +357,12 @@ nav ul li a {
     animation: pulse2 0.5s;
     animation-iteration-count: 1;
     opacity: 0;
+}
+
+@media screen and (min-width: 1600px) {
+    .chevron-down {
+        display: none;
+    }
 }
 
 @keyframes pulse {
@@ -424,10 +429,6 @@ nav ul li a {
     margin-left: 70%;
     height: 100%;
     opacity: 0.4;
-}
-
-.buttonsestoqueanunciar {
-    display: none;
 }
 
 .home-screen-text {
@@ -531,18 +532,6 @@ nav ul li a {
         margin-top: 40px;
         font-weight: 700;
         height: 60px;
-    }
-
-    .buttonsestoqueanunciar {
-        display: block;
-        position: absolute;
-        width: 63%;
-        margin: auto;
-        margin-top: 8px;
-        justify-content: space-a;
-        margin-bottom: 30px;
-        z-index: 100000;
-        margin-left: 10%;
     }
     
     .home-screen-text p{
