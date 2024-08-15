@@ -642,11 +642,11 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .combustion:hover {
-    background-size: 22.2vw;
-    transition: 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .text-combustion {
@@ -673,12 +673,11 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    
+    transition: transform 0.3s;
 }
 
 .hybrid:hover {
-    background-size: 22.2vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .text-hybrid {
@@ -705,11 +704,11 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .eletric:hover {
-    background-size: 22.2vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .text-eletric {
@@ -1137,12 +1136,11 @@ input::placeholder {
     width: 45.6vw;
     height: 100%;
     border-radius: 15px;
-    
+    transition: transform 0.3s;
 }
 
 .emphasis-photo:hover {
-    background-size: 50.3vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .emphasis-text {
@@ -1153,12 +1151,12 @@ input::placeholder {
     width: 21.5vw;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-    
+    transition: transform 0.3s;
 }
 
 .emphasis-text:hover {
-    background-size: 710px;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
+    cursor: default;
 }
 
 .emphasis-text h1 {
@@ -1296,11 +1294,11 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .sale-1:hover {
-    background-size: 22.2vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .sale-text {
@@ -1327,12 +1325,11 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    
+    transition: transform 0.3s;
 }
 
 .sale-2:hover {
-    background-size: 27.9vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
 }
 
 .sale-3 {
@@ -1343,11 +1340,16 @@ input::placeholder {
     width: 22vw;
     position: relative;
     border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .sale-3:hover {
-    background-size: 22.2vw;
-    transition: all 0.4s;
+    transform: translate(0%, -0.3%);
+}
+
+.checked:hover{
+    background-color: rgba(68, 68, 68, 0.423);
+    backdrop-filter: blur(2px);
 }
 
 @media screen and (max-width: 1000px) {
