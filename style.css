@@ -296,7 +296,7 @@ nav ul li a {
 
 .buttons-nav {
     color: rgb(0, 0, 0);
-    padding: 0px 15px 5px 15px;
+    padding: 2px 15px 5px 15px;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -306,7 +306,6 @@ nav ul li a {
 
 .buttons-nav:hover {
     background-color: rgb(236, 236, 236);
-    
 }
 
 .buttons-nav p{
@@ -458,9 +457,12 @@ nav ul li a {
     z-index: 4500;
 }
 
+.bold{
+    transition: all 0.2s;
+}
+
 .bold:hover {
-    color: #2c2c2c;
-    transition: all 0.3s;
+    color: #797979;
 }
 
 @media screen and (max-width: 1000px) {
