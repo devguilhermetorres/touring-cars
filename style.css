@@ -464,7 +464,6 @@ nav ul li a {
     background-position: 97% 70%;
     background-repeat: no-repeat;
     transition: all 0.3s;
-    align-items: top;
 }
 
 .bold:hover {
@@ -555,7 +554,7 @@ nav ul li a {
         background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
         background-size: 13px;
         padding-right: 28px;
-        background-position: 95% 80%;
+        background-position: 97% 80%;
         background-repeat: no-repeat;
         transition: all 0.2s;
         align-items: top;
@@ -565,7 +564,7 @@ nav ul li a {
         background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
         background-size: 13px;
         padding-right: 28px;
-        background-position: 95% 80%;
+        background-position: 97% 80%;
         background-repeat: no-repeat;
         transition: all 0.2s;
         align-items: top;
