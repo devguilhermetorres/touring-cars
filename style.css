@@ -673,7 +673,7 @@ nav ul li a {
     width: 22vw;
     position: relative;
     border-radius: 15px;
-    transition: transform 0.2s ;
+    transition: transform 0.2s;
 }
 
 .hybrid:hover {
