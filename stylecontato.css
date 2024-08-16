@@ -294,23 +294,18 @@ nav ul li a {
     .open {
         display: block;
         z-index: 7000;
+        animation: fade 0.2s;
+    }
+
+    @keyframes fade {
+        0% {
+            transform: translate(-100%);
+        }
+        100% {
+            transform: translate(0%);
+        }
     }
 }  
-
-@media screen and (min-width = 1000px) {
-    .open {
-        display: none;
-        z-index: 7000;
-    }
-
-    .menu-open{
-        display: none;
-        position: fixed;
-        z-index: 7001;
-        margin-left: 7%;
-    }
-    
-}
 
 .buttons-nav {
     color: rgb(0, 0, 0);

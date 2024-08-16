@@ -28,14 +28,14 @@ function menuShowFiltrar() {
     let filtro = document.querySelector('.full2');
 
 
-    if (button.classList.contains('open')) {
-        button.classList.remove('open');
+    if (button.classList.contains('opened')) {
+        button.classList.remove('opened');
         filtro.style.display = "block";
         button.style.border = "1px solid #000000";
         document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(180deg);"
         
     } else {
-        button.classList.add('open');
+        button.classList.add('opened');
         filtro.style.display = "none";
         button.style.border = "1px solid #c2c2c2";
         document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(0deg);"

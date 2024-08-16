@@ -342,6 +342,16 @@ nav ul li a {
     .open {
         display: block;
         z-index: 7000;
+        animation: fade 0.2s;
+    }
+
+    @keyframes fade {
+        0% {
+            transform: translate(-100%);
+        }
+        100% {
+            transform: translate(0%);
+        }
     }
 }  
 
