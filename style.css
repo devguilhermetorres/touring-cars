@@ -462,16 +462,14 @@ nav ul li a {
     background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
     background-size: 15px;
     padding-right: 30px;
-    background-position: 97% 70%;
+    background-position: 97% 73%;
     background-repeat: no-repeat;
     transition: all 0.3s;
-    opacity: 0.7;
 }
 
 .bold:hover {
     animation: none;
     background-position: 100% 70%;
-    opacity: 1;
 }
 
 @media screen and (max-width: 1000px) {
