@@ -455,21 +455,23 @@ nav ul li a {
     height: 60px;
     transform: translate(0%, 800%);
     z-index: 4500;
+    opacity: 0.8;
 }
 
 .bold{
     background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
     background-size: 15px;
-    padding-right: 28px;
+    padding-right: 30px;
     background-position: 97% 70%;
     background-repeat: no-repeat;
     transition: all 0.3s;
+    opacity: 0.7;
 }
 
 .bold:hover {
     animation: none;
     background-position: 100% 70%;
-    color: #686868;
+    opacity: 1;
 }
 
 @media screen and (max-width: 1000px) {
@@ -558,6 +560,7 @@ nav ul li a {
         background-repeat: no-repeat;
         transition: all 0.2s;
         align-items: top;
+        opacity: 1;
     }
     
     .bold:hover {
@@ -568,6 +571,7 @@ nav ul li a {
         background-repeat: no-repeat;
         transition: all 0.2s;
         align-items: top;
+        opacity: 1;
     }
 }
 
