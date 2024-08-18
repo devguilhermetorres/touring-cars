@@ -469,7 +469,7 @@ nav ul li a {
 
 .bold:hover {
     animation: none;
-    background-position: 100% 70%;
+    background-position: 100% 73%;
 }
 
 @media screen and (max-width: 1000px) {
