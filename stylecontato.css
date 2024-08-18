@@ -757,7 +757,6 @@ input::placeholder {
 footer {
     width: 100%;
     color: #000000;
-    
 }
 
 .footer-link {
@@ -766,8 +765,13 @@ footer {
 
 #footer_content {
     padding: 50px 7.5vw 50px 7.5vw;
+    background-color: #fbfbfb;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+#footer_contacts {
+    margin: auto;
 }
 
 #footer_contacts h1 {
@@ -805,7 +809,7 @@ i.fa-brands.fa-youtube:hover {
     transition: all 0.2s;
 }
 
-i.fa-brands.fa-whatsapp:hover {
+i.fa-brands.fa-whatsapp:hover{
     color: rgb(0, 193, 48);
     transition: all 0.2s;
 }
@@ -849,6 +853,7 @@ i.fa-brands.fa-whatsapp:hover {
     gap: 1.2rem;
     list-style: none;
     font-weight: 600;
+    margin: auto;
 }
 
 .footer-list h3 {
@@ -874,17 +879,19 @@ i.fa-brands.fa-whatsapp:hover {
 
 .footer-list .footer-link {
     color: rgb(0, 0, 0);
-    transition: all 0.3s;
+    
 }
 
 .footer-list .footer-link:hover {
     opacity: 0.7;
+    transition: all 0.3s;
 }
 
 #footer_subscribe {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin: auto;
 }
 
 #input_group {
@@ -974,5 +981,16 @@ i.fa-brands.fa-whatsapp:hover {
         background-color: rgb(0, 0, 0);
         border: solid 2px rgb(0, 0, 0);
     }
-}
 
+    #footer_contacts {
+        margin: 0;
+    }
+
+    #footer_subscribe {
+        margin: 0;
+    }
+
+    .footer-list {
+        margin: 0;
+    }
+}

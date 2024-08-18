@@ -432,14 +432,7 @@ nav ul li a {
 
 .container {
     position: absolute;
-    height: 420px;
-}
-
-@media screen and (max-width: 1395px) {
-    .container {
-        position: absolute;
-        height: 3150px;
-    }
+    height: auto;
 }
 
 .full2 {
@@ -1668,12 +1661,17 @@ i.fa-brands.fa-whatsapp:hover {
     font-size: 1.25rem;    
 }
 
+#footer_contacts {
+    margin: auto;
+}
+
 .footer-list {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     list-style: none;
     font-weight: 600;
+    margin: auto;
 }
 
 .footer-list h3 {
@@ -1710,6 +1708,7 @@ i.fa-brands.fa-whatsapp:hover {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin: auto;
 }
 
 #input_group {
@@ -1798,5 +1797,17 @@ i.fa-brands.fa-whatsapp:hover {
         color: #fbfbfb;
         background-color: rgb(0, 0, 0);
         border: solid 2px rgb(0, 0, 0);
+    }
+
+    #footer_contacts {
+        margin: 0;
+    }
+
+    #footer_subscribe {
+        margin: 0;
+    }
+
+    .footer-list {
+        margin: 0;
     }
 }

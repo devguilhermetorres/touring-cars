@@ -836,6 +836,9 @@ i.fa-brands.fa-whatsapp:hover {
     font-size: 1.25rem;    
 }
 
+#footer_contacts {
+    margin: auto;
+}
 
 .footer-list {
     display: flex;
@@ -843,6 +846,7 @@ i.fa-brands.fa-whatsapp:hover {
     gap: 1.2rem;
     list-style: none;
     font-weight: 600;
+    margin: auto;
 }
 
 .footer-list h3 {
@@ -968,5 +972,17 @@ i.fa-brands.fa-whatsapp:hover {
         color: #fbfbfb;
         background-color: rgb(0, 0, 0);
         border: solid 2px rgb(0, 0, 0);
+    }
+
+    #footer_contacts {
+        margin: 0;
+    }
+
+    #footer_subscribe {
+        margin: 0;
+    }
+
+    .footer-list {
+        margin: 0;
     }
 }
