@@ -477,7 +477,6 @@ nav ul li a {
         flex-direction: column;
         margin: 0;
         width: 100%;
-        background-color: red;
     }
     
     .actions ul li {
