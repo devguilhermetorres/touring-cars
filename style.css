@@ -122,11 +122,6 @@ nav ul li a {
     transition: all 0.3s;
 }
 
-.mobile-menu .nav-item:hover {
-    background-color: #d3d3d32d;
-    padding: 10px 10px 10px 15px;
-}
-
 .mobile-menu .nav-item-icons {
     border-radius: 15px;
     padding: 10px 15px 10px 15px;
@@ -1262,7 +1257,7 @@ input::placeholder {
 
 .checked {
     border-radius: 5px;
-    width: 18px;
+    width: 16px;
     margin-top: 7px;
     margin-right: 40px;
     float: right;
@@ -1582,8 +1577,14 @@ i.fa-brands.fa-whatsapp:hover{
     font-weight: 400;
 }
 
+.subscribe {
+    display: flex;
+}
+
 .buttonsubscribe {
     all: unset;
+    display: inline-flex;
+    justify-content: baseline;
     color: rgb(68, 68, 68);
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
@@ -1596,6 +1597,17 @@ i.fa-brands.fa-whatsapp:hover{
     border-radius: 7px;
     margin-left: 15px;
     transition: all 0.3s;
+}
+
+.buttonsubscribe img {
+    width: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 0.3;
 }
 
 .buttonsubscribeactive {
@@ -1615,9 +1627,19 @@ i.fa-brands.fa-whatsapp:hover{
     margin-left: 15px;
 }
 
+.buttonsubscribeactive img {
+    width: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition:  transform 0.1s ease-in-out;
+}
+
 .buttonsubscribeactive:hover {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
+    transform: translate(5%, 0%);
 }
 
 #footer_copyright {

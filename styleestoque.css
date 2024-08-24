@@ -1736,42 +1736,69 @@ i.fa-brands.fa-whatsapp:hover {
     font-weight: 400;
 }
 
+.subscribe {
+    display: flex;
+}
+
 .buttonsubscribe {
     all: unset;
+    display: inline-flex;
+    justify-content: baseline;
     color: rgb(68, 68, 68);
-    margin-left: 15px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px 0.7rem;
+    padding: 0px .7rem;
     font-size: 1px;
-    height: 31px;
-    font-weight: 500;
+    height: 30px;
+    font-weight: 300;
     font-size: 14px;
     border-radius: 7px;
+    margin-left: 15px;
+    transition: all 0.3s;
+}
+
+.buttonsubscribe img {
+    width: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    opacity: 0.3;
 }
 
 .buttonsubscribeactive {
     all: unset;
     color: white;
-    margin-left: 15px;
     background-color: none;
     border: solid 2px rgb(0, 0, 0);
     background-color: #000000;
-    padding: 0px 0.7rem;
+    padding: 0px .7rem;
     font-size: 1px;
-    height: 31px;
+    height: 30px;
     cursor: pointer;
     transition: all 0.3s;
     font-weight: 500;
     font-size: 14px;
     border-radius: 7px;
-    transition: all 0.3s;
+    margin-left: 15px;
+}
+
+.buttonsubscribeactive img {
+    width: 20px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition:  transform 0.1s ease-in-out;
 }
 
 .buttonsubscribeactive:hover {
-    color: rgb(0, 0, 0);
-    background-color: transparent;
+    transform: translate(5%, 0%);
 }
 
 #footer_copyright {
