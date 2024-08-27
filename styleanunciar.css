@@ -1015,4 +1015,14 @@ i.fa-brands.fa-whatsapp:hover {
     .footer-list {
         margin: 0;
     }
+
+    #footer_copyright {
+        display: flex;
+        justify-content: center;
+        background-color: #fbfbfb;
+        font-size: 0.8rem;
+        padding: 1.5rem;
+        padding-top: 0;
+        font-weight: 400;
+    }
 }
