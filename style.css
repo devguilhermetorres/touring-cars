@@ -334,7 +334,7 @@ nav ul li a {
 }
 
 #chevron_icon{
-    opacity: 0.6;
+    
     position: relative;
     width: 20px;
     display: flex;
@@ -449,17 +449,17 @@ nav ul li a {
     position: absolute;
     line-height: 25px;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    color: #404040;
     margin: auto;
     margin-left: 10.5%;
     font-weight: 400;
     height: 60px;
     transform: translate(0%, 800%);
     z-index: 4500;
-    opacity: 0.8;
 }
 
 .bold{
+    color: #404040;
     background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
     background-size: 15px;
     padding-right: 30px;
@@ -856,7 +856,7 @@ nav ul li a {
 
 .text-form h2 {
     letter-spacing: normal;
-    color: #000000;
+    color: #404040;
     font-size: 13.6px;
     font-weight: 600;
     margin-top: 10px;
@@ -983,7 +983,7 @@ input::placeholder {
     
     .text-form h2 {
         letter-spacing: normal;
-        color: #000000;
+        color: #404040;
         font-size: 13.6px;
         font-weight: 600;
         margin-top: 10px;
