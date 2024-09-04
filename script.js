@@ -1,3 +1,23 @@
+function validateRegister(){
+    var modeloVazio = modelo.value;
+    var nomeVazio = nome.value; 
+    var emailVazio = email.value;
+    var numeroVazio = numero.value;
+    
+    if( !(modeloVazio == "") && !(nomeVazio == "") && !(emailVazio == "") &&     !(numeroVazio == "") ){
+    document.register.idButton.disabled=false;
+    document.register.idButton.classList.remove("button");
+    document.register.idButton.classList.add("buttonactive");
+}
+    
+    else{
+        document.register.idButton.disabled=true;
+        document.register.idButton.classList.remove("buttonactive");
+        document.register.idButton.classList.add("button");
+    }
+    
+}
+
 function menuShow() {
     let menuMobile = document.querySelector('.mobile-menu');
     let menuMobileicon = document.querySelector('.mobile-menu-icon');
@@ -22,7 +42,7 @@ function menuShow() {
     }
 };
 
-function menuShowFiltrar() {
+function menuShowFilter() {
     let button = document.querySelector('.showfiltrar');
     let arrow = document.querySelector('.iconarrow');
     let filtro = document.querySelector('.full2');
@@ -40,29 +60,6 @@ function menuShowFiltrar() {
         button.style.border = "1px solid #c2c2c2";
         document.querySelector('.iconarrow').style  = "max-width: 11px; margin-left: 5px; transform: rotate(0deg);"
     }
-};
-
-
-function validarRegister(){
-    var button = document.getElementsByClassName(".button");
-    var modeloVazio = modelo.value;
-    var nomeVazio = nome.value; 
-    var emailVazio = email.value;
-    var numeroVazio = numero.value;
-    
-    if( !(modeloVazio == "") && !(nomeVazio == "") && !(emailVazio == "") &&     !(numeroVazio == "") ){
-    document.register.idButton.disabled=false;
-    document.register.idButton.classList.remove("button");
-    document.register.idButton.classList.add("buttonactive");
-}
-    
-    
-    else{
-        document.register.idButton.disabled=true;
-        document.register.idButton.classList.remove("buttonactive");
-        document.register.idButton.classList.add("button");
-    }
-    
 };
 
 document.getElementById('numero').addEventListener('input', function (e) {

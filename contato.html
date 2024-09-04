@@ -158,22 +158,19 @@
                 <h1>Você está procurando<br> algum modelo em específico?</h1>
                 <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
             </div>
-
             <div class="form-inputs">
                 <fieldset>
-                    <form name="cadastrar">
-                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarRegister()">
+                    <form name="register">
+                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validateRegister()">
 
-                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarRegister()">
+                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validateRegister()">
 
-                        <input type="text" class="field" id="email" name="email" placeholder="E-mail" onchange="validarRegister()">
+                        <input type="email"  id="email" name="email"class="field"  placeholder="E-mail" onchange="validateRegister()">
 
-                        <input type="text" class="field" id="numero" name="number" placeholder="Telefone" onchange="validarRegister()" maxlength="15">
+                        <input type="text" id="numero" name="number"  class="field" placeholder="Telefone" onchange="validateRegister()" maxlength="15">
 
                         <button id="idButton"
-                        class="button" type="submit" disabled  onchange="validarRegister()">Enviar</button>
-
-                        <script src="validarform.js"></script>
+                        class="button" type="submit" disabled onchange="validateRegister()">Enviar</button>
                     </form>
 
                     <div class="check-lgpd">
@@ -184,7 +181,7 @@
                 </fieldset>
                 
             </div>
-
+        
         </div>
 
         <hr style="margin: 110px 10vw 0px 10vw">
@@ -244,10 +241,10 @@
 
                 <div id="input_group">
                     <form name="subscribe" class="subscribe">
-                        <input type="text" class="field" id="Email" placeholder="Email" onchange="validarSubscribe()">
+                        <input type="text" class="field" id="Email" placeholder="Email" onchange="validateSubscribe()">
 
                         <button id="idButton" 
-                        class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
+                        class="buttonsubscribe" type="submit" disabled onchange="validateSubscribe()">
                             <img src="imgs/arrow-right-lg-svgrepo-com.svg" alt="">
                         </button>
 

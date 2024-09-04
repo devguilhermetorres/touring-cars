@@ -1,4 +1,4 @@
-function validarSubscribe(){
+function validateSubscribe(){
     var emailVazio = Email.value;
     
     if(!(emailVazio == "")){

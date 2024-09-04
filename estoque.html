@@ -130,7 +130,7 @@
         </div>
 
         <div class="open-filter">
-            <button class="showfiltrar opened" onclick="menuShowFiltrar()">Filtro <img class="iconarrow" src="imgs/chevron-down2.svg" alt="" style="max-width: 10px; margin-left: 5px; transform: rotate(0deg);">
+            <button class="showfiltrar opened" onclick="menuShowFilter()">Filtro <img class="iconarrow" src="imgs/chevron-down2.svg" alt="" style="max-width: 10px; margin-left: 5px; transform: rotate(0deg);">
             </button>
         </div>
 
@@ -306,24 +306,21 @@
                 <h1>Você está procurando<br> algum modelo em específico?</h1>
                 <h2>Deixe seu contato para que a nossa equipe entre em contato com você!</h2>
             </div>
-
             <div class="form-inputs">
                 <fieldset>
-                    <form name="cadastrar">
-                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validarRegister()">
+                    <form name="register">
+                        <input type="text" id="modelo" name="modelo" class="field" placeholder="Modelo" onchange="validateRegister()">
 
-                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validarRegister()">
+                        <input type="text" id="nome" name="nome" class="field" placeholder="Nome" onchange="validateRegister()">
 
-                        <input type="email" class="field" id="email" name="email" placeholder="E-mail" onchange="validarRegister()">
+                        <input type="email"  id="email" name="email"class="field"  placeholder="E-mail" onchange="validateRegister()">
 
-                        <input type="text" class="field" id="numero" name="number" placeholder="Telefone" onchange="validarRegister()" maxlength="15">
+                        <input type="text" id="numero" name="number"  class="field" placeholder="Telefone" onchange="validateRegister()" maxlength="15">
 
                         <button id="idButton"
-                        class="button" type="submit" disabled  onchange="validarRegister()">Enviar</button>
-
-                        <script src="validarform.js"></script>
+                        class="button" type="submit" disabled onchange="validateRegister()">Enviar</button>
                     </form>
-                    
+
                     <div class="check-lgpd">
                         <input type="checkbox" id="lgpd" class="check">
                         <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Torres Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
@@ -389,10 +386,10 @@
 
                 <div id="input_group">
                     <form name="subscribe" class="subscribe">
-                        <input type="text" class="field" id="Email" placeholder="E-mail" onchange="validarSubscribe()">
+                        <input type="text" class="field" id="Email" placeholder="E-mail" onchange="validateSubscribe()">
 
                         <button id="idButton" 
-                        class="buttonsubscribe" type="submit" disabled onchange="validarSubscribe()">
+                        class="buttonsubscribe" type="submit" disabled onchange="validateSubscribe()">
                             <img src="imgs/arrow-right-lg-svgrepo-com.svg" alt="">
                         </button>
 
