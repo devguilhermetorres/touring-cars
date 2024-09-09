@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 input:focus,
@@ -315,7 +318,7 @@ nav ul li a {
 
 .buttons-nav {
     color: rgb(0, 0, 0);
-    padding: 2px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -332,7 +335,7 @@ nav ul li a {
     text-align: center;
     display: inline;
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     transition: all 0.6s;
 }
@@ -340,7 +343,7 @@ nav ul li a {
 .current-nav {
     color: rgb(255, 255, 255);
     background-color: #000000;
-    padding: 2px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -353,7 +356,7 @@ nav ul li a {
     text-align: center;
     display: inline;
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
     transition: all 0.6s;
 }
@@ -398,12 +401,15 @@ nav ul li a {
 .home-screen-text {
     margin: auto;
     width: 40%;
-    font-size: 18px;
     color: black;
     height: 40px;
     margin-left: 10.5%;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.home-screen-text h1 {
+    font-size: 32px;
 }
 
 .actions {
@@ -429,8 +435,12 @@ nav ul li a {
     background-color: rgb(0, 0, 0);
     margin-bottom: 20px;
     border-radius: 20px;
-    font-weight: 300;
     transition: all 0.3s;
+}
+
+.actions p {
+    font-size: 15px;
+    font-weight: 400;
 }
 
 #instagramcontato {
@@ -520,13 +530,16 @@ nav ul li a {
     margin: auto;
     height: 150px;
     margin-top: 5px;
+    font-size: 14px;
+    height: min-content;
+    margin-bottom: 50px;
 }
 
 .text-form h2 {
     letter-spacing: normal;
     color: #404040;
     font-size: 13.6px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -783,7 +796,7 @@ footer {
 }
 
 #footer_contacts p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 
@@ -862,22 +875,21 @@ i.fa-brands.fa-whatsapp:hover{
 
 .footer-list h3 {
     font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .footer-list a {
     font-size: 15px;
+    font-weight: 500;
 }
 
 #footer_subscribe h3 {
     font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #footer_subscribe p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 

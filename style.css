@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 input:focus,
@@ -296,7 +299,7 @@ nav ul li a {
 
 .buttons-nav {
     color: rgb(0, 0, 0);
-    padding: 2px 15px 5px 15px;
+    padding: 5px 15px 5px 15px;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -312,7 +315,7 @@ nav ul li a {
     text-align: center;
     display: inline;
     position: relative;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 
@@ -425,6 +428,7 @@ nav ul li a {
 
 .home-screen-text {
     display: flex;
+    flex-direction: column;
     position: absolute;
     background-color: none;
     height: 100%;
@@ -435,9 +439,9 @@ nav ul li a {
 .home-screen-text h2{
     display: block;
     letter-spacing: -4px;
-    line-height: 110px;
+    line-height: 100px;
     z-index: -2;
-    font-size: 95px;
+    font-size: 91px;
     color: rgb(0, 0, 0);
     margin-left: 10%;
     margin-top: 135px;
@@ -445,15 +449,13 @@ nav ul li a {
 }
 
 .home-screen-text p{
-    position: absolute;
     line-height: 25px;
     font-size: 18px;
     color: #404040;
-    margin: auto;
     margin-left: 10.5%;
     font-weight: 400;
+    margin-top: 30px;
     height: 60px;
-    transform: translate(0%, 800%);
     z-index: 4500;
 }
 
@@ -577,6 +579,7 @@ nav ul li a {
     padding-top: 0px;
     width: 70%;
     margin: auto;
+    font-size: 14px;
 }
 
 .models {
@@ -631,8 +634,8 @@ nav ul li a {
 .text-combustion p {
     position: absolute;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-left: 35px;
     background-color: none;
     bottom: 5px;
@@ -662,8 +665,8 @@ nav ul li a {
 .text-hybrid p {
     position: absolute;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-left: 35px;
     background-color: none;
     bottom: 5px;
@@ -693,8 +696,8 @@ nav ul li a {
 .text-eletric p {
     position: absolute;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-left: 35px;
     background-color: none;
     bottom: 5px;
@@ -849,15 +852,17 @@ nav ul li a {
 .text-form {
     width: 70%;
     margin: auto;
-    height: 150px;
     margin-top: 120px;
+    font-size: 14px;
+    height: min-content;
+    margin-bottom: 50px;
 }
 
 .text-form h2 {
     letter-spacing: normal;
     color: #404040;
     font-size: 13.6px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
 }
 
@@ -1096,6 +1101,7 @@ input::placeholder {
     margin: auto;
     margin-bottom: 50px;
     margin-top: 120px;
+    font-size: 14px;
 }
 
 .emphasis {
@@ -1144,13 +1150,17 @@ input::placeholder {
 }
 
 .emphasis-text h1 {
-    font-size: 1.22vw;
+    font-size: 1.1vw;
     color: white;
     padding: 0;
     margin-top: 5vw;
+    text-align: left;
+    margin-left: 3.3vw;
 }
 
 .emphasis-text p {
+    letter-spacing: 0.7px;
+    line-height: 20px;
     margin-top: 0;
     font-size: 1vw;
     color: white;
@@ -1244,6 +1254,7 @@ input::placeholder {
     margin: auto;
     margin-top: 120px;
     margin-bottom: 50px;
+    font-size: 14px;
 }
 
 .sale {
@@ -1291,8 +1302,8 @@ input::placeholder {
 .sale-text p {
     position: absolute;
     color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     margin-left: 35px;
     background-color: none;
     bottom: 5px;
@@ -1440,7 +1451,7 @@ footer {
 }
 
 #footer_contacts p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 
@@ -1519,22 +1530,21 @@ i.fa-brands.fa-whatsapp:hover{
 
 .footer-list h3 {
     font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .footer-list a {
     font-size: 15px;
+    font-weight: 500;
 }
 
 #footer_subscribe h3 {
     font-size: 15px;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 #footer_subscribe p {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
 }
 
