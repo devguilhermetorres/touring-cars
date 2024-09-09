@@ -533,7 +533,7 @@ nav ul li a {
         display: block;
         line-height: 60px;
         z-index: -2;
-        font-size: 50px;
+        font-size: 48px;
         color: rgb(0, 0, 0);
         margin-left: 10%;
         margin-top: 30px;
@@ -769,8 +769,8 @@ nav ul li a {
     
     .text-combustion p {
         color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 500;
         margin-left: 30px;
     }
     
@@ -806,8 +806,8 @@ nav ul li a {
         position: absolute;
         text-align: left;
         color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 500;
         margin-left: 30px;
     }
     
@@ -843,8 +843,8 @@ nav ul li a {
         position: absolute;
         text-align: left;
         color: #ffffff;
-        font-size: 16px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 500;
         margin-left: 30px;
     }
 }
@@ -987,7 +987,7 @@ input::placeholder {
     .text-form {
         width: 70%;
         margin: auto;
-        height: 109px;
+        height: min-content;
         margin-top: 100px;
     }
 
@@ -1005,7 +1005,7 @@ input::placeholder {
     }
     
     .form-inputs {
-        margin-top: 70px;
+        margin-top: 30px;
         display: flex;
         justify-content: space-around;
         width: 70%;
