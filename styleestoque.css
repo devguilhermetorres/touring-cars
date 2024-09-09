@@ -1356,6 +1356,10 @@ nav ul li a {
     margin-bottom: 50px;
 }
 
+.text-form h1 {
+    font-weight: 600;
+}
+
 .text-form h2 {
     letter-spacing: normal;
     color: #404040;
@@ -1473,9 +1477,8 @@ input::placeholder {
     .text-form {
         width: 70%;
         margin: auto;
-        height: 109px;
+        height: min-content;
         margin-top: 100px;
-        
     }
 
     .text-form h1 {
@@ -1488,11 +1491,10 @@ input::placeholder {
         font-size: 13.6px;
         font-weight: 600;
         margin-top: 10px;
-
     }
     
     .form-inputs {
-        margin-top: 70px;
+        margin-top: 30px;
         display: flex;
         justify-content: space-around;
         width: 70%;
