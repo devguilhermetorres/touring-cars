@@ -373,7 +373,6 @@ nav ul li a {
 
 .home-screen-text {
     position: relative;
-    font-size: 40px;
     color: rgb(0, 0, 0);
     width: 100%;
     height: 60px;
@@ -419,10 +418,12 @@ nav ul li a {
         display: block;
         padding-top: 80px;
         margin: 0;
-        font-size: 30px;
         color: rgb(0, 0, 0);
-        font-weight: 700;
         height: auto;
+    }
+
+    .home-screen-text-2 h1 {
+        font-size: 25px;
     }
 
     .showfiltrar {
