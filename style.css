@@ -299,7 +299,7 @@ nav ul li a {
 
 .buttons-nav {
     color: rgb(0, 0, 0);
-    padding: 5px 15px 5px 15px;
+    padding: 3px 15px 3px 15px;
     background-repeat: no-repeat;
     background-position: center;
     float: right;
@@ -316,7 +316,7 @@ nav ul li a {
     display: inline;
     position: relative;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .home-screen{
@@ -461,16 +461,16 @@ nav ul li a {
 
 .bold{
     color: #000000;
-    background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
-    background-size: 15px;
+    background-image: url(imgs/chevron-right-svgrepo-com2\ \(2\).svg);
+    background-size: 10px;
     background-position: 95% 50%;
     background-repeat: no-repeat;
-    transition: all 0.3s;
+    transition: background-position 0.15s ease-out;
     border: 1px solid black;
-    padding: 8px 40px 8px 20px;
+    padding: 8px 35px 8px 20px;
     border-radius: 15px;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .bold:hover {
@@ -554,27 +554,27 @@ nav ul li a {
     .bold{
         color: #000000;
         background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
-        background-size: 13px;
-        background-position: 95% 50%;
+        background-size: 9px;
+        background-position: 95% 56%;
         background-repeat: no-repeat;
         border: 1px solid black;
         padding: 4px 30px 4px 15px;
-        border-radius: 15px;
-        font-weight: 500;
-        font-size: 15px;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 13px;
     }
     
     .bold:hover {
         color: #000000;
         background-image: url(imgs/chevron-right-svgrepo-com\ \(2\).svg);
-        background-size: 13px;
-        background-position: 95% 50%;
+        background-size: 9px;
+        background-position: 95% 56%;
         background-repeat: no-repeat;
         border: 1px solid black;
         padding: 4px 30px 4px 15px;
-        border-radius: 15px;
-        font-weight: 500;
-        font-size: 15px;
+        border-radius: 12px;
+        font-weight: 400;
+        font-size: 13px;
     }
 }
 
