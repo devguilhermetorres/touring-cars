@@ -465,7 +465,7 @@ nav ul li a {
     background-size: 10px;
     background-position: 95% 50%;
     background-repeat: no-repeat;
-    transition: background-position 0.15s ease-out;
+    transition: all 0.15s ease-out;
     border: 1px solid black;
     padding: 8px 35px 8px 20px;
     border-radius: 15px;
@@ -475,6 +475,7 @@ nav ul li a {
 
 .bold:hover {
     background-position: 97% 50%;
+    background-color: #f7f7f7;
 }
 
 @media screen and (max-width: 1000px) {
