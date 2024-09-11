@@ -1842,7 +1842,7 @@ i.fa-brands.fa-whatsapp:hover {
 #footer_copyright {
     display: flex;
     justify-content: center;
-    background-color: #fbfbfb;
+    background-color: #f7f7f7;
     font-size: 0.75rem;
     padding: 1.5rem;
     font-weight: 400;
@@ -1883,6 +1883,7 @@ i.fa-brands.fa-whatsapp:hover {
     #footer_copyright {
         display: flex;
         justify-content: center;
+        background-color: #f7f7f7;
         font-size: 0.7rem;
         padding: 1.5rem;
         padding-top: 0;
