@@ -364,9 +364,9 @@ nav ul li a {
 
 .home-screen{
     margin: auto;
-    width: 79%;
+    width: 100%;
     height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .home-screen-text {
@@ -376,6 +376,7 @@ nav ul li a {
     height: 60px;
     font-weight: 700;
     padding-top: 80px;
+    padding-left: 10.5%;
 }
 
 .home-screen-text h1 {
@@ -446,10 +447,8 @@ nav ul li a {
     display: flex;
     height: auto;
     justify-content: space-around;
-    max-width: 1700px;
+    max-width: 1650px;
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .full2 {
@@ -460,35 +459,278 @@ nav ul li a {
     width: 23%;
     height: 440px;
     border-radius: 15px;
-    padding: 25px 40px 25px 40px;
+    padding: 25px 30px 25px 30px;
     border: 1.5px solid #c2c2c2;
     box-sizing: border-box;
 }
 
 .sale {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 70%;
+    max-width: 1000px;
     box-sizing: border-box;
-    height: 440px;
-    border: 1px solid #c2c2c2;
-    border-radius: 15px;
 }
 
-.sale-2 {
-    display: none;
-    width: 70%;
-    box-sizing: border-box;
-    height: 440px;
-    border: 1px solid #c2c2c2;
+.sale-car {
+    height: auto;
+    width: 22vw;
+    max-width: 310px;
+    align-items: top;
     border-radius: 15px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    float: left;
+    transition: border 0.2s;
 }
 
-.sale h1 {
-    margin-left: 100px;
-    margin-top: 260px;
-    color: #b4b4b4;
-    font-size: 30px;
-    font-weight: 500;
+.sale-car:hover {
+    border: 1px solid #a7a7a7;
 }
+
+.fotovenda1 {
+    background-image: url(imgs/rs6venda.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+#titulocar {
+    font-size: 15px; 
+    font-weight: 700;
+}
+
+#anokm {
+    color: #7f7f7f;
+    font-size: 13px; 
+    font-weight: 500; 
+    letter-spacing: 2px; 
+    padding-top: 4px;
+}
+
+#rs {
+    margin-top: 23.3px;
+    position: absolute;
+    color: #7f7f7f;
+    font-size: 12px; 
+    font-weight: 600; 
+    letter-spacing: 0px;
+}
+
+#preco {
+    position: relative;
+    font-size: 18px; 
+    font-weight: 700; 
+    letter-spacing: 0px;
+    margin-top: 16.4px;
+    margin-left: 40px;
+}
+
+.chevron-right {
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    opacity: .6;
+    transition: all 0.2s;
+}
+
+.chevron-right:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sale-text {
+    padding-top: 15px;
+}
+
+.sale-text p {
+    letter-spacing: normal;
+    text-align: left;
+    color: #363636;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.fotovenda2 {
+    background-image: url(imgs/golfvenda.jpg);
+    background-color: #3c3c3c;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda3 {
+    background-image: url(imgs/rangerovervenda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda4 {
+    background-image: url(imgs/m33.jpg);
+    background-color: #3c3c3c;
+    background-size: cover;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda5 {
+    background-image: url(imgs/911gt3.jpeg);
+    background-color: #3c3c3c;
+    background-size: 450px;
+    background-position: 70% 50%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda6 {
+    background-image: url(imgs/seal2.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda7 {
+    background-image: url(imgs/macangts.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda8 {
+    background-image: url(imgs/sw43.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda9 {
+    background-image: url(imgs/typer7.jpg);
+    background-size: 370px;
+    background-position: 20% 60%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda10 {
+    background-image: url(imgs/raptor.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda11 {
+    background-image: url(imgs/etron.jpg);
+    background-size: 360px;
+    background-position: 35% 60%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda12 {
+    background-image: url(imgs/m22.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda13 {
+    background-image: url(imgs/defender3.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda14 {
+    background-image: url(imgs/turbogt.jpg);
+    background-size: 350px;
+    background-position: 20% 60%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+
+.fotovenda15 {
+    background-image: url(imgs/gr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
 
 .filter-brands {
     display: inline-block;
@@ -907,6 +1149,41 @@ nav ul li a {
 
 @media screen and (max-width: 1000px) {
     .container {
+        width: 100%;
+        display: flex;
+        height: auto;
+        justify-content: space-around;
+        margin: auto;
+    }
+    
+    .full2 {
+        display: none;
+    }
+    
+    .sale {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        box-sizing: border-box;
+        margin: auto;
+    }
+    
+    .sale-car {
+        height: auto;
+        width: 70%;
+        max-width: 310px;
+        align-items: top;
+        border-radius: 15px;
+        border: 1.5px solid #cccccc;
+        box-sizing: border-box;
+        padding-bottom: 15px;
+        float: left;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #filter-desktop {
         display: none;
     }
     
@@ -1573,8 +1850,8 @@ input::placeholder {
     }
     
     input::placeholder {
-        color: #969696;
-        font-weight: 600;
+        color: #989898;
+        font-weight: 400;
         font-size: 14px;
     }
     
@@ -1585,7 +1862,7 @@ input::placeholder {
         margin-top: 1.4vw;
         margin-bottom: 10px;
         margin-left: 0px;
-        border: solid 1px #969696;
+        border: solid 1px #989898;
         font-weight: 600;
         padding-left: 10px; 
     }

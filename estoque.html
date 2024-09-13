@@ -134,8 +134,83 @@
             </button>
         </div>
 
-        <div class="container">
+        <div class="full2">
             <div class="filter">
+                <form>
+                    <div class="filter-brands">
+                        <label for="marcas">MARCAS</label><br>
+                        <input type="text" name="marcas" id="brands" placeholder="Todas" onfocus="dropDown3(0)" onblur="dropDown3(1)" readonly>
+                        <div class="dropDown3">
+                            <div class="listDropDown">
+                                <div class="item2" id="item2-1" onmousedown="category2(1)">Todas</div>
+                                <div class="item2" id="item2-2" onmousedown="category2(2)">BMW</div>
+                                <div class="item2" id="item2-3" onmousedown="category2(3)">Porsche</div>
+                                <div class="item2" id="item2-4" onmousedown="category2(4)">Audi</div>
+                                <div class="item2" id="item2-5" onmousedown="category2(5)">Land Rover</div>
+                                <div class="item2" id="item2-6" onmousedown="category2(6)">Toyota</div>
+                                <div class="item2" id="item2-7" onmousedown="category2(7)">BYD</div>
+                                <div class="item2" id="item2-8" onmousedown="category2(8)">Ford</div>
+                                <div class="item2" id="item2-9" onmousedown="category2(9)">Mercedes</div>
+                                <div class="item2" id="item2-10" onmousedown="category2(10)">Volkswagen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-shielded">
+                        <label for="blindado">BLINDADO</label><br>
+                        <input type="text" name="blindado" id="armored" placeholder="Todos" onfocus="dropDown4(0)" onblur="dropDown4(1)" readonly>
+                        <div class="dropDown4">
+                            <div class="listDropDown2">
+                                <div class="item2" id="iitem2-1" onmousedown="category3(1)">Sim</div>
+                                <div class="item2" id="iitem2-2" onmousedown="category3(2)">Não</div>
+                                <div class="item2" id="iitem2-3" onmousedown="category3(3)">Todos</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-start-year">
+                        <label for="ano">ANO</label><br>
+                        <input type="text" name="anoinicial" id="anoinicial" placeholder="2020">
+                    </div>
+                    <div class="until"><p>ATÉ</p></div>
+                    <div class="filter-final-year">
+                        <label for="ano">‎ </label><br>
+                        <input type="text" name="anofinal" id="anofinal" placeholder="2024">
+                        </div>
+
+                    <div class="filter-start-value">
+                        <label for="ano">VALOR</label><br>
+                        <input type="text" name="anoinicial" id="anoinicial" placeholder="100.000">
+                    </div>
+
+                    <div class="until"><p>ATÉ</p></div>
+
+                    <div class="filter-final-value">
+                        <label for="ano">‎ </label><br>
+                        <input type="text" name="anofinal" id="anofinal" placeholder="3.000.000">
+                    </div>
+
+                    <div class="filter-start-km">
+                        <label for="ano">QUILOMETRAGEM</label><br>
+                        <input type="text" name="anoinicial" id="anoinicial" placeholder="0">
+                    </div>
+
+                    <div class="until"><p>ATÉ</p></div>
+
+                    <div class="filter-final-km">
+                        <label for="ano">‎ </label><br>
+                        <input type="text" name="anofinal" id="anofinal" placeholder="50.000">
+                    </div>
+            
+                    <input type="reset"  name="limpar" value="Limpar" class="button-clean">
+
+                    <input type="submit" class="button-filter" value="Filtrar">
+                </form>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="filter" id="filter-desktop">
                 <form>
                     <div class="filter-brands">
                         <label for="marcas">MARCAS</label><br>
@@ -215,9 +290,195 @@
             </div>
 
             <div class="sale">
-                <h1>Aguarde... <br> Estamos atualizando nosso estoque!</h1>
-            
-                <div class="models"></div>
+                    <div class="sale-car">
+                        <div class="fotovenda1"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">AUDI RS6 Avant 4.0 TFSI Quattro</p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.180.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="sale-car">
+                        <div class="fotovenda2"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">VW Golf GTI MK8 2.0T 250TSI</p>
+                            <p id="anokm">2023 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">350.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>     
+                        </div>
+                    </div>
+                    <div class="sale-car">
+                        <div class="fotovenda3"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">LAND ROVER Range Rover Sport</p>
+                            <p id="anokm">2024 | 571km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.050.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda4"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">BMW M3 Competition CS</p>
+                            <p id="anokm">2023 | 1.211km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">690.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda5"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">PORSCHE 911 GT3 500cv</p>
+                            <p id="anokm">2023 | 211km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">2.550.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda6"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">BYD Seal Elétrico </p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">279.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="sale-car">
+                        <div class="fotovenda7"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">PORSCHE Macan GTS 2.9 V6</p>
+                            <p id="anokm">2023 | 732km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">649.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="sale-car">
+                        <div class="fotovenda8"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">TOYOTA SW4 Diamond</p>
+                            <p id="anokm">2023 | 8.751km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">390.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="sale-car">
+                        <div class="fotovenda9"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">HONDA Civic Type-R</p>
+                            <p id="anokm">2023 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">459.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda10"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">FORD Ranger Raptor</p>
+                            <p id="anokm">2024 | 1.587km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">459.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>   
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda11"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">AUDI RS E-tron GT </p>
+                            <p id="anokm">2024 | 407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.149.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>  
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda12"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">BMW M2 Competition </p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">719.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda13"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">LAND ROVER Defender 110</p>
+                            <p id="anokm">2023 | 4.407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco"> 719.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda14"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">PORSCHE Cayenne Turbo GT</p>
+                            <p id="anokm">2024 | 0km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">1.280.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>    
+                        </div>
+                    </div>
+
+                    <div class="sale-car">
+                        <div class="fotovenda15"></div>
+                        <div class="sale-text">
+                            <p id="titulocar">TOYOTA GR Corolla</p>
+                            <p id="anokm">2023 | 2.407km</p>
+                            <p id="rs">R$</p>
+                            <p id="preco">409.000,00</p>
+                            <div class="chevron-right">
+                                <img src="imgs/chevron-right-svgrepo-com2 (2).svg" alt="" style="max-width: 14px;">
+                            </div>     
+                        </div>
+                    </div>
             </div>
           
         </div>
@@ -225,86 +486,9 @@
 
         <script src="filtro.js"></script>
 
-        <div class="full2">
-            <div class="filter">
-                <form>
-                    <div class="filter-brands">
-                        <label for="marcas">MARCAS</label><br>
-                        <input type="text" name="marcas" id="brands" placeholder="Todas" onfocus="dropDown3(0)" onblur="dropDown3(1)" readonly>
-                        <div class="dropDown3">
-                            <div class="listDropDown">
-                                <div class="item2" id="item2-1" onmousedown="category2(1)">Todas</div>
-                                <div class="item2" id="item2-2" onmousedown="category2(2)">BMW</div>
-                                <div class="item2" id="item2-3" onmousedown="category2(3)">Porsche</div>
-                                <div class="item2" id="item2-4" onmousedown="category2(4)">Audi</div>
-                                <div class="item2" id="item2-5" onmousedown="category2(5)">Land Rover</div>
-                                <div class="item2" id="item2-6" onmousedown="category2(6)">Toyota</div>
-                                <div class="item2" id="item2-7" onmousedown="category2(7)">BYD</div>
-                                <div class="item2" id="item2-8" onmousedown="category2(8)">Ford</div>
-                                <div class="item2" id="item2-9" onmousedown="category2(9)">Mercedes</div>
-                                <div class="item2" id="item2-10" onmousedown="category2(10)">Volkswagen</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="filter-shielded">
-                        <label for="blindado">BLINDADO</label><br>
-                        <input type="text" name="blindado" id="armored" placeholder="Todos" onfocus="dropDown4(0)" onblur="dropDown4(1)" readonly>
-                        <div class="dropDown4">
-                            <div class="listDropDown2">
-                                <div class="item2" id="iitem2-1" onmousedown="category3(1)">Sim</div>
-                                <div class="item2" id="iitem2-2" onmousedown="category3(2)">Não</div>
-                                <div class="item2" id="iitem2-3" onmousedown="category3(3)">Todos</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="filter-start-year">
-                        <label for="ano">ANO</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="2020">
-                    </div>
-                    <div class="until"><p>ATÉ</p></div>
-                    <div class="filter-final-year">
-                        <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="2024">
-                        </div>
-
-                    <div class="filter-start-value">
-                        <label for="ano">VALOR</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="100.000">
-                    </div>
-
-                    <div class="until"><p>ATÉ</p></div>
-
-                    <div class="filter-final-value">
-                        <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="3.000.000">
-                    </div>
-
-                    <div class="filter-start-km">
-                        <label for="ano">QUILOMETRAGEM</label><br>
-                        <input type="text" name="anoinicial" id="anoinicial" placeholder="0">
-                    </div>
-
-                    <div class="until"><p>ATÉ</p></div>
-
-                    <div class="filter-final-km">
-                        <label for="ano">‎ </label><br>
-                        <input type="text" name="anofinal" id="anofinal" placeholder="50.000">
-                    </div>
-            
-                    <input type="reset"  name="limpar" value="Limpar" class="button-clean">
-
-                    <input type="submit" class="button-filter" value="Filtrar">
-                </form>
-            </div>
-        </div>
-
-        <div class="sale-2">
-            <h1>Aguarde... <br> Estamos atualizando nosso estoque!</h1>
         
-            <div class="models"></div>
-        </div>
+
+        
             
         <script src="filtro.js"></script>              
       
