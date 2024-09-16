@@ -464,7 +464,7 @@ nav ul li a {
     background-color: #000000;
     background-image: url(imgs/chevron-right-svgrepo-com3\ \(2\).svg);
     background-size: 12px;
-    background-position: 95% 50%;
+    background-position: 95% 53%;
     background-repeat: no-repeat;
     transition: all 0.15s ease-out;
     border: 1px solid black;
@@ -475,7 +475,7 @@ nav ul li a {
 }
 
 .bold:hover {
-    background-position: 97% 50%;
+    background-position: 97% 53%;
 }
 
 @media screen and (max-width: 1000px) {
