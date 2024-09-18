@@ -468,10 +468,10 @@ nav ul li a {
     background-repeat: no-repeat;
     transition: all 0.15s ease-out;
     border: 1px solid black;
-    padding: 10px 35px 10px 20px;
+    padding: 9px 35px 9px 20px;
     border-radius: 20px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .bold:hover {
@@ -1545,7 +1545,7 @@ i.fa-brands.fa-whatsapp:hover{
 
 .footer-list h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .footer-list a {
@@ -1555,7 +1555,7 @@ i.fa-brands.fa-whatsapp:hover{
 
 #footer_subscribe h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #footer_subscribe p {

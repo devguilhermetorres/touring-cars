@@ -535,12 +535,33 @@ nav ul li a {
     margin-left: 40px;
 }
 
-.chevron-right {
-    width: 20px;
+.chevron-right-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100% - 20px;
     margin-top: 15px;
-    margin-left: 20px;
-    opacity: .6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chevron-right-label img{
     transition: all 0.2s;
+    opacity: .6;
+}
+
+.chevron-right-label img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.chevron-right-label p {
+    color: #001630!important;
+    background-color: #0077ff;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 4px 8px 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 .chevron-right:hover {
@@ -1987,7 +2008,7 @@ i.fa-brands.fa-whatsapp:hover {
 
 .footer-list h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .footer-list a {
@@ -1997,7 +2018,7 @@ i.fa-brands.fa-whatsapp:hover {
 
 #footer_subscribe h3 {
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #footer_subscribe p {
