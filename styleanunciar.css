@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+hr {
+    margin: 110px 10vw 0px 10vw ;
+}
+
 input:focus,
 textarea:focus {
   border-color: #000000; /* Cor da borda ao clicar */
@@ -427,7 +431,7 @@ nav ul li a {
     font-size: 14px;
     font-weight: 500;
     margin-top: 8px;
-    width: 195px;;
+    width: 15%;
     height: 37px;
     color: rgb(68, 68, 68);
     background-color: #000000;

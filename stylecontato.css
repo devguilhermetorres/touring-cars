@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+hr {
+    margin: 110px 10vw 0px 10vw ;
+}
+
 input:focus,
 textarea:focus {
   border-color: #000000; /* Cor da borda ao clicar */

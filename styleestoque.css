@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+hr {
+    margin: 110px 10vw 0px 10vw ;
+}
+
 input:focus,
 textarea:focus {
   border-color: #000000; /* Cor da borda ao clicar */
@@ -554,7 +558,7 @@ nav ul li a {
     cursor: pointer;
 }
 
-.chevron-right-label p {
+.hybrid-label {
     color: #001630!important;
     background-color: #0077ff;
     font-size: 11px;
@@ -564,9 +568,14 @@ nav ul li a {
     font-weight: 600;
 }
 
-.chevron-right:hover {
-    opacity: 1;
-    cursor: pointer;
+.eletric-label {
+    color: #0d4300!important;
+    background-color: #33FF00;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 4px 8px 3px 8px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 .sale-text {
