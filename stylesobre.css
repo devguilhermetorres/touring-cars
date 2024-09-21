@@ -139,11 +139,6 @@ nav ul li a {
     transition: all 0.3s;
 }
 
-.mobile-menu .nav-item:hover {
-    background-color: #d3d3d32d;
-    padding: 10px 10px 10px 15px;
-}
-
 .mobile-menu .nav-item-icons {
     border-radius: 15px;
     padding: 10px 15px 10px 15px;
@@ -163,12 +158,6 @@ nav ul li a {
     padding: 10px;
     margin: 15px;
     border-radius: 10px;
-}
-
-.mobile-menu .nav-item-icons i:hover{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #c6c6c65e;
 }
 
 .mobile-menu .nav-item img{
@@ -318,11 +307,6 @@ nav ul li a {
         font-weight: 350;
     }
     
-    .mobile-menu .nav-item:hover {
-        background-color: #d3d3d32d;
-        padding: 10px 10px 10px 15px;
-    }
-    
     .mobile-menu .nav-item-icons {
         border-radius: 15px;
         padding: 10px 15px 10px 15px;
@@ -341,11 +325,6 @@ nav ul li a {
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
-    }
-
-    .mobile-menu .nav-item-icons i:hover{
-        background-color: transparent;
-        color: unset;
     }
 
     .mobile-menu .nav-item img{
