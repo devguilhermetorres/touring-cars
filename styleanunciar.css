@@ -282,7 +282,14 @@ nav ul li a {
     .open {
         display: block;
         z-index: 7000;
-        animation: fade 0.2s;
+        animation: fade 0.25s;
+    }
+
+    .menu-closed {
+        transform: translate(-100%);
+        display: block;
+        z-index: 7000;
+        animation: fade-2 0.25s;
     }
 
     @keyframes fade {
@@ -291,6 +298,15 @@ nav ul li a {
         }
         100% {
             transform: translate(0%);
+        }
+    }
+
+    @keyframes fade-2 {
+        0% {
+            transform: translate(0%);
+        }
+        100% {
+            transform: translate(-100%);
         }
     }
 }  
@@ -719,7 +735,7 @@ input::file-selector-button {
         float: left;
       }
 
-      #modelo {
+      #model {
         float: right;
       }
 
@@ -731,7 +747,7 @@ input::file-selector-button {
         float: right;
       }
 
-      #nome {
+      #name {
         float: left;
       }
 
@@ -739,7 +755,7 @@ input::file-selector-button {
         float: right;
       }
 
-      #numero {
+      #number {
         float: left;
       }
 }

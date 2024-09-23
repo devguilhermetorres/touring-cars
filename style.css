@@ -272,7 +272,6 @@ nav ul li a {
         padding: 10px;
         margin: 15px;
         border-radius: 10px;
-        
     }
 
     .mobile-menu .nav-item img{
@@ -284,7 +283,14 @@ nav ul li a {
     .open {
         display: block;
         z-index: 7000;
-        animation: fade 0.2s;
+        animation: fade 0.25s;
+    }
+
+    .menu-closed {
+        transform: translate(-100%);
+        display: block;
+        z-index: 7000;
+        animation: fade-2 0.25s;
     }
 
     @keyframes fade {
@@ -293,6 +299,15 @@ nav ul li a {
         }
         100% {
             transform: translate(0%);
+        }
+    }
+
+    @keyframes fade-2 {
+        0% {
+            transform: translate(0%);
+        }
+        100% {
+            transform: translate(-100%);
         }
     }
 }  
@@ -1085,16 +1100,8 @@ input::placeholder {
         padding-left: 10px; 
     }
 
-    #modelo {
-        float: left;
-    }
-
-    #nome {
+    #name {
         float: right;
-    }
-
-    #numero {
-        float: left;
     }
 
     #email {
