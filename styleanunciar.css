@@ -46,6 +46,8 @@ nav {
     background-color: #fbfbfb;
     height: 80px;
     width: 100%;
+    max-width: 2300px;
+    margin: auto;
 }
 
 nav ul {

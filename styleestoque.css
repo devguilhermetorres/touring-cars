@@ -47,6 +47,8 @@ nav {
     height: 80px;
     width: 100%;
     z-index: 5000;
+    max-width: 2300px;
+    margin: auto;
 }
 
 nav ul {
@@ -487,18 +489,6 @@ nav ul li a {
     border: 1px solid #a7a7a7;
 }
 
-.fotovenda1 {
-    background-image: url(imgs/rs6venda.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
 #titulocar {
     font-size: 15px; 
     font-weight: 700;
@@ -557,6 +547,7 @@ nav ul li a {
     padding: 4px 8px 3px 8px;
     border-radius: 10px;
     font-weight: 600;
+    cursor: default;
 }
 
 .eletric-label {
@@ -567,6 +558,7 @@ nav ul li a {
     padding: 4px 8px 3px 8px;
     border-radius: 10px;
     font-weight: 600;
+    cursor: default;
 }
 
 .sale-text {
@@ -581,33 +573,8 @@ nav ul li a {
     margin-bottom: 0px;
 }
 
-.fotovenda2 {
-    background-image: url(imgs/golfvenda.jpg);
-    background-color: #3c3c3c;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-.fotovenda3 {
-    background-image: url(imgs/rangerovervenda.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-.fotovenda4 {
-    background-image: url(imgs/m33.jpg);
+.fotovenda1 {
+    background-image: url(imgs/mustang.jpg);
     background-color: #3c3c3c;
     background-size: cover;
     background-position: 90% 50%;
@@ -619,10 +586,48 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda5 {
-    background-image: url(imgs/911gt3.jpeg);
+.fotovenda2 {
+    background-image: url(imgs/ram15002.png);
     background-color: #3c3c3c;
-    background-size: 450px;
+    background-size: cover;
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+.fotovenda3 {
+    background-image: url(imgs/rangerover4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda4 {
+    background-image: url(imgs/defender3.jpg);
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda5 {
+    background-image: url(imgs/911gt3.jpg);
+    background-color: #3c3c3c;
+    background-size: cover;
     background-position: 70% 50%;
     background-repeat: no-repeat;
     height: 175px;
@@ -633,6 +638,19 @@ nav ul li a {
 }
 
 .fotovenda6 {
+    background-image: url(imgs/rs6venda.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+
+}
+
+.fotovenda7 {
     background-image: url(imgs/seal2.jpg);
     background-size: cover;
     background-position: top;
@@ -644,7 +662,19 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda7 {
+.fotovenda8 {
+    background-image: url(imgs/sw46.jpeg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.fotovenda9 {
     background-image: url(imgs/macangts.jpg);
     background-size: cover;
     background-position: top;
@@ -656,19 +686,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda8 {
-    background-image: url(imgs/sw43.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-.fotovenda9 {
+.fotovenda10 {
     background-image: url(imgs/typer7.jpg);
     background-size: 370px;
     background-position: 20% 60%;
@@ -680,7 +698,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda10 {
+.fotovenda11 {
     background-image: url(imgs/raptor.jpg);
     background-size: cover;
     background-position: center;
@@ -692,7 +710,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda11 {
+.fotovenda12 {
     background-image: url(imgs/etron.jpg);
     background-size: 360px;
     background-position: 35% 60%;
@@ -704,22 +722,10 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.fotovenda12 {
+.fotovenda13 {
     background-image: url(imgs/m22.jpg);
     background-size: cover;
     background-position: 100% 50%;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-.fotovenda13 {
-    background-image: url(imgs/defender3.jpg);
-    background-size: 400px;
-    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -751,7 +757,6 @@ nav ul li a {
     margin-top: 5%;
     border-radius: 10px;
 }
-
 
 .filter-brands {
     display: inline-block;
@@ -1204,6 +1209,24 @@ nav ul li a {
         margin: 20px 10px 10px 10px;
     }
 
+    .sale-car:hover {
+        height: auto;
+        width: 70%;
+        max-width: 310px;
+        align-items: top;
+        border-radius: 15px;
+        border: 1.5px solid #cccccc;
+        box-sizing: border-box;
+        padding-bottom: 15px;
+        float: left;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .chevron-right-label img:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+
     #filter-desktop {
         display: none;
     }
@@ -1645,7 +1668,7 @@ nav ul li a {
 }
 
 
-/* FORMULARIO */
+/*FORM*/
 
 #form-register {
     display: flex;
