@@ -576,7 +576,7 @@ nav ul li a {
     background-image: url(imgs/mustang.jpg);
     background-color: #3c3c3c;
     background-size: cover;
-    background-position: 90% 50%;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -589,7 +589,7 @@ nav ul li a {
     background-image: url(imgs/ram15002.png);
     background-color: #3c3c3c;
     background-size: cover;
-    background-position: 90% 50%;
+    background-position: 65% 50%;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -1805,7 +1805,7 @@ input::placeholder {
     }
     
     .text-form {
-        width: 70%;
+        width: 80%;
         margin: auto;
         height: min-content;
         margin-top: 100px;
@@ -1827,7 +1827,7 @@ input::placeholder {
         margin-top: 30px;
         display: flex;
         justify-content: space-around;
-        width: 70%;
+        width: 80%;
         padding: 0;
     }
     
