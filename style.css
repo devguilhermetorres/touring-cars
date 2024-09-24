@@ -737,7 +737,7 @@ nav ul li a {
 @media screen and (max-width: 1000px) {
     .text-models {
         padding-top: 90px;
-        width: 70%;
+        width: 80%;
         margin: auto;
     }
 
@@ -748,7 +748,7 @@ nav ul li a {
     .models {
         position: relative;
         padding-top: 30px;
-        width: 70%;
+        width: 80%;
         height: 156vw;
         margin: auto;
         background-color: none;
@@ -768,13 +768,15 @@ nav ul li a {
     
     .combustion {
         background-image: url(imgs/rs62.jpg);
-        background-size: 73vw;
+        background-size: 80vw;
         background-repeat: no-repeat;
         background-position: 40% 80%;
         height: 50vw;
         width: 100%;
         position: relative;
+        margin: auto;
         border-radius: 15px;
+        max-width: none;
     }
 
     .combustion:hover {
@@ -800,7 +802,7 @@ nav ul li a {
     
     .hybrid {
         background-image: url(imgs/rangerover4.jpg);
-        background-size: 73vw;
+        background-size: 80vw;
         background-position: center;
         background-repeat: no-repeat;
         height: 50vw;
@@ -810,6 +812,7 @@ nav ul li a {
         border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
+        max-width: none;
     }
 
     .hybrid:hover {
@@ -837,7 +840,7 @@ nav ul li a {
     
     .eletric {
         background-image: url(imgs/seal2.jpg);
-        background-size: 73vw;
+        background-size: 80vw;
         background-position: 80% 50%;
         background-repeat: no-repeat;
         height: 50vw;
@@ -847,6 +850,7 @@ nav ul li a {
         border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
+        max-width: none;
     }
 
     .eletric:hover {
@@ -1011,7 +1015,7 @@ input::placeholder {
     }
     
     .text-form {
-        width: 70%;
+        width: 80%;
         margin: auto;
         height: min-content;
         margin-top: 100px;
@@ -1034,7 +1038,7 @@ input::placeholder {
         margin-top: 30px;
         display: flex;
         justify-content: space-around;
-        width: 70%;
+        width: 80%;
         padding: 0;
     }
     
@@ -1211,7 +1215,7 @@ input::placeholder {
 @media screen and (max-width: 1000px) {
     .emphasis-title {
         font-size: 12px;
-        width: 70%;
+        width: 80%;
         margin: auto;
         margin-bottom: 30px;
         margin-top: 100px;
@@ -1222,7 +1226,7 @@ input::placeholder {
         padding-top: 0px;
         text-align: center;
         margin-top: 50px;
-        width: 70%;
+        width: 80%;
         margin: auto;
         height: auto;
         border-radius: 10px;
@@ -1236,6 +1240,7 @@ input::placeholder {
         width: 100%;
         height: 55vw;
         border-radius: 15px;
+        max-width: none;
     }
 
     .emphasis-photo:hover {
@@ -1254,6 +1259,7 @@ input::placeholder {
         width: 100%;
         background-color: rgb(0, 0, 0);
         border-radius: 15px;
+        max-width: none;
     }
     
     .emphasis-text:hover {
@@ -1394,7 +1400,7 @@ input::placeholder {
 
 @media screen and (max-width: 1000px) {
     .sale-title {
-        width: 70%;
+        width: 80%;
         margin: auto;
         font-size: 12px;
         margin-top: 100px;
@@ -1402,7 +1408,7 @@ input::placeholder {
     
     .sale {
         position: relative;
-        width: 70%;
+        width: 80%;
         height: 156vw;
         margin: auto;
         margin-top: 30px;
@@ -1427,12 +1433,13 @@ input::placeholder {
     }
     
     .sale-1 {
-        background-size: 75vw;
+        background-size: 80vw;
         background-position: 40% 80%;
         height: 50vw;
         width: 100%;
         position: relative;
         border-radius: 15px;
+        max-width: none;
     }
 
     .sale-1:hover {
@@ -1440,7 +1447,7 @@ input::placeholder {
     }
     
     .sale-2 {
-        background-size: 95vw;
+        background-size: 98vw;
         background-position: center;
         background-repeat: no-repeat;
         height: 50vw;
@@ -1450,6 +1457,7 @@ input::placeholder {
         border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
+        max-width: none;
     }
     
     .sale-2:hover {
@@ -1457,7 +1465,7 @@ input::placeholder {
     }
     
     .sale-3 {
-        background-size: 75vw;
+        background-size: 80vw;
         background-position: center;
         height: 50vw;
         width: 100%;
@@ -1466,6 +1474,7 @@ input::placeholder {
         border-radius: 15px;
         margin: auto;
         margin-top: 3vw;
+        max-width: none;
     }
     
     .sale-3:hover {
