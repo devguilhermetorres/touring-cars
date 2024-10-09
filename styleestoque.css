@@ -454,7 +454,6 @@ nav ul li a {
 
 .filter {
     position: sticky;
-    top: 30px;
     width: 23%;
     height: 440px;
     border-radius: 15px;
