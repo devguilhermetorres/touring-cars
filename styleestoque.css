@@ -863,6 +863,7 @@ nav ul li a {
 
 .filter-brands input:hover {
     cursor: pointer;
+    border: 1px solid #a0a0a0;
 }
 
 .dropDown {
@@ -945,6 +946,7 @@ nav ul li a {
 
 .filter-shielded input:hover {
     cursor: pointer;
+    border: 1px solid #a0a0a0;
 }
 
 .dropDown2 {
@@ -1008,6 +1010,10 @@ nav ul li a {
     font-size: 14px;
 }
 
+.filter-start-year input:hover {
+    border: 1px solid #a0a0a0;
+}
+
 .until {
     display: inline-block;
     letter-spacing: 0.5px;
@@ -1051,6 +1057,11 @@ nav ul li a {
     font-size: 14px;
 }
 
+.filter-final-year input:hover {
+    border: 1px solid #a0a0a0;
+}
+
+
 .filter-start-value {
     display: inline-block;
     width: 37%;
@@ -1084,6 +1095,10 @@ nav ul li a {
 .filter-start-value input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
+}
+
+.filter-start-value input:hover {
+    border: 1px solid #a0a0a0;
 }
 
 .filter-final-value {
@@ -1121,6 +1136,10 @@ nav ul li a {
     font-size: 14px;
 }
 
+.filter-final-value input:hover {
+    border: 1px solid #a0a0a0;
+}
+
 .filter-start-km {
     display: inline-block;
     width: 37%;
@@ -1156,6 +1175,10 @@ nav ul li a {
     font-size: 14px;
 }
 
+.filter-start-km input:hover {
+    border: 1px solid #a0a0a0;
+}
+
 .filter-final-km {
     float: right;
     width: 37%;
@@ -1189,6 +1212,10 @@ nav ul li a {
 .filter-final-km input::placeholder {
     color: #7d7d7d;
     font-size: 14px;
+}
+
+.filter-final-km input:hover {
+    border: 1px solid #a0a0a0;
 }
 
 .button-clean {
