@@ -648,10 +648,6 @@ nav ul li a {
     max-height: 341px;
 }
 
-.combustion:hover {
-    transform: translate(0%, -0.5%);
-}
-
 .text-combustion {
     position: absolute;
     width: 100%;
@@ -679,10 +675,6 @@ nav ul li a {
     transition: transform 0.2s;
     max-width: 500px;
     max-height: 341px;
-}
-
-.hybrid:hover {
-    transform: translate(0%, -0.5%);
 }
 
 .text-hybrid {
@@ -714,9 +706,6 @@ nav ul li a {
     max-height: 341px;
 }
 
-.eletric:hover {
-    transform: translate(0%, -0.5%);
-}
 
 .text-eletric {
     position: absolute;
@@ -1166,10 +1155,6 @@ input::placeholder {
     max-width: 1050px;
 }
 
-.emphasis-photo:hover {
-    transform: translate(0%, -0.2%);
-}
-
 .emphasis-text {
     background-image: url(imgs/interiormacan2.jpg);
     background-size: 50vw;
@@ -1183,7 +1168,6 @@ input::placeholder {
 }
 
 .emphasis-text:hover {
-    transform: translate(0%, -0.2%);
     cursor: default;
 }
 
@@ -1340,10 +1324,6 @@ input::placeholder {
     max-height: 341px;
 }
 
-.sale-1:hover {
-    transform: translate(0%, -0.5%);
-}
-
 .sale-text {
     position: absolute;
     width: 100%;
@@ -1373,10 +1353,6 @@ input::placeholder {
     max-height: 341px;
 }
 
-.sale-2:hover {
-    transform: translate(0%, -0.5%);
-}
-
 .sale-3 {
     background-image: url(imgs/jet2.jpg);
     background-size: 22vw;
@@ -1388,10 +1364,6 @@ input::placeholder {
     transition: transform 0.2s;
     max-width: 500px;
     max-height: 341px;
-}
-
-.sale-3:hover {
-    transform: translate(0%, -0.5%);
 }
 
 .checked:hover{

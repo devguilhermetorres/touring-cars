@@ -488,7 +488,8 @@ nav ul li a {
 }
 
 .sale-car:hover {
-    border: 1px solid #a7a7a7;
+    border: 1px solid #979797;
+    cursor: pointer;
 }
 
 .title-car {
@@ -544,6 +545,7 @@ nav ul li a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    float: right;
 }
 
 .armored-label {
@@ -777,6 +779,42 @@ nav ul li a {
     margin-top: 5%;
     border-radius: 10px;
 }
+
+.sale-photo-16 {
+    background-image: url(imgs/panamera.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.sale-photo-17 {
+    background-image: url(imgs/golfvenda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.sale-photo-18 {
+    background-image: url(imgs/x7.jpg);
+    background-size: cover;
+    background-position: 95% 60%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
 
 .filter-brands {
     display: inline-block;
