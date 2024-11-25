@@ -596,10 +596,9 @@ nav ul li a {
 }
 
 .sale-photo-1 {
-    background-image: url(imgs/mustang.jpg);
-    background-color: #3c3c3c;
+    background-image: url(imgs/sw46.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -609,10 +608,9 @@ nav ul li a {
 }
 
 .sale-photo-2 {
-    background-image: url(imgs/ram15002.png);
-    background-color: #3c3c3c;
+    background-image: url(imgs/rs6venda.jpg);
     background-size: cover;
-    background-position: 65% 50%;
+    background-position: top;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -635,6 +633,18 @@ nav ul li a {
 }
 
 .sale-photo-4 {
+    background-image: url(imgs/seal2.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.sale-photo-5 {
     background-image: url(imgs/defender3.jpg);
     background-size: 400px;
     background-position: center;
@@ -646,7 +656,7 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.sale-photo-5 {
+.sale-photo-6 {
     background-image: url(imgs/911gt3.jpg);
     background-color: #3c3c3c;
     background-size: cover;
@@ -659,23 +669,11 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.sale-photo-6 {
-    background-image: url(imgs/rs6venda.jpg);
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-
-}
-
 .sale-photo-7 {
-    background-image: url(imgs/seal2.jpg);
+    background-image: url(imgs/ram15002.png);
+    background-color: #3c3c3c;
     background-size: cover;
-    background-position: top;
+    background-position: 65% 50%;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -685,9 +683,10 @@ nav ul li a {
 }
 
 .sale-photo-8 {
-    background-image: url(imgs/sw46.jpeg);
+    background-image: url(imgs/mustang.jpg);
+    background-color: #3c3c3c;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -709,8 +708,8 @@ nav ul li a {
 }
 
 .sale-photo-10 {
-    background-image: url(imgs/typer7.jpg);
-    background-size: 370px;
+    background-image: url(imgs/typer6.jpeg);
+    background-size: 285px;
     background-position: 20% 60%;
     background-repeat: no-repeat;
     height: 175px;
@@ -721,7 +720,7 @@ nav ul li a {
 }
 
 .sale-photo-11 {
-    background-image: url(imgs/raptor.jpg);
+    background-image: url(imgs/seadoo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -732,9 +731,10 @@ nav ul li a {
     border-radius: 10px;
 }
 
+
 .sale-photo-12 {
-    background-image: url(imgs/etron.jpg);
-    background-size: 360px;
+    background-image: url(imgs/i44.jpg);
+    background-size: cover;
     background-position: 35% 60%;
     background-repeat: no-repeat;
     height: 175px;
@@ -745,6 +745,17 @@ nav ul li a {
 }
 
 .sale-photo-13 {
+    background-image: url(imgs/gr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.sale-photo-14 {
     background-image: url(imgs/m22.jpg);
     background-size: cover;
     background-position: 100% 50%;
@@ -756,22 +767,10 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.sale-photo-14 {
-    background-image: url(imgs/turbogt.jpg);
-    background-size: 350px;
-    background-position: 20% 60%;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-
 .sale-photo-15 {
-    background-image: url(imgs/gr.jpg);
+    background-image: url(imgs/raptor.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 175px;
     width: 90%;
@@ -792,19 +791,7 @@ nav ul li a {
 }
 
 .sale-photo-17 {
-    background-image: url(imgs/golfvenda.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 175px;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;
-    border-radius: 10px;
-}
-
-.sale-photo-18 {
-    background-image: url(imgs/x7.jpg);
+    background-image: url(imgs/x6m2.jpg);
     background-size: cover;
     background-position: 95% 60%;
     background-repeat: no-repeat;
@@ -815,6 +802,17 @@ nav ul li a {
     border-radius: 10px;
 }
 
+.sale-photo-18 {
+    background-image: url(imgs/turbogt.jpg);
+    background-size: 350px;
+    background-position: 20% 60%;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+}
 
 .filter-brands {
     display: inline-block;
