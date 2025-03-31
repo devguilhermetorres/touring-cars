@@ -147,3 +147,15 @@ function dropDown4(p){
     e.style.display = d[p];   
 }
 
+function verificarLargura() {
+    let botao = document.getElementById("mobile-menu");
+    if (window.innerWidth > 1000) {
+        botao.style.visibility = "hidden";
+    } else {
+        botao.style.visibility = "visible";
+    }
+}
+
+verificarLargura();
+
+window.addEventListener("resize", verificarLargura);

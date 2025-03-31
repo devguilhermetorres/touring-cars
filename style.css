@@ -491,6 +491,9 @@ nav ul li a {
     border-radius: 20px;
     font-weight: 400;
     font-size: 15px;
+    width: max-content;
+    margin-top: 30px;
+    margin-left: 10%;
 }
 
 .access-stock-button:hover {
@@ -550,7 +553,6 @@ nav ul li a {
     }
     
     .home-screen-text h2{
-        display: block;
         line-height: 60px;
         z-index: -2;
         font-size: 48px;
@@ -559,6 +561,7 @@ nav ul li a {
         margin-top: 30px;
         font-weight: 700;
         height: 60px;
+        height: auto;
     }
     
     .home-screen-text p{
@@ -580,6 +583,10 @@ nav ul li a {
         padding: 7px 30px 7px 15px;
         font-weight: 400;
         font-size: 13px;
+        transition: all 0.15s ease-out;
+        width: max-content;
+        margin-top: 20px;
+        margin-left: 10%;
     }
     
     .access-stock-button:hover {
@@ -1131,9 +1138,7 @@ input::placeholder {
 .emphasis {
     display: flex;
     justify-content: space-between;
-    position: relative;
     padding-top: 0px;
-    text-align: center;
     margin-top: 50px;
     width: 70%;
     margin: auto;
