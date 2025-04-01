@@ -11,22 +11,18 @@
 <body id="body">
     <header>
         <nav>
-            <ul class="logo">
-                <li>
-                    <a href="index.html">
-                        <img src="imgs/touringcars.png" alt="logo" style="max-height: 25px;">
-                     </a>
-                </li>
-            </ul>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/touringcars.png" alt="logo" style="max-height: 25px;">
+                </a>
+            </div>
                 
 
-            <ul class="logo-2">
-                 <li>
-                    <a href="index.html">
-                        <img src="imgs/tclogo.png" alt="logo-2" style="max-height: 32px;">
-                    </a>
-                </li>
-            </ul>
+            <div class="logo-2">
+                <a href="index.html">
+                    <img src="imgs/tclogo.png" alt="logo-2" style="max-height: 32px;">
+                </a>
+            </div>
    
             <ul class="nav-list">
                 <li>
@@ -118,8 +114,8 @@
                         </a>
 
                     </li>
-                </div>
-            </ul>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -196,11 +192,11 @@
                         <input type="text" id="number" name="number"  class="field" placeholder="Telefone" onchange="validateRegister()" maxlength="15">
 
                         <button id="idButton"
-                        class="button" type="submit" disabled onchange="validateRegister()">Enviar</button>
+                        class="button" type="submit" disabled>Enviar</button>
                     </form>
 
                     <div class="check-lgpd">
-                        <input type="checkbox" id="lgpd" class="check">
+                        <input type="checkbox" id="lgpd" class="check" onchange="validateRegister()">
                         <label for="lgpd">De acordo com a LGPD, concordo em fornecer os dados acima para que a Touring Cars entre em contato comigo para apresentar serviços. Seu nome, e-mail e telefone serão usados de acordo com a nossa Política de Privacidade.</label>
                     </div>
                     
@@ -216,9 +212,7 @@
 
         <div class="emphasis">
 
-            <div class="emphasis-photo">
-
-            </div>
+            <div class="emphasis-photo"></div>
 
             <div class="emphasis-text">
                 <h1>Novo Porsche Macan GTS.</h1>
@@ -310,8 +304,8 @@
                     <form name="subscribe" class="subscribe">
                         <input type="email" class="field" id="Email" placeholder="E-mail" onchange="validateSubscribe()">
 
-                        <button id="idButton" 
-                        class="buttonsubscribe" type="submit" disabled onchange="validateSubscribe()">
+                        <button id="idButtonSubscribe" 
+                        class="buttonsubscribe" type="submit" disabled>
                             <img src="imgs/arrow-right-lg-svgrepo-com.svg" alt="arrow-right">
                         </button>
 
@@ -322,20 +316,11 @@
         </div>
 
         <div id="footer_copyright">
-            &#169
-            2024 Todos os direitos reservados.
+            &#169;
+            2025 Todos os direitos reservados.
         </div>
     </footer>
 </body>
 
 <script src="script.js"></script>
-
-<script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script>
-
-<script src="chevron-down-none.js"></script>
-
-
 

@@ -5,8 +5,9 @@ function validateRegister(){
     var nameVazio = name.value; 
     var emailVazio = email.value;
     var numberVazio = number.value;
+    const lgpdChecked = document.getElementById("lgpd").checked;
     
-    if( !(modelVazio == "") && !(nameVazio == "") && !(emailVazio == "") &&     !(numberVazio == "") ){
+    if( !(modelVazio == "") && !(nameVazio == "") && !(emailVazio == "") &&     !(numberVazio == "") && lgpdChecked ){
     document.register.idButton.disabled=false;
     document.register.idButton.classList.remove("button");
     document.register.idButton.classList.add("buttonactive");
@@ -88,9 +89,9 @@ function validateSubscribe(){
     var emailVazio = Email.value;
     
     if(!(emailVazio == "")){
-    document.subscribe.idButton.disabled=false;
-    document.subscribe.idButton.classList.remove("buttonsubscribe");
-    document.subscribe.idButton.classList.add("buttonsubscribeactive");
+    document.subscribe.idButtonSubscribe.disabled=false;
+    document.subscribe.idButtonSubscribe.classList.remove("buttonsubscribe");
+    document.subscribe.idButtonSubscribe.classList.add("buttonsubscribeactive");
 }
     
     else{
@@ -159,3 +160,14 @@ function verificarLargura() {
 verificarLargura();
 
 window.addEventListener("resize", verificarLargura);
+
+document.addEventListener("DOMContentLoaded", () => {
+    const chevronDown = document.getElementById("chevron_down");
+    
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) {
+            chevronDown.classList.remove("chevron-down");
+            chevronDown.classList.add("chevron-down-none");
+        }
+    });
+});
