@@ -177,6 +177,7 @@ nav ul li a {
         list-style-type: none;
         justify-content: space-between;
         margin-right: 7%;
+        max-width: 100vw;
         margin-top: 30px;
     }
 
@@ -185,8 +186,9 @@ nav ul li a {
         margin: auto;
     }
 
+
     nav ul li a {
-        padding: 0px;
+        padding: 0px
     }
     
     .nav-list {
@@ -245,6 +247,7 @@ nav ul li a {
         margin: 0;
         top: 0;
         z-index: 7000;
+
     }
     
     .mobile-menu .nav-item {

@@ -159,7 +159,7 @@ nav ul li a {
 .mobile-menu .nav-item img{
     max-height: 15px;
     margin-right: 5px;
-    transform: translate(-0%, 20%);
+    margin-top: 4px;
 }
 
 .open {
